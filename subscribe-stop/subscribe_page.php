@@ -198,7 +198,7 @@
                     <div class="buttons">
                         <div>
                             <a href="https://apps.apple.com/ru/app/sahih-invest/id1533653991" target="_blank"><img
-                                    src="../media/img/app_store_badge.svg" alt="app-sotre"></a>
+                                    src="/media/img/app_store_badge.svg" alt="app-sotre"></a>
                             <div class="stats">
                                 <div class="stars">
                                     <span class="star star-fill"></span>
@@ -217,7 +217,7 @@
                         </div>
                         <div>
                             <a href="https://play.google.com/store/apps/details?id=com.sahih.invest&hl=en&gl=US"
-                                target="_blank"><img src="../media/img/google_play_badge.svg" alt="google-play"></a>
+                                target="_blank"><img src="/media/img/google_play_badge.svg" alt="google-play"></a>
                             <div class="stats">
                                 <div class="stars">
                                     <span class="star star-fill"></span>
