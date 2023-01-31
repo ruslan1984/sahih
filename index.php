@@ -1,6 +1,6 @@
 <?php 
     $dir = $_SERVER['DOCUMENT_ROOT'];
     $ln = 'ru';
-    $link = '/';
+    $link = '';
     include "./page.php"; 
 ?>

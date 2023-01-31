@@ -3,7 +3,7 @@
 <?php 
 $dir = $_SERVER['DOCUMENT_ROOT'];
 $ln="ru";
-$link = '/';
+$link = '';
 include $dir."/text.php";
 include $dir."/subscribe-stop/subscribe_page.php"; 
 ?>
