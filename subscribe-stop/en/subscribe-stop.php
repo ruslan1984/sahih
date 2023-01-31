@@ -7,3 +7,4 @@ $link = '/en';
 include $dir."/text.php";
 include $dir."/subscribe-stop/subscribe_page.php"; 
 ?>
+<script src="../script.js"></script>

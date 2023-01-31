@@ -373,7 +373,7 @@
     <script src="../media/js/slick.min.js"></script>
 
     <script src="../media/js/script.js?v1.2"></script>
-    <script src="script.js"></script>
+
 </body>
 
 </html>
