@@ -4,7 +4,7 @@
 <?php include $dir."/text.php"; 
 
 include $dir."/sections/head.php"; 
-include $dir."/sections/scripts.php";
+
 ?>
 
 <body>
@@ -31,7 +31,7 @@ include $dir."/sections/scripts.php";
         include $dir."/sections/modal-support.php";
         include $dir."/sections/modal-auto-replenishment.php";
         include $dir."/sections/modal-subscribe.php";
-        
+        include $dir."/sections/scripts.php";
         include $dir."/sections/metrica.php";
      ?>
 
