@@ -1,0 +1,1164 @@
+@media (max-width: 1200px) {
+  a[href^="#modals-sales"] {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1120px) {
+  .navbar .btn--main {
+    padding: 0.47rem 1.2rem;
+  }
+  a.nav-link {
+    padding: 0.3rem 0.5rem !important;
+  }
+  .analysis-company .card {
+    padding: 1rem 1rem;
+  }
+  .team .card-photo {
+    width: 174px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .reviews .slider {
+    margin: initial;
+    width: calc(100vw - (100vw - 680px) / 2);
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews .slider {
+    margin: initial;
+    width: calc(100vw - (100vw - 514px) / 2);
+  }
+}
+
+@media (max-width: 575px) {
+  .reviews .slider {
+    margin: initial;
+    width: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .main .sub-heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .main .image img {
+    width: 172px;
+  }
+  .main .image .blurred-circle {
+    width: 285px;
+    height: 285px;
+  }
+  .btn--appsote,
+  .btn--googleplay {
+    padding: 0.94rem 2.7rem;
+  }
+  .main .buttons {
+    margin-bottom: 43px;
+    flex-direction: column;
+  }
+  .main .buttons a {
+    min-width: 160px;
+  }
+
+  .main .buttons a:first-child {
+    margin-right: 20px;
+  }
+  .main .info p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .main .promotion p {
+    font-size: 16px;
+  }
+  .main .promotion img {
+    width: 40px;
+  }
+  .main .info-traced {
+    margin-right: 28px;
+  }
+  .main .info-traced img {
+    width: 28px !important;
+  }
+  .main .info-block img {
+    width: 30px;
+  }
+  .main .info-block p {
+    line-height: 12px;
+  }
+  .main .info-traced .more_info {
+    top: -5px;
+  }
+  .main .info-block img {
+    margin-right: 6px;
+  }
+  .stats {
+    font-size: 8px;
+    margin-top: 8px;
+  }
+  .reviews .stats {
+    margin-top: 8px;
+  }
+  .stats .star {
+    width: 8px;
+    height: 8px;
+  }
+
+  .stats .number {
+    margin-left: 2px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .sub-title {
+    font-size: 14px;
+  }
+  .information {
+    margin-bottom: 0;
+  }
+  .information .numbers {
+    font-size: 32px;
+  }
+  .information .info {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .information .list li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .information .form {
+    background: transparent;
+    flex-direction: column;
+  }
+  .information .form input {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  .information .form button {
+    width: 100%;
+    justify-content: center;
+  }
+  .information .overlay {
+    padding-top: 24px;
+    padding-bottom: 60px;
+  }
+  .information .wrap {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .information .video {
+    display: block;
+    margin: 0 auto;
+    position: initial;
+  }
+  .information .video img {
+    top: 62px;
+    width: 230px;
+  }
+  .information .overlay h3 {
+    margin-bottom: 16px;
+    line-height: 24px;
+  }
+  .information .list {
+    margin-bottom: 24px;
+    padding-left: 20px;
+  }
+  .information .buttons .btn--main {
+    padding: 0.78rem 2.9rem;
+  }
+  .information .form button {
+    margin-right: 0;
+  }
+  .information .list li:before {
+    height: 10px;
+    left: -20px;
+  }
+  .information .switcher {
+    position: inherit;
+    margin-bottom: 24px;
+  }
+  .information .form {
+    height: initial;
+  }
+  .information .video .blurred-circle {
+    display: none;
+  }
+  .analysis-company {
+    padding-top: 80px;
+  }
+  .analysis-company .col-sm {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .analysis-company h2 {
+    margin-bottom: 42px;
+  }
+  .analysis-company .card {
+    padding: 12px 10px;
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+  .analysis-company .card-price,
+  .analysis-company .card-income,
+  .analysis-company .card-wrap {
+    padding: 4px 0;
+  }
+  .analysis-company .card-img {
+    margin-bottom: 8px;
+  }
+  .analysis-company .card-img img {
+    width: 40px;
+  }
+  .analysis-company .card-title {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .analysis-company .card-debt {
+    margin-right: 2.5rem;
+  }
+  .row-btn {
+    margin-top: 32px;
+  }
+  .check-company {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .product {
+    padding-bottom: 80px;
+  }
+  .product .sub-title {
+    margin-bottom: 4px;
+  }
+  .product .name {
+    font-size: 14px;
+  }
+  .product .tbody th {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  /*.product .tbody tr:not(:last-of-type) > th div {
+        margin-bottom: 14px;
+    }*/
+  .product .tbody th div {
+    width: 200px;
+  }
+  .product .tbody tr > td:first-of-type {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .product .tbody tr > td {
+    font-size: 14px;
+  }
+  .product .tbody tr > td div {
+    width: 200px;
+    min-height: 70px;
+  }
+  .product table .buttons td .buttons_wrap {
+    width: 200px;
+  }
+  .product table .buttons .btn--main {
+    width: 170px;
+    height: 38px;
+    font-size: 10px;
+  }
+  .product .tbody .yes,
+  .product .tbody .no {
+    width: 10px;
+  }
+  .partner-gift {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .partner-gift .sub-title {
+    margin-bottom: 18px;
+  }
+  .partner-gift .img-tinkoff {
+    left: 64%;
+  }
+  .partner-gift .img-tinkoff img {
+    width: 80px;
+  }
+  .partner-gift .part {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  .partner-gift .info p {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+  }
+  .partner-gift .sub-text {
+    padding-top: 0px !important;
+    font-size: 10px !important;
+  }
+  .api-info {
+    padding-bottom: 80px;
+  }
+  .api-info p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .api-info h2 {
+    padding-top: 80px;
+  }
+  .api-info .image img {
+    width: 200px;
+  }
+  .api-info .image .blurred-circle {
+    width: 285px;
+    height: 285px;
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .api-info .list-left li,
+  .api-info .list-right li {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 14px;
+  }
+  .api-info .list-left {
+    padding-left: 20px;
+  }
+  .api-info .image {
+    margin-top: 22px;
+  }
+  .api-info .list-left li:before {
+    height: 10px;
+    left: -20px;
+  }
+  .api-info .list-left li br {
+    display: none;
+  }
+  .api-info .list-right li::before {
+    margin-top: 0.2rem;
+  }
+  .api-info .row_info {
+    margin-top: 42px;
+    margin-bottom: 40px;
+  }
+  .team {
+    padding-bottom: 80px;
+  }
+  .team .col-sm {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .team .sub-title {
+    margin-bottom: 24px;
+  }
+  .team .card-photo {
+    width: 128px;
+    height: 124px;
+  }
+  .team .card-name {
+    font-size: 12px;
+  }
+  .team .card-pos {
+    font-size: 9px;
+  }
+  .team .card-info {
+    font-size: 9px;
+  }
+  .events .card-title h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .card-title {
+    margin-bottom: 4px;
+  }
+  .events .card-sub_title {
+    font-size: 10px;
+  }
+  .events .card {
+    padding: 8px;
+  }
+  .events .card-title h3 {
+    line-height: 14px;
+  }
+  .reviews {
+    padding-bottom: 80px;
+  }
+  .reviews .reviews-image img {
+    width: 172px;
+    margin-right: 36px;
+  }
+  .reviews .buttons {
+    display: none;
+  }
+  .reviews .buttons.mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews .buttons a {
+    /* width: 158px;
+    height: 36px; */
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  .reviews .buttons a:first-child {
+    margin-right: 20px;
+  }
+  .faq {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .faq .card .card-btn,
+  .faq .card .card-body {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 25px;
+  }
+  .faq .card .card-btn:before {
+    width: 23px;
+  }
+  .faq .card .card-body ol {
+    margin-top: 1rem;
+  }
+  .faq .card .card-body ol li {
+    font-size: 14px;
+  }
+  .faq {
+    margin-bottom: 40px;
+  }
+  .contacts {
+    padding-top: 40px;
+  }
+  .contacts h2 {
+    margin-bottom: 24px;
+  }
+  .contacts .sub-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .contacts .address {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+  .contacts .mail {
+    margin-bottom: 4px;
+  }
+  .contacts .socials {
+    margin-bottom: 18px;
+  }
+  .contacts .mail a,
+  .contacts .socials a {
+    font-size: 16px;
+  }
+  .form--main .form-title {
+    font-size: 18px;
+  }
+  .form--main input,
+  .form--main textarea {
+    font-size: 12px !important;
+    padding: 14px !important;
+    margin-bottom: 10px !important;
+  }
+  .form--main textarea {
+    margin-bottom: 10px;
+  }
+  .form--main select {
+    margin-bottom: 10px;
+  }
+  #modal-subscribe .form--main select {
+    padding: 0.375rem 1.6rem 0.375rem 0.5rem;
+    font-size: 10px;
+  }
+  .form--main .renewal-info,
+  .form--main .agree,
+  .form--main .agree a {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .contacts .map {
+    margin-top: 0;
+  }
+  .contacts .map iframe {
+    height: 454px;
+  }
+  .form--main form {
+    margin-top: 16px;
+  }
+  .form--main button[type="submit"],
+  .form--main button[type="button"] {
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 6px;
+  }
+  .modal-dialog {
+    margin: 90px auto;
+  }
+  .modal-dialog {
+    max-width: 80%;
+  }
+  #modal-free .buttons img {
+    width: 158px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main .promotion p {
+    font-size: 14px;
+  }
+  .main .promotion img {
+    margin-right: 10px;
+  }
+  .form-control {
+    font-size: 1rem;
+    /* text-align: center; */
+  }
+  .product .tbody tr > td div {
+    width: 160px;
+  }
+  .product table .buttons td .buttons_wrap,
+  .product table .buttons .promotion {
+    width: 160px;
+  }
+  .product table .buttons .btn--main {
+    width: 148px;
+  }
+  .modal-dialog {
+    max-width: 90%;
+  }
+  .modal-header {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .modal-body {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  header .navbar {
+    padding-top: 0.28rem;
+    padding-bottom: 0.28rem;
+  }
+  .sub-title {
+    font-size: 12px;
+  }
+  .main {
+    padding-top: 76px;
+    padding-bottom: 0;
+  }
+  .main .content {
+    padding-bottom: 220px;
+  }
+  .main .sub-heading {
+    font-size: 12px;
+  }
+  .main .promotion p {
+    font-size: 14px;
+  }
+  .main .promotion img {
+    width: 30px;
+  }
+
+  .main .buttons a:first-child {
+    margin-right: 20px;
+  }
+  .main .buttons .btn + .btn {
+    margin-left: 20px;
+  }
+  .main .buttons {
+    margin-bottom: 16px;
+  }
+  .main .info-block img {
+    width: 38px;
+  }
+  .stats {
+    margin-top: 8px;
+  }
+  .main .image .blurred-circle {
+    width: 285px;
+    height: 285px;
+    top: -166px;
+  }
+  .main .info-block {
+    font-size: 10px;
+  }
+  .main .info-traced {
+    margin-right: 0.8rem;
+  }
+  .main .image {
+    justify-content: center;
+    z-index: -1;
+  }
+  .main .image img {
+    position: absolute;
+    bottom: -94px;
+    width: 168px;
+  }
+
+  .information {
+    background: #f5f5f6;
+    padding-top: 24px;
+  }
+  .information .numbers {
+    font-size: 24px;
+  }
+  .information .info {
+    font-size: 12px;
+  }
+
+  .more_info {
+    top: -4px;
+  }
+
+  .main .info-traced .more_info {
+    top: -6px;
+  }
+
+  .information h2 {
+    margin-bottom: 14px;
+  }
+
+  .information .container:first-child {
+    margin-bottom: 24px;
+  }
+
+  .information .sub-title {
+    margin-bottom: 12px;
+  }
+
+  .information .overlay {
+    padding-top: 0;
+    padding-bottom: 32px;
+  }
+
+  .information .overlay h3 {
+    display: none;
+  }
+
+  .information .list {
+    display: none;
+  }
+
+  .information .overlay .row {
+    flex-direction: column-reverse;
+  }
+
+  .information .buttons .btn--main {
+    width: 100%;
+  }
+
+  .information .form {
+    width: 100%;
+    flex-direction: column;
+    background: transparent;
+    height: fit-content;
+  }
+  .information .form input {
+    width: 100%;
+    border-radius: 10px;
+    background: var(--bg-1);
+    margin-bottom: 16px;
+    height: 42px;
+  }
+
+  .information .form button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .information .wrap {
+    flex-direction: column-reverse;
+    align-items: inherit;
+  }
+
+  .information .switcher {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+
+  .information .switcher .btn--switcher {
+    width: 50%;
+  }
+
+  .information .video {
+    margin-bottom: 20px;
+    width: 251px;
+    height: 507px;
+  }
+
+  .information .video img {
+    position: initial;
+    width: 247px;
+    height: 487px;
+  }
+
+  .information .video .blurred-circle {
+    display: none;
+  }
+
+  .analysis-company {
+    padding-top: 34px;
+  }
+
+  .analysis-company .row-btn {
+    margin-top: 12px;
+  }
+
+  .analysis-company .col-sm {
+    padding-bottom: 20px;
+  }
+  .analysis-company h2 {
+    margin-bottom: 14px;
+  }
+  h2 {
+    margin-bottom: 14px;
+  }
+
+  .analysis-company .card {
+    margin-bottom: 0;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 10%);
+  }
+
+  .row-btn {
+    margin-top: 32px;
+  }
+
+  .check-company {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .check-company h2 {
+    margin-bottom: 8px;
+  }
+
+  .check-company .check-company_container {
+    background: transparent;
+    background-image: none;
+  }
+
+  .check-company .wrap {
+    background: #67bbae;
+    border-radius: 10px;
+    padding: 27px;
+  }
+
+  .check-company .wrap p {
+    font-size: 16px;
+  }
+
+  .check-company .wrap .btn--main {
+    padding: 14px;
+    width: 100%;
+  }
+  .product .table-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .product .tbody tr:not(:last-of-type) > th div {
+    margin-bottom: 1px;
+  }
+
+  .product .tbody tr:first-of-type > th:first-of-type,
+  .product .tbody tr:first-of-type > td div {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+
+  .product .tbody tr > td:first-of-type {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .product table .buttons .default a {
+    width: 90%;
+    height: 26px;
+    margin-left: 0;
+  }
+
+  .product table .buttons td .buttons_wrap,
+  .product table .buttons .promotion {
+    width: 100px;
+  }
+  .product thead .name div {
+    width: 100px;
+  }
+  .product table .buttons .btn--main {
+    width: 94px;
+    font-size: 10px;
+    padding: 0 2px;
+  }
+
+  .product .tbody th div {
+    width: 170px;
+  }
+
+  .product .tbody tr > td div {
+    min-height: 57px;
+    width: 100px;
+  }
+
+  .product .form--main select {
+    font-size: 12px;
+    width: 148px;
+  }
+
+  .product table .buttons td .buttons_wrap {
+    min-height: 110px;
+  }
+
+  .partner-gift {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .partner-gift .sub-title {
+    margin-bottom: 16px;
+  }
+
+  .partner-gift .part {
+    font-size: 30px;
+  }
+
+  .partner-gift .info p {
+    margin-bottom: 10px;
+  }
+
+  .partner-gift .sub-text {
+    font-size: 8px !important;
+  }
+
+  .partner-gift .row-btn {
+    margin-top: 14px;
+  }
+
+  .api-info {
+    padding-bottom: 60px;
+  }
+
+  .api-info p br {
+    display: none;
+  }
+
+  .api-info h2 {
+    padding-top: 34px;
+  }
+
+  .api-info .image img {
+    width: 136px;
+  }
+
+  .api-info .image .blurred-circle {
+    width: 193px;
+    height: 193px;
+    left: 18%;
+  }
+
+  .api-info .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .api-info .row_info {
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+
+  .api-info h4 {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .api-info .list-left li,
+  .api-info .list-right li {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .api-info .list-left li br {
+    display: none;
+  }
+
+  .api-info .list-right li::before {
+    width: 4px;
+    height: 4px;
+    margin-top: 0.3rem;
+  }
+
+  .api-info .btn--main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    padding: inherit;
+  }
+
+  .team {
+    padding-top: 0px;
+    padding-bottom: 17px;
+  }
+
+  .team .col-sm {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+
+  .team .sub-title {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .team .card {
+    margin-bottom: 20px;
+  }
+
+  .card_first {
+  }
+
+  .team .card-name {
+    font-size: 12px;
+  }
+
+  .team .card-pos {
+    font-size: 9px;
+  }
+
+  .team .card-info {
+    font-size: 9px;
+  }
+
+  .team .card-photo {
+    width: 100%;
+    height: 124px;
+  }
+
+  .team .card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .events {
+    padding-top: 17px;
+    padding-bottom: 34px;
+  }
+
+  .events .card {
+    height: 166px;
+    margin-bottom: 20px;
+    background-position: initial !important;
+  }
+
+  .reviews {
+    padding-bottom: 34px;
+  }
+
+  .reviews h2 {
+    margin-bottom: 26px;
+  }
+
+  .reviews .slider {
+    margin: initial;
+  }
+
+  .reviews .reviews-image img {
+    width: 160px;
+    height: 325px;
+    margin-right: 21px;
+  }
+
+  /* .reviews .buttons a {
+    width: 135px;
+    height: 36px;
+  } */
+
+  .col-slider {
+    padding-right: 0;
+  }
+
+  .faq {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 0;
+  }
+
+  .faq h2 {
+    margin-bottom: 24px;
+  }
+
+  .faq .card .card-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .faq .card .card-btn:before {
+    width: 22px;
+  }
+
+  .faq .card .card-btn br {
+    display: inline-block;
+  }
+
+  .faq .card .card-body {
+    padding: 8px 14px;
+    padding-right: 16px;
+    font-size: 12px;
+  }
+
+  .faq .card .card-body ol {
+    margin-top: 1rem;
+  }
+
+  .faq .card .card-body ol li {
+    font-size: 12px;
+  }
+
+  .contacts {
+    padding-top: 34px;
+    padding-bottom: 0;
+  }
+
+  .contacts h2 {
+    margin-bottom: 14px;
+  }
+
+  .contacts .sub-title {
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+
+  .contacts .address {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .contacts .socials {
+    margin-bottom: 24px;
+  }
+
+  .contacts .mail a,
+  .contacts .socials a {
+    font-size: 16px;
+  }
+
+  .form--main .agree,
+  .form--main .agree a {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .contacts .map {
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .contacts .map iframe {
+    width: 100%;
+    height: 320px;
+  }
+
+  .footer {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .footer .socials {
+    margin-bottom: 14px;
+  }
+
+  .privacy,
+  .developer {
+    text-align: center;
+  }
+
+  .partner-gift .img-tinkoff {
+    left: auto;
+    right: 10%;
+  }
+
+  .partner-gift .img-tinkoff img {
+    width: 70px;
+  }
+
+  #modals-callback-1 .modal-header {
+    min-height: 200px;
+    height: auto;
+  }
+
+  #modals-callback-2 .modal-header {
+    min-height: 200px;
+    height: auto;
+  }
+
+  [id^="modals-sales"] .card-img {
+    max-width: 125px;
+  }
+  #modal-result .modal-dialog,
+  .modal-dialog {
+    max-width: 94%;
+    margin: 70px auto;
+    /*max-width: 300px;*/
+  }
+  .modal-body {
+    padding-bottom: 42px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 10px;
+  }
+  .modal-body .agree {
+    width: 100%;
+  }
+  .modal-header .close {
+    font-size: 32px;
+    padding-right: 16px;
+    padding-top: 16px;
+  }
+  .modal-header h3 {
+    font-size: 16px;
+    line-height: initial;
+  }
+  .modal-header {
+    padding-top: 42px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 10px;
+  }
+  .modal-dialog-centered {
+    min-height: -webkit-fill-available;
+  }
+  #modal-free .buttons img {
+    width: 135px;
+    height: 36px;
+  }
+}
