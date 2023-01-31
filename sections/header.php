@@ -1,7 +1,7 @@
 <header class="nav-fix">
     <div class="container">
         <nav class="navbar navbar-expand-lg no-gutters  ">
-            <a href='<?php echo "/{$link}" ?>' class="logo">
+            <a href='<?php echo "{$link}" ?>' class="logo">
                 <img class="logoImg" src="/media/img/logo1.svg" alt="Sahih Invest">
                 <div>
                     <div class="logoText1">Sahih Invest</div>

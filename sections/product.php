@@ -29,7 +29,7 @@
                                 <tr>
                                     <th>
                                         <div class="default">
-                                            <a href='<?php echo "/subscribe-stop/{$link}/subscribe-stop.php"?>'
+                                            <a href='<?php echo "/subscribe-stop{$link}/subscribe-stop.php"?>'
                                                 class="btn btn--main"><?php echo $text['product']['otm'][$ln] ?></a>
                                         </div>
                                     </th>

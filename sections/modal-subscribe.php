@@ -12,7 +12,6 @@
                          comment="<?php echo $text['modal-subscribe']['h1'][$ln] ?>" id="form-subscribe"
                          onsubmit="return !pay_url(this, false, 'self');">
                          <input type="email" name="email" value="" placeholder="E-mail" required>
-
                          <select class="form-select selectpicker" aria-label="Default select example"
                              name="donate_amount">
                              <!-- <option value="3590" selected>12 меc. — 3 590 ₽</option> -->
