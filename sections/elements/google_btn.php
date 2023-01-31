@@ -1,4 +1,4 @@
-<a class="mobBth" href="https://apps.apple.com/ru/app/sahih-invest/id1533653991" target="_blank">
+<a class="mobBth" href="https://play.google.com/store/apps/details?id=com.sahih.invest&hl=en&gl=US" target="_blank">
     <img class="mobIconGoogle" src="/media/img/google-play.png" alt="app-sotre">
     <div>
         <div class="btnHead">
