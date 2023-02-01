@@ -61,7 +61,7 @@ $text = [
        'h1'=>[ 
             'ru'=>'Сформируйте инвестиционный портфель <span>по&nbsp;нормам ислама</span>',
             'kz'=>'Ислам нормалары мен қағидаларына сай инвестициялық портфель құрыңыз',
-            'en'=>'Form an investment portfolio according to the norms of Islam'
+            'en'=>'Form an investment portfolio according to Islamic norms'
        ],
         'p1'=> [
             'ru' => '<b>Ручной</b> анализ компаний по&nbsp;методологиям 
@@ -140,7 +140,7 @@ $text = [
             ],
             'li3' =>[
                 'ru'=> 'В&nbsp;состав команды входят: аналитики со&nbsp;степенями кандидатов наук, прошедшие обучение по&nbsp;программе ACCA ДипИФР и&nbsp;сертифицированный шариатский эксперт <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr>.',
-                'kz'=>'Топ мүшелерінің қатарына 	ACCA және ДипИФР бағдарламалары бойынша оқудан өткен, кандидат дәрежесі бар аналитиктер мен AAOIFI сертификатталған Шариғат сарапшысы кіреді.',
+                'kz'=>'Топ мүшелерінің қатарына ACCA және ДипИФР бағдарламалары бойынша оқудан өткен, кандидат дәрежесі бар аналитиктер мен AAOIFI сертификатталған Шариғат сарапшысы кіреді',
                 'en'=>'The team includes: analysts with Ph.D. degrees from the ACCA DipIFR program and an AAOIFI certified Shariah expert.'
             ],
             'li4' =>[
@@ -185,6 +185,11 @@ $text = [
                 'kz'=>'Акция сатып алу',
                 'en'=>'Buy shares'
             ],
+            'yes' => [
+                'ru'=> 'Да',
+                'kz'=>'Иә',
+                'en'=>'Yes'
+            ],
         ],
         'check-company' =>[
             'cop' => [
@@ -211,7 +216,7 @@ $text = [
             ],
             't'=>[
                 'ru'=> 'На iOS и Android',
-                'kz'=>'арналған Мобильді қосымша',
+                'kz'=>'арналған мобильді қосымша',
                 'en'=>'on IOS and Android'
             ],
             'c1'=>[
@@ -405,7 +410,7 @@ $text = [
             ],
             'text'=>[
                 'ru'=>'Собрали опытных руководителей, шариатских экспертов, аналитиков',
-                'kz'=>'Тәжірибелі мамандар, Шариғат сарапшылары мен аналитиктерді жинадық',
+                'kz'=>'Тәжірибелі мамандар, Шариғат сарапшылары мен сарапшылары мен аналитиктер',
                 'en'=>'We gathered experienced managers, Sharia experts, analysts'
             ],
             'n1'=>[
@@ -710,8 +715,16 @@ $text = [
                 'ru'=>'Нажимая на&nbsp;кнопку «Задать вопрос», вы соглашаетесь с&nbsp;<a target="_blank" href="terms.pdf">политикой конфиденциальности</a>.',
                 'kz'=>'',
                 'en'=>''
-            ],    
+            ],
+            'map'=>[
+                'ru'=>'https://yandex.ru/map-widget/v1/?um=constructor%3A339a1218879d7eccd736df47e5740cd074eb4f87cbd47991f644dc32d41b5e3d&amp;source=constructor&amp;scroll=false',
+                'kz'=>'https://yandex.ru/map-widget/v1/?um=constructor%3Ac070b1e3e8e2b54e494c9e1d18dffff553dc3ec5972c17f3d8a4c5a9d56190e7&source=constructorLink&amp;scroll=false',
+                'en'=>'https://yandex.ru/map-widget/v1/?um=constructor%3Ac070b1e3e8e2b54e494c9e1d18dffff553dc3ec5972c17f3d8a4c5a9d56190e7&source=constructorLink&amp;scroll=false'
+            ],
         ],
+
+        
+
         "btn"=>[
             'apple'=>[
                 'ru'=>'Загрузите в ',

@@ -21,7 +21,7 @@
                     </div>
                     <div class="card-income">
                         <?php echo $text['analysis-company']['doz'][$ln]?>
-                        <div class="yes">Да</div>
+                        <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
                     <!-- <div class="card-wrap">
                             <div class="card-debt">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="card-income">
                         <?php echo $text['analysis-company']['doz'][$ln]?>
-                        <div class="yes">Да</div>
+                        <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
                     <!-- <div class="card-wrap">
                             <div class="card-debt">
@@ -79,7 +79,7 @@
                     </div>
                     <div class="card-income">
                         <?php echo $text['analysis-company']['doz'][$ln]?>
-                        <div class="yes">Да</div>
+                        <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
                     <!-- <div class="card-wrap">
                             <div class="card-debt">
@@ -108,7 +108,7 @@
                     </div>
                     <div class="card-income">
                         <?php echo $text['analysis-company']['doz'][$ln]?>
-                        <div class="yes">Да</div>
+                        <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
                     <!-- <div class="card-wrap">
                             <div class="card-debt">
@@ -137,7 +137,7 @@
                     </div>
                     <div class="card-income">
                         <?php echo $text['analysis-company']['doz'][$ln]?>
-                        <div class="yes">Да</div>
+                        <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
                     <!-- <div class="card-wrap">
                             <div class="card-debt">

@@ -31,9 +31,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 map" id="#map">
-                <iframe
-                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A339a1218879d7eccd736df47e5740cd074eb4f87cbd47991f644dc32d41b5e3d&amp;source=constructor&amp;scroll=false"
-                    width="100%" height="557" frameborder="0"></iframe>
+                <iframe src="<?php echo $text['contacts']['map'][$ln]?>" width="100%" height="557"
+                    frameborder="0"></iframe>
             </div>
         </div>
     </div>
