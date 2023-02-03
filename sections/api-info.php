@@ -11,7 +11,7 @@
             <div class="col-12 col-sm-4">
                 <div class="image">
                     <div class="blurred-circle"></div>
-                    <img src="/media/img/api-info/iPhone 13 .png" alt="Sahih">
+                    <img src="/media/img/api-info/iPhone 13.png" alt="Sahih">
                 </div>
             </div>
         </div>
