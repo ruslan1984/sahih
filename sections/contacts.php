@@ -18,7 +18,7 @@
                 </div>
                 <div class="form--main">
                     <div class="form-title"><?php echo $text['contacts']['ft'][$ln]?></div>
-                    <form class="form--main" action="" method="post"
+                    <form class="form--main contactForm" action="" method="post"
                         comment="<?php echo $text['contacts']['fn'][$ln]?>">
                         <input type="text" name="name" value="" placeholder="<?php echo $text['contacts']['fe'][$ln]?>">
                         <input type="email" name="email" value="" placeholder="E-mail">

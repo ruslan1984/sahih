@@ -14,13 +14,12 @@ function sendMail($email, $subject,  $message ){
         $mail->SMTPAuth = true;
         $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
-        // Настройки вашей почты
         $mail->Host = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-        $mail->Username = 'ruslan231984@yandex.ru'; // Логин на почте
+        $mail->Username = 'ruslan231984'; // Логин на почте
         $mail->Password = 'igewrwqbdrgwjjky'; // Пароль на почте
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('ruslan231984@yandex.ru', 'Имя отправителя'); // Адрес самой почты и имя отправителя
+        $mail->setFrom($email); // Адрес самой почты и имя отправителя
         $mail->addAddress($email);
 
         // Отправка сообщения
@@ -29,16 +28,10 @@ function sendMail($email, $subject,  $message ){
         $mail->Body = $message;
         $result=0;
         // Проверяем отравленность сообщения
-        if ($mail->send()) {$result = 1;}
-        else {$result = "error";}
+        return $mail->send();
+    }catch (Exception $e) {
+        echo  $e->getMessage(), "\n";
+    }
 
-        } catch (Exception $e) {
-            $result = "error";
-            $status = "Сообщение не было отправлено. Причина ошибки: {$mail->ErrorInfo}";
-        }
-
-        return $result;
-    // echo json_encode(["result" => $result, "status" => $status||"1"]);
 }
-
 ?>

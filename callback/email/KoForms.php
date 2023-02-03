@@ -1,5 +1,5 @@
 <?php
-
+include_once "phpmailer/index.php";
 /**
  * KoForms
  * @author https://kvin.online
@@ -122,11 +122,21 @@ class KoForms {
         }
 
         $out[] = '<b>Utm</b>';
-        $out[] = '- source: <i>'.$query['utm_source'].'</i>';
-        $out[] = '- medium: <i>'.$query['utm_medium'].'</i>';
-        $out[] = '- campaign: <i>'.$query['utm_campaign'].'</i>';
-        $out[] = '- content: <i>'.$query['utm_content'].'</i>';
-        $out[] = '- term: <i>'.$query['utm_term'].'</i>';
+        if(array_key_exists('utm_source',$query)){
+            $out[] = '- source: <i>'.$query['utm_source']?? null .'</i>';
+        }
+        if(array_key_exists('utm_medium',$query)){
+            $out[] = '- medium: <i>'.$query['utm_medium']?? null.'</i>';
+        }
+        if(array_key_exists('utm_campaign',$query)){
+            $out[] = '- campaign: <i>'.$query['utm_campaign']?? null.'</i>';
+        }
+        if(array_key_exists('utm_content',$query)){
+            $out[] = '- content: <i>'.$query['utm_content']?? null.'</i>';
+        }
+        if(array_key_exists('utm_term',$query)){
+            $out[] = '- term: <i>'.$query['utm_term']?? null.'</i>';
+        }
 
         $subject = 'Лид '.implode(', ', $contact).' | '.$host;
         $message = '<div style="font-size:14px;">'.implode("<br>", $out).'</div>';
@@ -155,7 +165,7 @@ class KoForms {
             $hs[] = $k.': '.$v;
         }
         foreach($emails as $email){
-            mail($email, $subject, $message, implode("\r\n", $hs));
+            sendMail($email, $subject, $message, implode("\r\n", $hs));
             $r += 1;
         }
         return $r;

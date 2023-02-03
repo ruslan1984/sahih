@@ -32,10 +32,16 @@ var ko_document_ready = function (force) {
           "/callback/email/callback.php",
           data,
           function (r) {
-            // console.log("ko_ajax", r);
-            alert(
-              "Заявка успешно отправлена.\nНаш менеджер свяжется с вами в ближайшее время"
-            );
+            const status = JSON.parse(r);
+            if (status["status"] === "ok") {
+              alert(
+                "Заявка успешно отправлена.\nНаш менеджер свяжется с вами в ближайшее время"
+              );
+            } else {
+              alert("Ошибка");
+            }
+            const contactForm = document.querySelector(".contactForm");
+            contactForm.reset();
           },
           true
         );
