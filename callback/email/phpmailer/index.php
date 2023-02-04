@@ -15,8 +15,8 @@ function sendMail($email, $subject,  $message ){
         $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
         $mail->Host = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-        $mail->Username = 'ruslan231984'; // Логин на почте
-        $mail->Password = 'igewrwqbdrgwjjky'; // Пароль на почте
+        $mail->Username = 'support@sahihinvest.ru'; // Логин на почте
+        $mail->Password = 'nbpeqrvjxcijypnj'; // Пароль на почте
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->setFrom($email); // Адрес самой почты и имя отправителя
