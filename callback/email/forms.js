@@ -34,9 +34,7 @@ var ko_document_ready = function (force) {
           function (r) {
             const status = JSON.parse(r);
             if (status["status"] === "ok") {
-              alert(
-                "Заявка успешно отправлена.\nНаш менеджер свяжется с вами в ближайшее время"
-              );
+              $("#modal-mail-ok").modal("show");
             } else {
               alert("Ошибка");
             }

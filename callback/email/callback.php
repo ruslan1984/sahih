@@ -8,7 +8,8 @@
  */
 
 $gEmails = [
-    'support@sahihinvest.ru',
+    // 'support@sahihinvest.ru',
+    'ruslan231984@yandex.ru',
 ];
 
 ignore_user_abort(true);
