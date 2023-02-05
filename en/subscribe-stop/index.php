@@ -4,5 +4,5 @@
     include $dir."/text.php";
     $ln = 'en';
     $link = '/en';
-    include $dir."/sections/pages/subscribe_page.php"; 
+    include $dir."/pages/subscribe_page.php"; 
 ?>

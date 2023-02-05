@@ -729,7 +729,6 @@ function carousel_init() {
 }
 
 function modals_init() {
-  //console.log('modals_init');
   $('a[href^="#modals-"]').each(function () {
     var $this = $(this);
     if (typeof $this.attr("data-toggle") == "undefined") {

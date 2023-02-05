@@ -103,7 +103,7 @@
                 <div class="col-10 col-md-6 offset-1 offset-md-3">
                     <div class="form--main" id="confirmed" style="display: none;">
                         <div class="modal-header">
-                            <h3>Автопродление подписки успешно отменено!</h3>
+                            <h3><?php echo $text['confirmed']['h1'][$ln] ?></h3>
                             <div class="sub-title">
                                 Текущая подписка будет действовать до окончания оплаченного срока.
                             </div>

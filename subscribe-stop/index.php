@@ -4,5 +4,5 @@
     $ln="ru";
     $link = '';
     include $dir."/text.php";
-    include $dir."/sections/pages/subscribe_page.php"; 
+    include $dir."/pages/subscribe_page.php"; 
 ?>
