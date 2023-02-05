@@ -99,19 +99,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-10 col-md-6 offset-1 offset-md-3">
-                    <div class="form--main" id="confirmed" style="display: none;">
-                        <div class="modal-header">
-                            <h3><?php echo $text['confirmed']['h1'][$ln] ?></h3>
-                            <div class="sub-title">
-                                Текущая подписка будет действовать до окончания оплаченного срока.
-                            </div>
-                        </div>
-                        <div class="button-wrap text-center">
-                            <a href="/" class="btn btn--main">Вернуться на сайт</a>
-                        </div>
+            <div class="form--main" id="confirmed" style="display: none;">
+                <div class="modal-header">
+                    <h3><?php echo $text['confirmed']['h1'][$ln] ?></h3>
+                    <div class="sub-title">
+                        Текущая подписка будет действовать до окончания оплаченного срока.
                     </div>
+                </div>
+                <div class="button-wrap text-center">
+                    <a href="/" class="btn btn--main">Вернуться на сайт</a>
                 </div>
             </div>
         </div>
@@ -124,6 +120,7 @@
         include $dir."/sections/modal-free.php";
         include $dir."/sections/modal-support.php";
         include $dir."/sections/modal-result.php";
+        include $dir."/sections/modal-subscribe-stopped.php";
         include $dir."/sections/modal-auto-replenishment.php";
         include $dir."/sections/modal-subscribe.php";
         include $dir."/sections/scripts.php";

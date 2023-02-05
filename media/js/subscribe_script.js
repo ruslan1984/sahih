@@ -55,7 +55,7 @@ function subscribeStop_init() {
   return r;
 }
 
-function subscribeCode_init() {
+async function subscribeCode_init() {
   let r = false;
   var url =
     "https://arm.sahihinvest.ru/api/tinkoff/turn-off-auto-renewal?email={email}&code={code}";
@@ -96,26 +96,25 @@ function subscribeCode_init() {
   }
 
   try {
-    fetch(url, {
+    const response = await fetch(url, {
       method: "POST",
       mode: "cors",
       credentials: "same-origin",
       body: formData,
-    })
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data);
-        if (data["message"] != null && typeof data["message"] !== undefined) {
-          document.querySelector("#error-step2").style.display = "block";
-          document.querySelector("#error-step2").innerHTML = data["message"];
-        } else {
-          document.querySelector("#step-2").style.display = "none";
-          document.querySelector("#confirmed").style.display = "block";
-        }
-        return data;
-      });
+    });
+    if (response.ok) {
+      $("#modal-subscribe-stopped").modal("show");
+    } else {
+      console.log("error");
+      const data = await response.json();
+      if (data["message"] != null && typeof data["message"] !== undefined) {
+        document.querySelector("#error-step2").style.display = "block";
+        document.querySelector("#error-step2").innerHTML = data["message"];
+      } else {
+        document.querySelector("#step-2").style.display = "none";
+        document.querySelector("#confirmed").style.display = "block";
+      }
+    }
     r = true;
   } catch (er) {
     console.error(er);
