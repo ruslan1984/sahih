@@ -2,7 +2,7 @@
     <div class="container" anim="fade">
         <div class="row">
             <div class="col-12 col-sm-12 col-lg-3">
-                <h2>Отзывы</h2>
+                <h2><?php echo $text['reviews']['h2'][$ln]?></h2>
                 <div class="buttons">
                     <div>
                         <a class="mobBth" href="https://apps.apple.com/ru/app/sahih-invest/id1533653991"
