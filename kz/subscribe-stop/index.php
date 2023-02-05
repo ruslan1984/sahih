@@ -7,4 +7,3 @@ $link = '/kz';
 include $dir."/text.php";
 include $dir."/sections/pages/subscribe_page.php"; 
 ?>
-<script src="./script.js"></script>
