@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h3>Мобильное приложение<br>Sahih Invest</h3>
-                <div class="sub-title">Пробная версия</div>
+                <div class="sub-title"><?php echo $text['product']['c1'][$ln] ?></div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
