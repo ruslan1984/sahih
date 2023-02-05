@@ -44,7 +44,12 @@ function tariffs_init() {
     url += "referrer=" + encodeURIComponent(ref) + "&";
   }
   try {
-    fetch(url, { credentials: "same-origin" })
+    const loc = window.location.href.split("/")[3];
+    const ln = loc === "en" || loc === "kz" ? "EN" : "KZ";
+    fetch(url, {
+      credentials: "same-origin",
+      headers: { "Accept-Language": ln },
+    })
       .then((response) => response.json())
       .then((data) => {
         if (data["tariffs"] !== undefined) {
