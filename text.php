@@ -190,6 +190,21 @@ $text = [
                 'kz'=>'Иә',
                 'en'=>'Yes'
             ],
+            'rosn' => [
+                'ru'=> 'Роснефть',
+                'kz'=> 'Роснефть',
+                'en'=> 'NK Rosneft'
+            ],
+            'sevs' => [
+                'ru'=> 'Северсталь',
+                'kz'=> 'Северсталь',
+                'en'=> 'Severstal'
+            ],
+            'tatn' => [
+                'ru'=> 'Татнефть',
+                'kz'=> 'Татнефть',
+                'en'=> 'Tatneft'
+            ],
         ],
         'check-company' =>[
             'cop' => [
@@ -410,7 +425,7 @@ $text = [
             ],
             'text'=>[
                 'ru'=>'Собрали опытных руководителей, шариатских экспертов, аналитиков',
-                'kz'=>'Тәжірибелі мамандар, Шариғат сарапшылары мен сарапшылары мен аналитиктер',
+                'kz'=>'Тәжірибелі мамандар, Шариғат сарапшылары мен аналитиктер',
                 'en'=>'We gathered experienced managers, Sharia experts, analysts'
             ],
             'n1'=>[
@@ -712,9 +727,9 @@ $text = [
                 'en'=>'Ask a question'
             ],
             'fqd'=>[
-                'ru'=>'Нажимая на&nbsp;кнопку «Задать вопрос», вы соглашаетесь с&nbsp;<a target="_blank" href="terms.pdf">политикой конфиденциальности</a>.',
-                'kz'=>'',
-                'en'=>''
+                'ru'=>'Нажимая на&nbsp;кнопку «Задать вопрос», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности</a>.',
+                'kz'=>'«Сұрақ қою» батырмасына баса отырып, сіз <a target="_blank" href="/terms.pdf">құпиялық саясатымен</a> келісесіз',
+                'en'=>'By clicking on the «Ask a question» button, you agree to <a target="_blank" href="/terms.pdf">the privacy policy</a>'
             ],
             'map'=>[
                 'ru'=>'https://yandex.ru/map-widget/v1/?um=constructor%3A339a1218879d7eccd736df47e5740cd074eb4f87cbd47991f644dc32d41b5e3d&amp;source=constructor&amp;scroll=false',
@@ -748,6 +763,26 @@ $text = [
             'kz'=>'Жобасын қолдау',
             'en'=>'Support the project'
         ],
+        'sup'=>[
+            'ru'=>'Поддержите проект Sahih Invest',
+            'kz'=>'Sahih Invest жобасын қолдаңыз',
+            'en'=>'Support the project Sahih Invest'
+        ],
+        'fa'=>[
+            'ru'=>'ФИО или "Аноним"',
+            'kz'=>'Аты-жөңіңіз немесе “Аноним”',
+            'en'=>'Full name or Anonymous'
+        ],
+        'sum'=>[
+            'ru'=>'Сумма',
+            'kz'=>'Сома',
+            'en'=>'Sum'
+        ],
+        'conf'=>[
+            'ru'=>'Нажимая на кнопку «Поддержите проект», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности</a>',
+            'kz'=>'«Жобаны қолдау» батырмасына баса отырып, сіз <a target="_blank" href="/terms.pdf">құпиялық саясатымен</a> келісесіз',
+            'en'=>'By clicking on the «Support the project» button, you agree to <a target="_blank" href="/terms.pdf">the privacy policy</a>'
+        ],
        
     ],
     'modal-consult'=>[
@@ -761,6 +796,17 @@ $text = [
             'kz'=>'Кеңес алуға өтінім қалдыру',
             'en'=>'Book a consultation'
         ],
+        'int '=>[
+            'ru'=>'Интеграция Sahih API',
+            'kz'=>'Sahih Api интеграция',
+            'en'=>'Integration Sahih API'
+        ],
+        'cons'=>[
+            'ru'=>'Нажимая на кнопку «Заказать консультацию», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности',
+            'kz'=> '<a target="_blank" href="/terms.pdf">«Кеңес алуға өтінім қалдыру»</a>&nbsp;батырмасын басу арқылы сіз құпиялылық саясатымен келісесіз',
+            'en'=> 'By clicking on the "Book a consultation" button, you agree to&nbsp;<a target="_blank" href="/terms.pdf">the privacy policy</a>'
+        ],
+
     ],
     'modal-subscribe'=>[
         'h1'=>[
@@ -783,6 +829,16 @@ $text = [
             'kz'=>'Жазылым рәсімдеу',
             'en'=>'Subscribe'
         ],
+        'ensub'=>[
+            'ru'=>'Включить ежемесячное автоматическое продление подписки. Его можно отключить позже,  написав нам.',
+            'kz'=>'Ай сайынғы автоматты жазылымды жаңартуды қосу. Кейін бізге жазып, жазылымнан бас тарта аласыз',
+            'en'=>'Enable monthly automatic subscription renewal. You can disable it later by writing to us'
+        ],
+        'priv' => [
+            'ru'=> 'Нажимая на кнопку «Оформить подписку», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности</a>',
+            'kz'=> '<a target="_blank" href="/terms.pdf">«Жазылым рәсімдеу»</a>&nbsp;батырмасын басу арқылы сіз құпиялылық саясатымен келісесіз',
+            'en'=> 'By clicking on the "Subscribe" button, you agree to&nbsp;<a target="_blank" href="/terms.pdf">the privacy policy</a>'
+        ],
     ],
     'subscribe-stop'=>[
         'uns'=>[
@@ -804,7 +860,41 @@ $text = [
             'ru'=>'*Если вы отмените автопродление, то ваша текущая платная подписка будет действовать до окончания оплаченного срока.',
             'kz'=>'*Егер де автоматты түрде жазылым мерзімін ұзартудан бас тартсаңыз, ағымдағы жазылымыңыз төленген мерзім аяқталғанға дейін жарамды болады.',
             'en'=>'*If you cancel the auto-renew, then your current paid subscription will be valid until the end of the paid period.'
-        
+        ],
+        'testm'=>[
+            'ru'=>'Проверьте почту, там должно быть письмо с кодом.',
+            'kz'=>'Поштаңыды қарасаңыз, сізге код жазылған хат келу керек',
+            'en'=>'Check your email, there should be an email with a code'
+        ],
+        'podc'=>[
+            'ru'=>'Подтвердить код',
+            'kz'=>'Кодты растау',
+            'en'=>'Confirm a code'
+        ],
+        'oem'=>[
+            'ru'=>'Указать другой e-mail',
+            'kz'=>'Басқа e-mail жазу',
+            'en'=>'Specify another e-mail'
+        ],
+        'tekp'=>[
+            'ru'=>'Текущая подписка будет действовать до окончания оплаченного срока.',
+            'kz'=>'Ағымдағы жазылым төленген мерзім аяқталғанға дейін жарамды болады',
+            'en'=>'The current subscription will be valid until the end of the paid period.'
+        ],
+        'bas'=>[
+            'ru'=>'Вернуться на сайт',
+            'kz'=>'Сайтқа оралу',
+            'en'=>'Back to the site'
+        ],
+        'codp'=>[
+            'ru'=>'Код подтверждения',
+            'kz'=>'Растау коды',
+            'en'=>'Confirmation code'
+        ],
+        'prcom' => [
+            'ru'=> "Проверка компании",
+            'kz'=> "Компанияны тексеру", 
+            'en'=> "Verification of company "
         ],
     ],
     'modal-subscribe-stop'=>[
@@ -813,7 +903,91 @@ $text = [
             'kz'=>'Жазылымды автоматты түрде жаңарту сәтті тоқтатылды.',
             'en'=>'Autorenewal of your subscription is successfully stopped.'
             ]
-    ]            
+    ],  
+    'modal-auto-replenishment' =>[
+        'otkl' => [
+            'ru'=> 'Отключение автопополнения',
+            'kz'=> 'Автотолтыруды тоқтату',
+            'en'=> 'Deactivating of auto-refill'
+        ],       
+        'otkluch' => [
+            'ru'=> 'Отключить автопополнение',
+            'kz'=> 'Автоматты түрде толтыруды тоқтату',
+            'en'=> 'Deactivate auto-refill '
+        ],       
+        'priv' => [
+            'ru'=> 'Нажимая на кнопку «Отключить автопополнение», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности</a>',
+            'kz'=> '<a target="_blank" href="/terms.pdf">«Автотолтыруды тоқтату»</a>&nbsp;батырмасын басу арқылы сіз құпиялылық саясатымен келісесіз',
+            'en'=> 'By clicking on the "Deactivate  auto-refill" button, you agree to&nbsp;<a target="_blank" href="/terms.pdf">the privacy policy</a>'
+        ],       
+    ],
+    'modal-check-company'=>[
+        'zapr' => [
+            'ru'=> 'Запросить проверку компании по нормам ислама',
+            'kz'=> 'Ислам нормалары мен қағидаларына сай компанияны тексеріп беруді сұрау',
+            'en'=> 'Request verification of the company according to Islamic norms'
+        ],       
+        'provb' => [
+            'ru'=> 'Проверить компанию',
+            'kz'=> 'Компанияны тексеру',
+            'en'=> 'Verificate the company'
+        ],     
+        'provt' => [
+            'ru'=> 'Нажимая на кнопку «Проверить компанию», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности</a>',
+            'kz'=> '«Компанияны тексеру» батырмасына баса отырып, сіз <a target="_blank" href="/terms.pdf">құпиялық саясатымен</a> келісесіз',
+            'en'=> 'By clicking on the "Verificate the company" button, you agree to <a target="_blank" href="/terms.pdf">the privacy policy</a>'
+        ],
+        'prcom' => [
+            'ru'=> "Проверка компании",
+            'kz'=> "Компанияны тексеру", 
+            'en'=> "Verification of company "
+        ],
+        'cnt' => [
+            'ru'=> "Название компании на проверку",
+            'kz'=> "Тексеруге арналған компания атауы", 
+            'en'=> "Company name for verification"
+        ]
+        
+    ],
+    'form'=>[
+        'name'=>[
+            'ru'=>'Ваше имя',
+            'kz'=>'Есіміңіз',
+            'en'=>'Your Name'
+        ],
+        'phone'=>[
+            'ru'=> 'Телефон',
+            'kz'=> 'Телефон',
+            'en'=> 'Phone'
+        ],
+    ],
+    'modal-free' => [
+        "h3"=>[
+            'ru'=> 'Мобильное приложение<br>Sahih Invest',
+            'kz'=> 'Sahih Invest мобильді қосымшасы',
+            'en'=> 'Mobile application Sahih Invest'
+        ],
+    ],
+    "modal-mail-ok"=>[
+        "h3"=>[
+            'ru'=> 'Заявка успешно отправлена.',
+            'kz'=> 'Өтінім сәтті жөнелтілді',
+            'en'=> 'The application has been sent successfully'
+        ],
+        "text"=>[
+            'ru'=> 'Наш менеджер свяжется с вами в ближайшее время',
+            'kz'=> 'Менеджер сізбен жақын арада хабарласады',
+            'en'=> 'Our manager will contact you soon'
+        ],
+    ],
+    "modal"=>[
+        "cl"=>[
+            'ru'=> 'Закрыть окно',
+            'kz'=> 'Жабу',
+            'en'=> 'Close the window'
+        ],
+    ]
+
 ]
 
 

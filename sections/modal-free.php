@@ -2,8 +2,8 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>Мобильное приложение<br>Sahih Invest</h3>
-                <div class="sub-title"><?php echo $text['product']['c1'][$ln] ?></div>
+                <h3><?php echo $text['modal-free']['h3'][$ln]?></h3>
+                <div class="sub-title"><?php echo $text['product']['c1'][$ln]?></div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>

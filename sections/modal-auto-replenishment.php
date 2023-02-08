@@ -2,20 +2,21 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>Отключение автопополнения</h3>
+                <h3><?php echo $text['modal-auto-replenishment']['otkl'][$ln] ?></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
             <div class="modal-body form--main">
-                <form class="form--main" action="" method="post" comment="Отключить автопополнение" id="form-subscribe"
+                <form class="form--main" action="" method="post"
+                    comment="<?php echo $text['modal-auto-replenishment']['otkluch'][$ln]?>" id="form-subscribe"
                     onsubmit="return !pay_url(this, false, 'self');">
-                    <input type="text" name="name" value="" placeholder="Ваше имя" required>
+                    <input type="text" name="name" value="" placeholder="<?php echo $text['form']['name'][$ln]?>"
+                        required>
                     <input type="email" name="email" value="" placeholder="E-mail" required>
-                    <button type="submit">Отключить автопополнение</button>
+                    <button type="submit"><?php echo $text['modal-auto-replenishment']['otkluch'][$ln] ?></button>
                     <div class="agree">
-                        Нажимая на&nbsp;кнопку «Отключить автопополнение», вы соглашаетесь с&nbsp;<a target="_blank"
-                            href="terms.pdf">политикой конфиденциальности</a>.
+                        <?php echo $text['modal-auto-replenishment']['priv'][$ln] ?>
                     </div>
                 </form>
             </div>

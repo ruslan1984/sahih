@@ -82,18 +82,21 @@
                         <div class="modal-header">
                             <h3>2/2 <?php echo $text['subscribe-stop']['uns'][$ln] ?></h3>
                             <div class="sub-title">
-                                Проверьте почту, там должно быть письмо с кодом.
+                                <?php echo $text['subscribe-stop']['testm'][$ln]?>
                             </div>
                         </div>
-                        <form action="" method="post" id="form-step2" comment="Проверка компании">
-                            <input type="text" placeholder="Код подтверждения" name="code" id="code" min="" max="">
+                        <form action="" method="post" id="form-step2"
+                            comment="<?php echo $text['subscribe-stop']['prcom'][$ln] ?>">
+                            <input type="text" placeholder="<?php echo $text['subscribe-stop']['codp'][$ln]?>"
+                                name="code" id="code" min="" max="">
                             <span id="error-step2" style="display: none;"></span>
-                            <button type="button" onclick="subscribeCode_init()">Подтвердить код</button>
+                            <button type="button"
+                                onclick="subscribeCode_init()"><?php echo $text['subscribe-stop']['podc'][$ln]?></button>
                             <div class="agree text-center">
-                                <?php echo $text['subscribe-stop']['mes'][$ln] ?></a>
+                                <?php echo $text['subscribe-stop']['mes'][$ln]?>
                             </div>
                             <div class="go-back text-center">
-                                <span>← Указать другой e-mail</span>
+                                <span>← <?php echo $text['subscribe-stop']['oem'][$ln]?></span>
                             </div>
                         </form>
                     </div>
@@ -101,13 +104,13 @@
             </div>
             <div class="form--main" id="confirmed" style="display: none;">
                 <div class="modal-header">
-                    <h3><?php echo $text['confirmed']['h1'][$ln] ?></h3>
+                    <h3><?php echo $text['confirmed']['h1'][$ln]?></h3>
                     <div class="sub-title">
-                        Текущая подписка будет действовать до окончания оплаченного срока.
+                        <?php echo $text['subscribe-stop']['tekp'][$ln]?>
                     </div>
                 </div>
                 <div class="button-wrap text-center">
-                    <a href="/" class="btn btn--main">Вернуться на сайт</a>
+                    <a href="/" class="btn btn--main"><?php echo $text['subscribe-stop']['bas'][$ln]?></a>
                 </div>
             </div>
         </div>

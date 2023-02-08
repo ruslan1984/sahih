@@ -10,7 +10,8 @@
             </div>
             <div class="modal-body form--main">
                 <div class="close-w">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">Закрыть окно</button>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><?php echo $text['modal']['cl'][$ln]?></button>
                 </div>
             </div>
         </div>

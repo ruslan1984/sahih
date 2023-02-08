@@ -69,7 +69,7 @@
                     <div class="card-img">
                         <img src="/media/img/analysis-company/Роснефть.png" alt="Роснефть">
                     </div>
-                    <div class="card-title">Роснефть</div>
+                    <div class="card-title"><?php echo $text['analysis-company']['rosn'][$ln]?></div>
                     <div class="card-price">
                         <?php echo $text['analysis-company']['st'][$ln]?>
                         <div class="card-underwrap">
@@ -98,7 +98,7 @@
                     <div class="card-img">
                         <img src="/media/img/analysis-company/Северсталь.png" alt="Северсталь">
                     </div>
-                    <div class="card-title">Северсталь</div>
+                    <div class="card-title"><?php echo $text['analysis-company']['sevs'][$ln]?></div>
                     <div class="card-price">
                         <?php echo $text['analysis-company']['st'][$ln]?>
                         <div class="card-underwrap">
@@ -127,7 +127,7 @@
                     <div class="card-img">
                         <img src="/media/img/analysis-company/Татнефть.png" alt="Татнефть">
                     </div>
-                    <div class="card-title">Татнефть</div>
+                    <div class="card-title"><?php echo $text['analysis-company']['tatn'][$ln]?></div>
                     <div class="card-price">
                         <?php echo $text['analysis-company']['st'][$ln]?>
                         <div class="card-underwrap">

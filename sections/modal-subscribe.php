@@ -28,15 +28,13 @@
                          <div class="subscription">
                              <input type="checkbox" checked="checked" name="auto_renew" value="1">
                              <label for="a5">
-                                 <span>Включить ежемесячное автоматическое продление подписки. Его можно отключить
-                                     позже, написав нам.</span>
+                                 <span><?php echo $text['modal-subscribe']['ensub'][$ln] ?></span>
                              </label>
                          </div>
 
                          <button type="submit"><?php echo $text['modal-subscribe']['sub'][$ln] ?></button>
                          <div class="agree">
-                             Нажимая на&nbsp;кнопку «Оформить подписку», вы соглашаетесь с&nbsp;<a target="_blank"
-                                 href="terms.pdf">политикой конфиденциальности</a>.
+                             <?php echo $text['modal-subscribe']['priv'][$ln] ?>
                          </div>
                      </form>
                  </div>

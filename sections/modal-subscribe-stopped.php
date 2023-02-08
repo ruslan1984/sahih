@@ -10,7 +10,8 @@
             <div class="modal-body form--main">
                 <p class="h3 mb-4 text-center"><?php echo $text['modal-subscribe-stop']['h1'][$ln] ?></p>
                 <div class="close-w">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">Закрыть окно</button>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><?php echo $text['modal']['cl'][$ln]?></button>
                 </div>
             </div>
         </div>
