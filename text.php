@@ -802,7 +802,7 @@ $text = [
             'en'=>'Integration Sahih API'
         ],
         'cons'=>[
-            'ru'=>'Нажимая на кнопку «Заказать консультацию», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности',
+            'ru'=>'Нажимая на кнопку «Заказать консультацию», вы соглашаетесь с&nbsp;<a target="_blank" href="/terms.pdf">политикой конфиденциальности</a>',
             'kz'=> '<a target="_blank" href="/terms.pdf">«Кеңес алуға өтінім қалдыру»</a>&nbsp;батырмасын басу арқылы сіз құпиялылық саясатымен келісесіз',
             'en'=> 'By clicking on the "Book a consultation" button, you agree to&nbsp;<a target="_blank" href="/terms.pdf">the privacy policy</a>'
         ],
