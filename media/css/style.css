@@ -352,7 +352,12 @@ section::last-child {
   line-height: 1.1;
   justify-content: center;
   align-items: center;
-  margin: 10px 10px 10px 0;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .mobBth {
+    min-width: 250px;
+  }
 }
 .mobBth:hover {
   color: white;
@@ -373,4 +378,7 @@ section::last-child {
 }
 .mobBth .btnText {
   font-size: 22px;
+}
+.pr-1 {
+  padding-right: 1rem;
 }

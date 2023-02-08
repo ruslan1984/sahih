@@ -796,7 +796,7 @@ $text = [
             'kz'=>'Кеңес алуға өтінім қалдыру',
             'en'=>'Book a consultation'
         ],
-        'int '=>[
+        'int'=>[
             'ru'=>'Интеграция Sahih API',
             'kz'=>'Sahih Api интеграция',
             'en'=>'Integration Sahih API'

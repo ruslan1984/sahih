@@ -9,8 +9,8 @@
                 </button>
             </div>
             <div class="modal-body form--main">
-                <div class="buttons">
-                    <div>
+                <div class="buttons gap-3">
+                    <div class="flex-fill">
                         <?php include $dir."/sections/elements/apple_btn.php"; ?>
                         <div class="stats">
                             <div class="stars">
@@ -28,7 +28,7 @@
                                 </div> -->
                         </div>
                     </div>
-                    <div>
+                    <div class="flex-fill">
                         <?php include $dir."/sections/elements/google_btn.php"; ?>
                         <div class="stats">
                             <div class="stars">

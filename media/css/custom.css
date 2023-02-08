@@ -409,6 +409,7 @@ li {
 .main .buttons {
   display: flex;
   margin-bottom: 84px;
+  gap: 10px;
 }
 
 .main .buttons a {
@@ -1683,4 +1684,10 @@ li {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+  #modal-free .buttons {
+    flex-direction: column;
+  }
 }
