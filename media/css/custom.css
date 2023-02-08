@@ -323,10 +323,6 @@ li {
   background: var(--nav-bg);
 }
 
-.fill-fixed_nav {
-  /*padding: var(--nav-padding);*/
-}
-
 .btn--main {
   color: var(--text1);
   font-weight: 600;
@@ -477,11 +473,6 @@ li {
   background: #000;
   border-radius: 10px;
   padding: 0.94rem 5.2rem;
-}
-
-.btn--appsote {
-}
-.btn--googleplay {
 }
 
 .main__buttons .btn--googleplay {
@@ -972,9 +963,6 @@ li {
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
-}
-
-.product .tbody th div {
 }
 
 .product .tbody tr:first-of-type > th:first-of-type,
