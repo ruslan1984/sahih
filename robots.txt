@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://sahihinvest.com/sitemap.xml
+Host: https://sahihinvest.com.ru
