@@ -24,11 +24,6 @@
                                     <span class="star star-half"></span>
                                     <span class="number">4,7</span>
                                 </div>
-                                <!-- <span class="circle"></span>
-                                    <div class="rating">
-                                        <span>Оценок:</span>
-                                        <span>10</span>
-                                    </div> -->
                             </div>
                         </div>
                         <div class="mb-3">
@@ -42,18 +37,11 @@
                                     <span class="star star-half"></span>
                                     <span class="number">4,6</span>
                                 </div>
-                                <!-- <span class="circle"></span>
-                                    <div class="rating">
-                                        <span>Оценок:</span>
-                                        <span>10</span>
-                                    </div> -->
                             </div>
                         </div>
-                        <!-- <a href="#" class="btn btn--appsote">App Store</a>
-                            <a href="#" class="btn btn--googleplay">Google Play</a> -->
                     </div>
                     <div class="info">
-                        <div class="info-block info-traced">
+                        <div class="info-block">
                             <img src="/media/img/main/image 35 (Traced).svg" alt="РТ">
                             <p><?php echo $text['main']['halal'][$ln] ?></p>
                         </div>
@@ -61,6 +49,10 @@
                             <img src="/media/img/main/tf.svg" alt="Тинькофф">
                             <p><?php echo $text['main']['tink'][$ln] ?></p>
                         </div>
+                        <!-- <div class="info-block">
+                            <img src="/media/img/main/its_logo.png" alt="ITS">
+                            <p><?php echo $text['main']['its'][$ln] ?></p>
+                        </div> -->
                     </div>
                 </div>
             </div>

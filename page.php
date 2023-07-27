@@ -11,6 +11,8 @@ include $dir."/sections/head.php";
     <?php 
         include $dir."/sections/header.php";  
         include $dir."/sections/main.php";
+        // include $dir."/sections/partners.php";
+        // include $dir."/sections/its.php";
         include $dir."/sections/information.php";
         include $dir."/sections/analysis-company.php";
         include $dir."/sections/check-company.php"; 
