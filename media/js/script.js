@@ -70,7 +70,7 @@ function tariffs_apply(items) {
   }
   if (
     document.body == null ||
-    document.querySelector('select[name="donate_amount"]').length == 0
+    document.querySelector('select[name="donate_amount"]')?.length == 0
   ) {
     setTimeout(function () {
       tariffs_apply(items);

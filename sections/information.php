@@ -48,13 +48,13 @@
                                 <img src="/media/img/information/iphone-12--black.png" alt="mobile">
                             </div> -->
                         <div class="video">
-                            <div class="blurred-circle"></div>
+                            <!-- <div class="blurred-circle"></div>
                             <div class="tab-content" id="nav-tabContent">
                                 <iframe class="tab-pane active" id="video1" role="tabpanel"
                                     src="https://www.youtube.com/embed/ruKvLm2SR5M" allowfullscreen></iframe>
                                 <iframe class="tab-pane" id="video2" role="tabpanel"
                                     src="https://www.youtube.com/embed/CUB43NOvJb4" allowfullscreen></iframe>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="switcher list-group" id="myList" role="tablist">
                             <div class="btn--switcher list-group-item list-group-item-action active" data-toggle="list"

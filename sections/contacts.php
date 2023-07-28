@@ -30,9 +30,9 @@
                     </form>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 map" id="#map">
-                <iframe src="<?php echo $text['contacts']['map'][$ln]?>" width="100%" height="557"
-                    frameborder="0"></iframe>
+            <div class="col-12 col-sm-6 map" id="#map" data="<?php echo $text['contacts']['map'][$ln]?>">
+                <!-- <iframe src="<?php echo $text['contacts']['map'][$ln]?>" width="100%" height="557"
+                    frameborder="0"></iframe> -->
             </div>
         </div>
     </div>

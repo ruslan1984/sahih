@@ -1,5 +1,5 @@
 <section class="partner-gift" id="partner-gift">
-    <div class="img-tinkoff"><img src="/media/img/partner-gift/t2.png" alt="tinkoff"></div>
+    <div class="img-tinkoff"><img src="/media/img/partner-gift/t2.webp" alt="tinkoff"></div>
     <div class="container" anim="fade">
         <div class="row">
             <div class="col">

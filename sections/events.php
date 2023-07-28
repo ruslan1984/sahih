@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-sm-4">
-                <div class="card" style="background: url('/media/img/events/1.jpg');">
+                <div class="card" style="background: url('/media/img/events/1.webp');">
                     <div class="card-title">
                         <h3><?php echo $text['events']['e1'][$ln]?></h3>
                     </div>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4">
-                <div class="card" style="background: url('/media/img/events/2.jpg');">
+                <div class="card" style="background: url('/media/img/events/2.webp');">
                     <div class="card-title">
                         <h3><?php echo $text['events']['e2'][$ln]?></h3>
                     </div>
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4">
-                <div class="card" style="background: url('/media/img/events/3.jpg');">
+                <div class="card" style="background: url('/media/img/events/3.webp');">
                     <div class="card-title">
                         <h3><?php echo $text['events']['e3'][$ln]?></h3>
                     </div>

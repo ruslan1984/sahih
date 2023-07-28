@@ -70,30 +70,30 @@
                     <div class="reviews-image">
                         <a class="img_fancy" href="/media/img/reviews/IMG_2934.png" data-fancybox="reviews"
                             rel="reviews">
-                            <img src="/media/img/reviews/1.png" alt="reviews1">
+                            <img src="/media/img/reviews/1.webp" alt="reviews1">
                         </a>
                     </div>
                     <div class="reviews-image">
                         <a class="img_fancy" href="/media/img/reviews/IMG_2935.png" data-fancybox rel="reviews">
-                            <img src="/media/img/reviews/2.png" alt="reviews2">
+                            <img src="/media/img/reviews/2.webp" alt="reviews2">
                         </a>
                     </div>
                     <div class="reviews-image">
                         <a class="img_fancy" href="/media/img/reviews/IMG_2936.png" data-fancybox="reviews"
                             rel="reviews">
-                            <img src="/media/img/reviews/3.png" alt="reviews3">
+                            <img src="/media/img/reviews/3.webp" alt="reviews3">
                         </a>
                     </div>
                     <div class="reviews-image">
                         <a class="img_fancy" href="/media/img/reviews/IMG_2937.png" data-fancybox="reviews"
                             rel="reviews">
-                            <img src="/media/img/reviews/4.png" alt="reviews4">
+                            <img src="/media/img/reviews/4.webp" alt="reviews4">
                         </a>
                     </div>
                     <div class="reviews-image">
                         <a class="img_fancy" href="/media/img/reviews/IMG_2938.png" data-fancybox="reviews"
                             rel="reviews">
-                            <img src="/media/img/reviews/5.png" alt="reviews5">
+                            <img src="/media/img/reviews/5.webp" alt="reviews5">
                         </a>
                     </div>
                 </div>

@@ -9,33 +9,34 @@ include $dir."/sections/head.php";
 
 <body>
     <?php 
-        include $dir."/sections/header.php";  
-        include $dir."/sections/main.php";
-        // include $dir."/sections/partners.php";
-        // include $dir."/sections/its.php";
-        include $dir."/sections/information.php";
-        include $dir."/sections/analysis-company.php";
-        include $dir."/sections/check-company.php"; 
-        include $dir."/sections/product.php";  
-        include $dir."/sections/partner-gift.php";
-        include $dir."/sections/api-info.php";
-        include $dir."/sections/team.php";
-        include $dir."/sections/events.php";
-        include $dir."/sections/reviews.php";
-        include $dir."/sections/faq.php";
-        include $dir."/sections/contacts.php";
+        include_once $dir."/sections/header.php";  
+        include_once $dir."/sections/main.php";
+        // include_once $dir."/sections/partners.php";
+        // include_once $dir."/sections/its.php";
+        include_once $dir."/sections/information.php";
+        include_once $dir."/sections/analysis-company.php";
+        include_once $dir."/sections/check-company.php"; 
+        include_once $dir."/sections/product.php";  
+        include_once $dir."/sections/partner-gift.php";
+        include_once $dir."/sections/api-info.php";
+        include_once $dir."/sections/team.php";
+        include_once $dir."/sections/events.php";
+        include_once $dir."/sections/reviews.php";
+        include_once $dir."/sections/faq.php";
+        include_once $dir."/sections/contacts.php";
     
-        include $dir."/sections/footer.php";
+        include_once $dir."/sections/footer.php";
     
-        include $dir."/sections/modal-check-company.php";
-        include $dir."/sections/modal-consult.php";
-        include $dir."/sections/modal-free.php";
-        include $dir."/sections/modal-support.php";
-        include $dir."/sections/modal-auto-replenishment.php";
-        include $dir."/sections/modal-subscribe.php";
-        include $dir."/sections/modal-mail-ok.php";
-        include $dir."/sections/scripts.php";
-        include $dir."/sections/metrica.php";
+        include_once $dir."/sections/modal-check-company.php";
+        include_once $dir."/sections/modal-consult.php";
+        include_once $dir."/sections/modal-free.php";
+        include_once $dir."/sections/modal-support.php";
+        include_once $dir."/sections/modal-auto-replenishment.php";
+        include_once $dir."/sections/modal-subscribe.php";
+        include_once $dir."/sections/modal-mail-ok.php";
+
+        include_once $dir."/sections/scripts.php";
+        // include_once $dir."/sections/metrica.php";
     ?>
 
 </body>
