@@ -9,6 +9,7 @@ var catalog = {
 };
 
 $(document).ready(function () {
+  // (()=>{
   check_url();
   terms_init();
   tel_init();
@@ -27,6 +28,7 @@ $(document).ready(function () {
   bg_init();
   fancybox_init();
   tariffs_init();
+  // })();
 });
 
 function referrer_get(url) {
@@ -238,7 +240,6 @@ $(window).resize(function () {
     slickify();
   }
 });
-
 /*
 $(window).resize(function(){
 	var $this = $(this);
