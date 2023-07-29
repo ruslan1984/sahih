@@ -13,7 +13,6 @@
                             aria-expanded="false"
                             aria-controls="collapse1"><?php echo $text['faq']['ft1'][$ln]?></button>
                     </div>
-
                     <div id="collapse1" class="collapse" aria-labelledby="headingOne2" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo1'][$ln]?>
@@ -26,7 +25,6 @@
                             aria-expanded="false"
                             aria-controls="collapse2"><?php echo $text['faq']['ft2'][$ln]?></button>
                     </div>
-
                     <div id="collapse2" class="collapse" aria-labelledby="headingOne4" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo2'][$ln]?>
@@ -39,7 +37,6 @@
                             aria-expanded="false"
                             aria-controls="collapse3"><?php echo $text['faq']['ft3'][$ln]?></button>
                     </div>
-
                     <div id="collapse3" class="collapse" aria-labelledby="headingOne6" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo3'][$ln]?>
@@ -52,7 +49,6 @@
                             aria-expanded="false"
                             aria-controls="collapse4"><?php echo $text['faq']['ft4'][$ln]?></button>
                     </div>
-
                     <div id="collapse4" class="collapse" aria-labelledby="headingOne8" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo4'][$ln]?>
@@ -65,7 +61,6 @@
                             aria-expanded="false"
                             aria-controls="collapse5"><?php echo $text['faq']['ft5'][$ln]?></button>
                     </div>
-
                     <div id="collapse5" class="collapse" aria-labelledby="headingOne10" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo5'][$ln]?>
@@ -90,7 +85,6 @@
                             aria-expanded="false"
                             aria-controls="collapse7"><?php echo $text['faq']['ft7'][$ln]?></button>
                     </div>
-
                     <div id="collapse7" class="collapse" aria-labelledby="headingOne14" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo7'][$ln]?>
@@ -103,7 +97,6 @@
                             aria-expanded="false"
                             aria-controls="collapse8"><?php echo $text['faq']['ft8'][$ln]?></button>
                     </div>
-
                     <div id="collapse8" class="collapse" aria-labelledby="headingOne16" data-parent="#accordionExample">
                         <div class="card-body">
                             <?php echo $text['faq']['fo8'][$ln]?>

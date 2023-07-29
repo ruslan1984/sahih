@@ -291,8 +291,6 @@ function ka_filter_exec($container, rule, mode) {
     if (rule == "") {
       turn = true;
     } else if (mode == "in") {
-      //var v = value.toLowerCase().split(/[\s\t ]+/);
-      //var r = rule.toLowerCase().split(/[\s\t ]+/);
       var v = value
         .toLowerCase()
         .split(/[\n|\r\|]+/)
@@ -328,11 +326,9 @@ function ka_filter_exec($container, rule, mode) {
     }
     if (turn) {
       $this.fadeIn("fast");
-      //$this.show();
       count += 1;
     } else {
       $this.fadeOut("fast");
-      //$this.hide();
       count -= 1;
     }
   });
@@ -365,7 +361,6 @@ function catalog_init(loop) {
 }
 
 function catalog_exec() {
-  //console.log('catalog_exec');
   var options = {
     url: "https://docs.google.com/spreadsheets/d/1p575NeAU0pPTCZTzzKXTXHqzvbMQ77dmRYWComl-cDc/edit#gid=0",
     container: "#projects [ka-catalog-items]",
@@ -446,7 +441,6 @@ function catalog_exec() {
       },
       template_container: function (items) {
         var r = '<div class="row">' + items.join("") + "</div>";
-        // var r = '<div class="row"><div class="col-12"><div class="card-columns">' + items.join('') + '</div></div></div>';
         return r;
       },
       start: function () {
@@ -505,16 +499,6 @@ function terms_init() {
 
 function forms_init() {
   return false;
-  /*
-	$('form input[type="file"]').each(function(){
-		var $this = $(this);
-		var $form = $this.parents('form');
-		var enctype = $form.attr('enctype');
-		if(typeof(enctype) == 'undefined'){
-			$form.attr('enctype', 'multipart/form-data');
-		}
-	});
-	*/
 }
 
 function popover_init() {
@@ -533,12 +517,8 @@ function popover_init() {
       img.height = "150";
       img.alt = "";
       options["content"] = img.outerHTML;
-      // options['trigger'] = 'click';
     }
-    $this.popover(options) /*.hover(function(){
-			var $this = $(this);
-			$this.popover('update');
-		})*/;
+    $this.popover(options);
   });
   $("abbr")
     .each(function () {
@@ -563,7 +543,6 @@ function tooltip_init() {
 }
 
 function links_init() {
-  // external links
   $('a[href^="http://"], a[href^="https://"], a[href^="//"]').each(function () {
     var $this = $(this);
     var target = $this.attr("target") || null;
@@ -636,7 +615,6 @@ function tel_init() {
     return false;
   }
   $inputs = $('input[type="tel"], input.tel');
-  // $inputs.mask("+7 999 999-99-99");
 
   var options = {
     translation: {
@@ -646,23 +624,6 @@ function tel_init() {
       9: { pattern: /[0-9]/ },
       0: { pattern: /[#;,:0-9]/, optional: true },
     },
-    // placeholder: '+_ ___ ___-__-__',
-    // onKeyPress: function(cep, e, field, options) {
-    // 	// console.log(cep, e, field, options);
-    // 	var mask = '';
-    // 	if (cep.match(/^\+3/) != null) {
-    // 		mask = '+999-99-999-000';
-    // 	}
-    // 	else if(cep.match(/^\+8/) != null) {
-    // 		// cep = cep.replace(/^\+8/, '+7');
-    // 		mask = '8 999 999-99-99';
-    // 	}
-    // 	else{
-    // 		mask = '+7 999 999-99-99 0000 0000';
-    // 		//options['placeholder'] = '+7 ___ ___-__-__';
-    // 	}
-    // 	$contract_id.mask(mask, options);
-    // },
   };
   $inputs.mask("+7 999 999-99-99 00000000", options);
 
@@ -761,7 +722,6 @@ function modals_init() {
     "show.bs.modal": function (e) {
       var $t = $(this);
       var id = $t.attr("id") || "modal-unknown";
-      //goalPing('modals', id);
       $(".modal").hide();
       $(".modal-backdrop").hide();
     },
@@ -842,10 +802,7 @@ function bg_init() {
       "default-state": {
         gradients: [
           ["#360033", "#0b8793"],
-          // ['#33001b', '#ff0084']
-          // ['#1a2a6c', '#b21f1f']
           ["#cc2b5e", "#753a88"],
-          // ['#ee0979', '#ff6a00']
         ],
       },
     },

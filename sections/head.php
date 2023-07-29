@@ -17,7 +17,7 @@
 
     <link href="<?php echo $domain?>/media/css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" /> -->
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/custom.css?v1.2">
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/responsive.css?v1.2">
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/slick/slick.css" />

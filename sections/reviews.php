@@ -26,11 +26,6 @@
                                 <span class="star star-half"></span>
                                 <span class="number">4,7</span>
                             </div>
-                            <!-- <span class="circle"></span>
-                                <div class="rating">
-                                    <span>Оценок:</span>
-                                    <span>10</span>
-                                </div> -->
                         </div>
                     </div>
                     <div>
@@ -56,11 +51,6 @@
                                 <span class="star star-half"></span>
                                 <span class="number">4,6</span>
                             </div>
-                            <!-- <span class="circle"></span>
-                                <div class="rating">
-                                    <span>Оценок:</span>
-                                    <span>10</span>
-                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -122,11 +112,6 @@
                                 <span class="star star-fill"></span>
                                 <span class="number">4,8</span>
                             </div>
-                            <!-- <span class="circle"></span>
-                                <div class="rating">
-                                    <span>Оценок:</span>
-                                    <span>10</span>
-                                </div> -->
                         </div>
                     </div>
                     <div class="w-100">
@@ -152,11 +137,6 @@
                                 <span class="star star-half"></span>
                                 <span class="number">4,6</span>
                             </div>
-                            <!-- <span class="circle"></span>
-                                <div class="rating">
-                                    <span>Оценок:</span>
-                                    <span>10</span>
-                                </div> -->
                         </div>
                     </div>
                 </div>

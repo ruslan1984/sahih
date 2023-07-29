@@ -1,10 +1,11 @@
 (() => {
   const informationVideo = document.querySelector(".information .video");
   const contactsMap = document.querySelector(".contacts .map");
-  let showVideo = false;
+  const slider = document.querySelector(".reviews .slider");
+  let isScroll = false;
   let showMap = false;
-  window.addEventListener("scroll", (e) => {
-    if (!showVideo) {
+  window.addEventListener("scroll", () => {
+    if (!isScroll) {
       showVideo = true;
       informationVideo.innerHTML = `<div class="blurred-circle"></div>
     <div class="tab-content" id="nav-tabContent">

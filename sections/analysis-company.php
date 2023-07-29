@@ -23,16 +23,6 @@
                         <?php echo $text['analysis-company']['doz'][$ln]?>
                         <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
-                    <!-- <div class="card-wrap">
-                            <div class="card-debt">
-                                Долги
-                                <div>15.4%</div>
-                            </div>
-                            <div class="card-deposit">
-                                Депозиты
-                                <div>21.28%</div>
-                            </div>
-                        </div> -->
                 </div>
             </div>
             <div class="col-auto col-sm">
@@ -52,16 +42,6 @@
                         <?php echo $text['analysis-company']['doz'][$ln]?>
                         <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
-                    <!-- <div class="card-wrap">
-                            <div class="card-debt">
-                                Долги
-                                <div>15.4%</div>
-                            </div>
-                            <div class="card-deposit">
-                                Депозиты
-                                <div>21.28%</div>
-                            </div>
-                        </div> -->
                 </div>
             </div>
             <div class="col-auto col-sm">
@@ -81,16 +61,6 @@
                         <?php echo $text['analysis-company']['doz'][$ln]?>
                         <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
-                    <!-- <div class="card-wrap">
-                            <div class="card-debt">
-                                Долги
-                                <div>15.4%</div>
-                            </div>
-                            <div class="card-deposit">
-                                Депозиты
-                                <div>21.28%</div>
-                            </div>
-                        </div> -->
                 </div>
             </div>
             <div class="col-auto col-sm">
@@ -110,16 +80,6 @@
                         <?php echo $text['analysis-company']['doz'][$ln]?>
                         <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
-                    <!-- <div class="card-wrap">
-                            <div class="card-debt">
-                                Долги
-                                <div>15.4%</div>
-                            </div>
-                            <div class="card-deposit">
-                                Депозиты
-                                <div>21.28%</div>
-                            </div>
-                        </div> -->
                 </div>
             </div>
             <div class="col-auto col-sm">
@@ -139,16 +99,6 @@
                         <?php echo $text['analysis-company']['doz'][$ln]?>
                         <div class="yes"><?php echo $text['analysis-company']['yes'][$ln]?></div>
                     </div>
-                    <!-- <div class="card-wrap">
-                            <div class="card-debt">
-                                Долги
-                                <div>15.4%</div>
-                            </div>
-                            <div class="card-deposit">
-                                Депозиты
-                                <div>21.28%</div>
-                            </div>
-                        </div> -->
                 </div>
             </div>
         </div>
