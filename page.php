@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<?php include $dir."/text.php"; 
+<?php include_once $dir."/text.php"; 
 
-include $dir."/sections/head.php"; 
+include_once $dir."/sections/head.php"; 
 
 ?>
 
@@ -36,7 +36,7 @@ include $dir."/sections/head.php";
         include_once $dir."/sections/modal-mail-ok.php";
 
         include_once $dir."/sections/scripts.php";
-        include_once $dir."/sections/metrica.php";
+        // include_once $dir."/sections/metrica.php";
     ?>
 
 </body>

@@ -17,7 +17,7 @@ feather.replace({
 <!-- <script  src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script> -->
 
 
-<script async src="<?php echo $domain?>/media/js/slick.min.js"></script>
-<script async src="<?php echo $domain?>/media/js/script.js?v1.3"></script>
+<!-- <script async src="<?php echo $domain?>/media/js/slick.min.js"></script> -->
+<!-- <script async src="<?php echo $domain?>/media/js/script.js?v1.3"></script> -->
 <!-- <script async src="<?php echo $domain?>/media/js/subscribe_script.js"></script> -->
-<script  src="<?php echo $domain?>/media/js/sc.js?11"></script>
+<script  src="<?php echo $domain?>/media/js/sc.js?16"></script>

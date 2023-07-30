@@ -14,8 +14,6 @@ $(document).ready(function () {
   terms_init();
   tel_init();
   scrollto_init();
-  modals_init();
-  mobile_init();
   navigation_scroll();
   animation_init();
   carousel_init();
@@ -187,59 +185,59 @@ function pay_url($form, is_donation, target) {
   return r;
 }
 
-$(".multiple-items").slick({
-  arrows: true,
-  infinite: true,
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        arrows: false,
-        infinite: true,
-        slidesToShow: 1,
-        variableWidth: true,
-      },
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        arrows: false,
-        infinite: true,
-        slidesToShow: 1,
-        variableWidth: true,
-      },
-    },
-  ],
-});
+// $(".multiple-items").slick({
+//   arrows: true,
+//   infinite: true,
+//   slidesToShow: 3,
+//   responsive: [
+//     {
+//       breakpoint: 992,
+//       settings: {
+//         arrows: false,
+//         infinite: true,
+//         slidesToShow: 1,
+//         variableWidth: true,
+//       },
+//     },
+//     {
+//       breakpoint: 576,
+//       settings: {
+//         arrows: false,
+//         infinite: true,
+//         slidesToShow: 1,
+//         variableWidth: true,
+//       },
+//     },
+//   ],
+// });
 
-function slickify() {
-  $(".multiple-items2").slick({
-    responsive: [
-      {
-        breakpoint: 9999,
-        settings: "unslick",
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          infinite: true,
-          arrows: false,
-          infinite: true,
-          slidesToShow: 1,
-          variableWidth: true,
-        },
-      },
-    ],
-  });
-}
+// function slickify() {
+//   $(".multiple-items2").slick({
+//     responsive: [
+//       {
+//         breakpoint: 9999,
+//         settings: "unslick",
+//       },
+//       {
+//         breakpoint: 576,
+//         settings: {
+//           infinite: true,
+//           arrows: false,
+//           infinite: true,
+//           slidesToShow: 1,
+//           variableWidth: true,
+//         },
+//       },
+//     ],
+//   });
+// }
 
-$(window).resize(function () {
-  var $windowWidth = $(window).width();
-  if ($windowWidth < 576) {
-    slickify();
-  }
-});
+// $(window).resize(function () {
+//   var $windowWidth = $(window).width();
+//   if ($windowWidth < 576) {
+//     slickify();
+//   }
+// });
 /*
 $(window).resize(function(){
 	var $this = $(this);
@@ -552,37 +550,37 @@ function links_init() {
     }
   });
 }
-function mobile_init() {
-  var isMobile =
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    );
-  if (!isMobile) {
-    $('a[href^="tel:"]').click(function () {
-      var $this = $(this);
-      var $m = modals_search("#modals-callback");
-      if ($m.length) {
-        $m.modal("show");
-      }
-      return false;
-    });
-  }
-  $(".burg_btn").on("click", function (e) {
-    $(".burg").toggleClass("open");
-    $("body").toggleClass("scroll-off");
-  });
-  $(".navbar-collapse a").click(function () {
-    $(".navbar-collapse").collapse("hide");
-    $(".burg").removeClass("open");
-    $("body").removeClass("scroll-off");
-  });
-  setTimeout(function () {
-    $('a[href^="tel:"].calltracking').each(function () {
-      var $this = $(this);
-      $this.attr("href", "tel:" + $this.text().trim());
-    });
-  }, 2000);
-}
+// function mobile_init() {
+//   var isMobile =
+//     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+//       navigator.userAgent
+//     );
+//   if (!isMobile) {
+//     $('a[href^="tel:"]').click(function () {
+//       var $this = $(this);
+//       var $m = modals_search("#modals-callback");
+//       if ($m.length) {
+//         $m.modal("show");
+//       }
+//       return false;
+//     });
+//   }
+//   $(".burg_btn").on("click", function (e) {
+//     $(".burg").toggleClass("open");
+//     $("body").toggleClass("scroll-off");
+//   });
+//   $(".navbar-collapse a").click(function () {
+//     $(".navbar-collapse").collapse("hide");
+//     $(".burg").removeClass("open");
+//     $("body").removeClass("scroll-off");
+//   });
+//   setTimeout(function () {
+//     $('a[href^="tel:"].calltracking').each(function () {
+//       var $this = $(this);
+//       $this.attr("href", "tel:" + $this.text().trim());
+//     });
+//   }, 2000);
+// }
 
 function scrollto_init() {
   $(
@@ -695,71 +693,71 @@ function carousel_init() {
   });
 }
 
-function modals_init() {
-  $('a[href^="#modals-"]').each(function () {
-    var $this = $(this);
-    if (typeof $this.attr("data-toggle") == "undefined") {
-      $this.attr("data-toggle", "modal");
-    }
-    var id = $this.attr("href");
-    var $m = modals_search(id);
-    if ($m.length && $this.attr("href") != $m.attr("id")) {
-      $this.attr("href", "#" + $m.attr("id"));
-    }
-  });
-  $(".modal").on({
-    "shown.bs.modal": function (e) {
-      var $t = $(this);
-      var id = $t.attr("id") || "";
-      var hash = window.location.hash.replace(/\#|\//g, "") || "";
-      if (id != "" && hash == "") {
-        window.location.hash = id;
-      }
-      var $in = $t.find("input:not([ka-no],.ka-no)");
-      if ($in.length) {
-        $in.focus();
-      }
-    },
-    "show.bs.modal": function (e) {
-      var $t = $(this);
-      var id = $t.attr("id") || "modal-unknown";
-      $(".modal").hide();
-      $(".modal-backdrop").hide();
-    },
-    "hide.bs.modal": function (e) {
-      window.location.hash = "/";
-    },
-  });
-  var $m = modals_search();
-  if ($m.length) {
-    if (!$m.hasClass("ka-no") && typeof $m.attr("ka-no") == "undefined") {
-      $m.modal("show");
-    }
-  }
-  return true;
-}
+// function modals_init() {
+//   $('a[href^="#modals-"]').each(function () {
+//     var $this = $(this);
+//     if (typeof $this.attr("data-toggle") == "undefined") {
+//       $this.attr("data-toggle", "modal");
+//     }
+//     var id = $this.attr("href");
+//     var $m = modals_search(id);
+//     if ($m.length && $this.attr("href") != $m.attr("id")) {
+//       $this.attr("href", "#" + $m.attr("id"));
+//     }
+//   });
+//   $(".modal").on({
+//     "shown.bs.modal": function (e) {
+//       var $t = $(this);
+//       var id = $t.attr("id") || "";
+//       var hash = window.location.hash.replace(/\#|\//g, "") || "";
+//       if (id != "" && hash == "") {
+//         window.location.hash = id;
+//       }
+//       var $in = $t.find("input:not([ka-no],.ka-no)");
+//       if ($in.length) {
+//         $in.focus();
+//       }
+//     },
+//     "show.bs.modal": function (e) {
+//       var $t = $(this);
+//       var id = $t.attr("id") || "modal-unknown";
+//       $(".modal").hide();
+//       $(".modal-backdrop").hide();
+//     },
+//     "hide.bs.modal": function (e) {
+//       window.location.hash = "/";
+//     },
+//   });
+//   var $m = modals_search();
+//   if ($m.length) {
+//     if (!$m.hasClass("ka-no") && typeof $m.attr("ka-no") == "undefined") {
+//       $m.modal("show");
+//     }
+//   }
+//   return true;
+// }
 
-function modals_search(id) {
-  var $m = $();
-  var id = id || window.location.hash || "";
-  if (id.substr(0, 1) == "#") {
-    id = id.substr(1);
-  }
-  if (id.indexOf("/")) {
-    id = id.split("/")[0];
-  }
-  try {
-    if (id.match(/^modals?-/) != null) {
-      var $m = $("#" + id + ".modal");
-      if ($m.length == 0) {
-        $m = $('.modal[id^="' + id + '-"]');
-      }
-    }
-  } catch (err) {
-    console.log(err);
-  }
-  return $m;
-}
+// function modals_search(id) {
+//   var $m = $();
+//   var id = id || window.location.hash || "";
+//   if (id.substr(0, 1) == "#") {
+//     id = id.substr(1);
+//   }
+//   if (id.indexOf("/")) {
+//     id = id.split("/")[0];
+//   }
+//   try {
+//     if (id.match(/^modals?-/) != null) {
+//       var $m = $("#" + id + ".modal");
+//       if ($m.length == 0) {
+//         $m = $('.modal[id^="' + id + '-"]');
+//       }
+//     }
+//   } catch (err) {
+//     console.log(err);
+//   }
+//   return $m;
+// }
 
 function navigation_scroll() {
   var offset = $("header + section").height() || $(window).height() || 500;
