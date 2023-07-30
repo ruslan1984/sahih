@@ -16,6 +16,14 @@ const loadScript = async (url)=>{
   let isScroll = false;
   let showMap = false;
   window.addEventListener("mousemove", async() => {
+    loadData();
+  });
+  window.addEventListener("scroll", async() => {
+    loadData();
+  })
+
+
+  async function loadData(){
     if (!isScroll) {
         isScroll = true;
       informationVideo.innerHTML = `<div class="blurred-circle"></div>
@@ -95,7 +103,7 @@ $(".multiple-items").slick({
         slickify();
       }
     });
-    metrica();
+        metrica();
     }
     if (!showMap && window.scrollY > 200) {
       showMap = true;
@@ -107,8 +115,7 @@ $(".multiple-items").slick({
     }
 
     
-
-  });
+  }
 
   function metrica(){
     (function(m, e, t, r, i, k, a) {
