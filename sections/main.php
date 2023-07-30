@@ -58,7 +58,7 @@
             </div>
             <div class="col-12 col-sm-4">
                 <div class="image">
-                    <img src="/media/img/main/main_img.png" alt="Sahih Invest">
+                    <img src="/media/img/main/main_img.webp" alt="Sahih Invest">
                     <div class="blurred-circle"></div>
                 </div>
             </div>
