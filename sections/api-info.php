@@ -17,7 +17,7 @@
         </div>
         <div class="row row_info">
             <div class="col-12 col-sm-6">
-                <h4><?php echo $text['api-info']['h41'][$ln]?></h4>
+                <p class="fs-4 text"><strong><?php echo $text['api-info']['h41'][$ln]?></strong></p>
                 <ul class="list-left">
                     <li><?php echo $text['api-info']['l11'][$ln]?></li>
                     <li><?php echo $text['api-info']['l12'][$ln]?></li>
@@ -25,7 +25,7 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-6">
-                <h4><?php echo $text['api-info']['h42'][$ln]?></h4>
+                <p class="fs-4 text"><strong><?php echo $text['api-info']['h42'][$ln]?></strong></p>
                 <ul class="list-right">
                     <li><?php echo $text['api-info']['l21'][$ln]?></li>
                     <li><?php echo $text['api-info']['l22'][$ln]?></li>
@@ -37,7 +37,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <h4><?php echo $text['api-info']['h43'][$ln]?></h4>
+                <p class="fs-4 text"><strong><?php echo $text['api-info']['h43'][$ln]?></strong></p>
                 <p class="sub-title"><?php echo $text['api-info']['tf'][$ln]?></p>
                 <a href="#modal-consult" data-toggle="modal"
                     class="btn btn--main"><?php echo $text['api-info']['btn'][$ln]?></a>
