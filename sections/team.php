@@ -11,7 +11,7 @@
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
-                            <img src="/media/img/team/azat.jpg" alt="<?php echo $text['team']['n4'][$ln]?>">
+                            <img src="/media/img/team/azat.webp" alt="<?php echo $text['team']['n4'][$ln]?>">
                         </span>
                     </div>
                     <div class="card-name"><?php echo $text['team']['n4'][$ln]?></div>
@@ -23,7 +23,7 @@
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
-                            <img src="/media/img/team/fb.jpg" alt="<?php echo $text['team']['n2'][$ln]?>">
+                            <img src="/media/img/team/fb.webp" alt="<?php echo $text['team']['n2'][$ln]?>">
                         </span>
                     </div>
                     <div class="card-name"><?php echo $text['team']['n2'][$ln]?></div>
@@ -35,7 +35,7 @@
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
-                            <img src="/media/img/team/ah.jpg" alt="<?php echo $text['team']['n6'][$ln]?>">
+                            <img src="/media/img/team/ah.webp" alt="<?php echo $text['team']['n6'][$ln]?>">
                         </span>
                     </div>
                     <div class="card-name"><?php echo $text['team']['n6'][$ln]?></div>

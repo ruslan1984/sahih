@@ -3,17 +3,17 @@
         [
             "code"=>"ru",
             "text"=>"Русский",
-            "img"=>"/media/img/flags/ru.png"
+            "img"=>"/media/img/flags/ru.webp"
         ],
         [
             "code"=>"kz",
             "text"=>"Қазақша",
-            "img"=>"/media/img/flags/kz.png"
+            "img"=>"/media/img/flags/kz.webp"
         ],
         [
             "code"=>"en",
             "text"=>"English",
-            "img"=>"/media/img/flags/gb.png"
+            "img"=>"/media/img/flags/gb.webp"
         ],
     ]
 ?>
