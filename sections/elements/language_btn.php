@@ -21,7 +21,7 @@
     <?php foreach($lnArray as $item):?>
     <?php  if($ln==$item['code']):?>
     <div class="currentLn">
-        <img class="img" src="<?php echo $item['img']?>" alt="" />
+        <img width="24" height="16" class="img" src="<?php echo $item['img']?>" alt="" />
         <?php echo $item['code']?>
     </div>
     <?php endif;?>

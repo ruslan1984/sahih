@@ -91,12 +91,12 @@ $(".multiple-items").slick({
       });
     }
     
-    $(window).resize(function () {
-      var $windowWidth = $(window).width();
-      if ($windowWidth < 576) {
+    // $(window).resize(function () {
+    //   var $windowWidth = $(window).width();
+    //   if ($windowWidth < 576) {
         slickify();
-      }
-    });
+    //   }
+    // });
         metrica();
     }
     if (contactsMap && !showMap && window.scrollY > 200) {
