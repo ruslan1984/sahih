@@ -8,14 +8,15 @@
                     <div class="logoText2"><?php echo $text['header']['logo']['t1'][$ln] ?></div>
                 </div>
             </a>
-            <div class="d-flex">
+            <div class="d-flex align-items-center">
                 <div class="d-lg-none text-right">
                     <?php include $dir."/sections/elements/language_btn.php"; ?>
                 </div>
-                <button class="mb-1 navbar-toggler burg_btn" type="button" data-mdb-toggle="collapse"
+                <button class="mb-1 navbar-toggler burg_btn burgBtn"  type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
                     data-toggle="collapse" data-target=".navbar-collapse-1" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    aria-label="Toggle navigation"
+                    >
                     <div class="burg"><span></span><span></span><span></span></div>
                 </button>
             </div>

@@ -15,7 +15,7 @@ const loadScript = async (url)=>{
 
   let isScroll = false;
   let showMap = false;
-  window.addEventListener("mousemove", async() => {
+  window.addEventListener("click", async() => {
     loadData();
   });
   window.addEventListener("scroll", async() => {
@@ -26,27 +26,20 @@ const loadScript = async (url)=>{
   async function loadData(){
     if (!isScroll) {
         isScroll = true;
-      informationVideo.innerHTML = `<div class="blurred-circle"></div>
+        if(informationVideo){ 
+            informationVideo.innerHTML = `<div class="blurred-circle"></div>
     <div class="tab-content" id="nav-tabContent">
         <iframe class="tab-pane active" id="video1" role="tabpanel"
             src="https://www.youtube.com/embed/ruKvLm2SR5M" allowfullscreen></iframe>
         <iframe class="tab-pane" id="video2" role="tabpanel"
             src="https://www.youtube.com/embed/CUB43NOvJb4" allowfullscreen></iframe>
     </div> `;
-
-
-
-    // await loadLink("https://fonts.gstatic.com", "preconnect");
-    // await loadLink("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-
+    }
 await loadScript("/callback/email/forms.js");
-await loadScript("https://cdn.kvin.online/site/?hash=244ea65a3b229661d5c77fecc615ca23");
+// await loadScript("https://cdn.kvin.online/site/?hash=244ea65a3b229661d5c77fecc615ca23");
 await loadScript("https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js");
-// await loadScript("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js");
 await loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyApaKMAilNYsX9vHCxmTgWCygep1xZ2BUw");
 await loadScript("https://cdnjs.cloudflare.com/ajax/libs/granim/1.1.1/granim.min.js");
-// await loadScript("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js");
-// await loadScript("/media/js/jquery-libs.js");
 await loadScript("https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js");
 await loadScript("/media/js/subscribe_script.js?v1.4");
 await loadScript("/media/js/script.js?v1.3");
@@ -106,7 +99,7 @@ $(".multiple-items").slick({
     });
         metrica();
     }
-    if (!showMap && window.scrollY > 200) {
+    if (contactsMap && !showMap && window.scrollY > 200) {
       showMap = true;
       const map = document.createElement("iframe");
       map.src = contactsMap.getAttribute("data");
