@@ -7,7 +7,6 @@ var catalog = {
     col: null,
   },
 };
-
 $(document).ready(function () {
   // (()=>{
   check_url();
@@ -28,7 +27,6 @@ $(document).ready(function () {
   tariffs_init();
   // })();
 });
-
 function referrer_get(url) {
   let r = "";
   url = url || window.location;
@@ -583,9 +581,11 @@ function links_init() {
 // }
 
 function scrollto_init() {
+  // alert('1')
   $(
     'a[href^="#"]:not([data-toggle], [data-slide], a[href^="#modal-"], a[href^="#modals-"])'
   ).click(function () {
+
     var offset = $("header").height();
     var isMobile =
       /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -600,7 +600,9 @@ function scrollto_init() {
       href = $("header + section");
       speed = 300;
     }
-    $.scrollTo(href, speed, { offset: -1 * offset });
+    console.log("offset",offset);
+    // $.scrollTo(href, speed, { offset: - 1 * offset });
+    $.scrollTo(href, speed, { offset: - 120 });
     return false;
   });
 }

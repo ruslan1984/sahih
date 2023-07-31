@@ -41,9 +41,10 @@ await loadScript("https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js
 await loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyApaKMAilNYsX9vHCxmTgWCygep1xZ2BUw");
 await loadScript("https://cdnjs.cloudflare.com/ajax/libs/granim/1.1.1/granim.min.js");
 await loadScript("https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js");
-await loadScript("/media/js/subscribe_script.js?v1.4");
-await loadScript("/media/js/script.js?v1.3");
 await loadScript("/media/js/slick.min.js");
+await loadScript("/media/js/subscribe_script.js?v1.4");
+await loadScript("/media/js/script.js?v1.11");
+
 $(".multiple-items").slick({
       arrows: true,
       infinite: true,
