@@ -22,7 +22,6 @@ const loadScript = async (url)=>{
     loadData();
   })
 
-
   async function loadData(){
     if (!isScroll) {
         isScroll = true;

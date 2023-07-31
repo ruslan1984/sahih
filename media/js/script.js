@@ -600,7 +600,6 @@ function scrollto_init() {
       href = $("header + section");
       speed = 300;
     }
-    console.log("offset",offset);
     // $.scrollTo(href, speed, { offset: - 1 * offset });
     $.scrollTo(href, speed, { offset: - 120 });
     return false;
