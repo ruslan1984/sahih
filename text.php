@@ -4,7 +4,7 @@ $text = [
     'header'=>[
         'desc'=>[
             'ru'=>"Скрининг акций на соответствие нормам ислама",
-            'kz'=>'Shariah compliance screening for stocks',
+            'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру ',
             'en'=>'Shariah compliance screening for stocks'
         ],
         'title'=>[
