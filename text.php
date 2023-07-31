@@ -2,9 +2,14 @@
 
 $text = [
     'header'=>[
+        'desc'=>[
+            'ru'=>"Скрининг акций на соответствие нормам ислама",
+            'kz'=>'Shariah compliance screening for stocks',
+            'en'=>'Shariah compliance screening for stocks'
+        ],
         'title'=>[
             'ru'=>"Скринер акций по нормам ислама",
-            'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру ',
+            'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру',
             'en'=>'Stock screener according to Islamic norms'
         ],
         'logo'=>[

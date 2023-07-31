@@ -1,8 +1,7 @@
 <head>
     <title><?php echo $text['header']['title'][$ln] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Скрининг акций на соответствие нормам ислама">
-    <!-- <meta http-equiv="Cache-control" content="public"> -->
+    <meta name="description" content="<?php echo $text['header']['desc'][$ln]?>">
     <meta charset="utf-8">
     <link rel="shortcut icon" href="<?php echo $domain?>/favicon.ico"  type="image/svg+xml" />
     <link href="https://plus.google.com/109784895098888983084" rel="author" />
