@@ -22,7 +22,7 @@
                     <h4><?php echo $text['its']['contact_t'][$ln]?></h4>
                     <div><?php echo $text['its']['contact'][$ln]?></div>
                 </li>
-                <li>
+                <!-- <li>
                     <?php echo $text['its']['l1'][$ln]?>
                 </li>
                 <li>
@@ -30,7 +30,7 @@
                         <?php echo $text['its']['l2'][$ln]?>
                     </a>
                 </li>
-            </ul>
+ -->            </ul>
 
             <img class="img" src="/media/img/main/its_logo.png" alt="ITS">
         </div>

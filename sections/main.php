@@ -45,11 +45,11 @@
                             <img src="/media/img/main/image 35 (Traced).svg" alt="РТ">
                             <p><?php echo $text['main']['halal'][$ln] ?></p>
                         </div>
-                        <div class="info-block">
+                       <!--  <div class="info-block">
                             <img src="/media/img/main/tf.svg" alt="Тинькофф">
                             <p><?php echo $text['main']['tink'][$ln] ?></p>
                         </div>
-                        <!-- <div class="info-block">
+                        <div class="info-block">
                             <img src="/media/img/main/its_logo.png" alt="ITS">
                             <p><?php echo $text['main']['its'][$ln] ?></p>
                         </div> -->

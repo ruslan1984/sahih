@@ -11,8 +11,10 @@ include_once $dir."/sections/head.php";
     <?php 
         include_once $dir."/sections/header.php";  
         include_once $dir."/sections/main.php";
+        
         // include_once $dir."/sections/partners.php";
         // include_once $dir."/sections/its.php";
+        
         include_once $dir."/sections/information.php";
         include_once $dir."/sections/analysis-company.php";
         include_once $dir."/sections/check-company.php"; 
