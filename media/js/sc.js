@@ -15,12 +15,23 @@ const loadScript = async (url)=>{
 
   let isScroll = false;
   let showMap = false;
+
+  window.addEventListener("load", async() => {
+    if(window.scrollY > 1){
+      loadData();
+    }
+  })
+
   window.addEventListener("click", async() => {
     loadData();
   });
   window.addEventListener("scroll", async() => {
     loadData();
   })
+
+  
+
+  
 
   async function loadData(){
     if (!isScroll) {

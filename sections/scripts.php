@@ -19,4 +19,4 @@ feather.replace({
 <!-- <script async src="<?php echo $domain?>/media/js/slick.min.js"></script> -->
 <!-- <script async src="<?php echo $domain?>/media/js/script.js?v1.3"></script> -->
 <!-- <script async src="<?php echo $domain?>/media/js/subscribe_script.js"></script> -->
-<script  src="<?php echo $domain?>/media/js/sc.js?1.11"></script>
+<script  src="<?php echo $domain?>/media/js/sc.js?1.13"></script>
