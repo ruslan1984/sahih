@@ -378,7 +378,7 @@ $text = [
                 'en'=>'The first step towards effective investing'
             ],
             'bolee600'=>[
-                'ru'=> 'доступ к анализу более 750 компаний',
+                'ru'=> 'Доступ к анализу более 750 компаний',
                 'kz'=>'750-ден астам компанияның анализіне қол жеткізу',
                 'en'=>'access to the analysis of over 750 companies'
             ],

@@ -15,12 +15,12 @@
                                     <th scope="row"></th>
                                     <th>
                                         <div class="name">
-                                            <div><?php echo $text['product']['c1'][$ln] ?></div>
+                                            <div class='td'><?php echo $text['product']['c1'][$ln] ?></div>
                                         </div>
                                     </th>
                                     <th>
                                         <div class="name">
-                                            <div><?php echo $text['product']['c2'][$ln] ?></div>
+                                            <div class="td"><?php echo $text['product']['c2'][$ln] ?></div>
                                         </div>
                                     </th>
                                 </tr>
