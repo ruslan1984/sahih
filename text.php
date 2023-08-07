@@ -68,21 +68,23 @@ $text = [
             'kz'=>'Sahih Invest арқылы этикалық инвестициялық портфель жасаңыз',
             'en'=>'Build an Ethical Investment Portfolio with Sahih Invest'
        ],
-        'p1'=> [
-            'ru' => 'Доверьтесь нашему подробному анализу компаний, основанному на строгих стандартах и методологиях <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений."> <b>AAOIFI</b></abbr> и&nbsp; <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка"><b>DFM</b></abbr>. Мы углубляемся в детали финансовой деятельности, чтобы убедиться, что ваш инвестиционный выбор соответствует исламским нормам. Благодаря нашему ручному подходу вы можете быть уверены в качестве и достоверности полученной информации',
+       'p1'=> [
+            'ru' => '<b>Ручной</b> анализ компаний по&nbsp;методологиям 
+                <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">
+                <b>AAOIFI</b></abbr> и&nbsp;
+                <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка"><b>DFM</b></abbr>',
             'kz'=>'Компанияларды AAOIFI және DFM әдістемелеріне негізделе отырып жеке талдау+',
-            'en'=>'Trust our detailed analysis of companies based on the strict standards and methodologies of AAOIFI and DFM. We delve into the intricacies of financial activities to ensure your investment choices align with Islamic norms. With our hands-on approach, you can be confident in the quality and accuracy of the information provided'
+            'en'=>'Manual analysis of companies using AAOIFI and DFM methodologies'
         ],
         'p2'=> [
-            'ru' => 'Возможность перехода в карточку компании для покупки в Тинькофф Инвестиции с Sahih Invest.
-            "Интеграция с платформой Тинькофф Инвестиции позволяет вам с легкостью перейти прямо в карточку интересующей вас компании. После анализа акций по нашим стандартам, вы можете быстро и без проблем инвестировать в выбранные акции, используя удобный интерфейс Тинькофф. Оптимизируйте свой инвестиционный процесс с Sahih Invest."',
-            'kz'=>'Тинькофф Инвестициялар платформасымен интеграция жасау арқылы сізге қызықтырған компанияның картасына тікелей өтуге болады. Біздің стандарттарымыз бойынша акцияларды талдағаннан кейін, сіз Тинькофф интерфейсін пайдаланып таңдалған акцияларға тез және проблемасыз инвестция жасауға болады. Сіздің инвестициялық процессіңізді Sahih Invest арқылы оптимизациялаңыз',
-            'en'=>"Integration with the Tinkoff Investments platform allows you to easily navigate directly to the profile of the company you're interested in. After analyzing stocks according to our standards, you can swiftly and seamlessly invest in selected stocks using the user-friendly Tinkoff interface. Optimize your investment process with Sahih Invest."
+            'ru' => 'Возможность перехода в карточку компании для покупки в Тинькофф Инвестиции',
+            'kz'=>'“Тинькофф Инвестициялар”-да акцияларды сатып алу үшін компания карточкасына өту мүмкіндігі',
+            'en'=>'The possibility of switching to the company card for purchase in Tinkoff Investments'
         ],
         'p3'=> [
-            'ru' => 'Возможность анализа компании по запросу с Sahih Invest.',
-            'kz' => 'Sahih Invest арқылы компанияны сұрау бойынша талдау мүмкіндігі.',
-            'en' => 'Opportunity to analyze a company upon request with Sahih Invest'
+            'ru' => 'Возможность анализа компании по&nbsp;запросу',
+            'kz' => 'Компанияны сұраныс бойынша талдау мүмкіндігі',
+            'en' => 'Possibility to analyze company by request +'
         ],
         'halal'=> [
             'ru' => 'Одобрено <a target="_blank" class="lnk" href="https://dumrt.ru/ru/">Духовным<br>Управлением Мусульман <abbr title="Республика Татарстан">РТ</abbr></a>',
