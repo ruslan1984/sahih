@@ -8,11 +8,11 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4">
-                <span class="numbers">600+</span>
+                <span class="numbers"><?php echo $text['information']['n1'][$ln] ?></span>
                 <div class="info"><?php echo $text['information']['c1'][$ln] ?></div>
             </div>
             <div class="col-12 col-md-4">
-                <span class="numbers">400+</span>
+            <span class="numbers"><?php echo $text['information']['n2'][$ln] ?></span>
                 <div class="info"><?php echo $text['information']['c2'][$ln] ?></div>
             </div>
             <div class="col-12 col-md-4">

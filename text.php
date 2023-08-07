@@ -3,19 +3,19 @@
 $text = [
     'header'=>[
         'desc'=>[
-            'ru'=>"Скрининг акций на соответствие нормам ислама",
+            'ru'=>"Ведущий аналитический инструмент для идентификации халяльных акций. Инвестируйте в проверенные с точки зрения ислама акции с Sahih Invest.",
             'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру ',
             'en'=>'Shariah compliance screening for stocks'
         ],
         'title'=>[
-            'ru'=>"Скринер акций по нормам ислама",
+            'ru'=>"Sahih Invest: Исламский Скрининг и Халяльные Акции для Инвесторов",
             'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру',
             'en'=>'Stock screener according to Islamic norms'
         ],
         'logo'=>[
             't1'=> [
-                'ru'=>"Скринер акций по нормам ислама",
-                'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру',
+                'ru'=>"исламский скрининг акций",
+                'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру ',
                 'en'=>'Stock screener according to Islamic norms '
             ],
         ],
@@ -64,31 +64,29 @@ $text = [
             'en'=>'Download Mobile App'
         ],
        'h1'=>[ 
-            'ru'=>'Сформируйте инвестиционный портфель <span>по&nbsp;нормам ислама</span>',
-            'kz'=>'Ислам нормалары мен қағидаларына сай инвестициялық портфель құрыңыз',
-            'en'=>'Form an investment portfolio according to Islamic norms'
+            'ru'=>'Создайте этичный инвестиционный портфель с Sahih Invest',
+            'kz'=>'Sahih Invest арқылы этикалық инвестициялық портфель жасаңыз',
+            'en'=>'Build an Ethical Investment Portfolio with Sahih Invest'
        ],
         'p1'=> [
-            'ru' => '<b>Ручной</b> анализ компаний по&nbsp;методологиям 
-                <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">
-                <b>AAOIFI</b></abbr> и&nbsp;
-                <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка"><b>DFM</b></abbr>',
+            'ru' => 'Доверьтесь нашему подробному анализу компаний, основанному на строгих стандартах и методологиях <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений."> <b>AAOIFI</b></abbr> и&nbsp; <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка"><b>DFM</b></abbr>. Мы углубляемся в детали финансовой деятельности, чтобы убедиться, что ваш инвестиционный выбор соответствует исламским нормам. Благодаря нашему ручному подходу вы можете быть уверены в качестве и достоверности полученной информации',
             'kz'=>'Компанияларды AAOIFI және DFM әдістемелеріне негізделе отырып жеке талдау+',
-            'en'=>'Manual analysis of companies using AAOIFI and DFM methodologies'
+            'en'=>'Trust our detailed analysis of companies based on the strict standards and methodologies of AAOIFI and DFM. We delve into the intricacies of financial activities to ensure your investment choices align with Islamic norms. With our hands-on approach, you can be confident in the quality and accuracy of the information provided'
         ],
         'p2'=> [
-            'ru' => 'Возможность перехода в карточку компании для покупки в Тинькофф Инвестиции',
-            'kz'=>'“Тинькофф Инвестициялар”-да акцияларды сатып алу үшін компания карточкасына өту мүмкіндігі',
-            'en'=>'The possibility of switching to the company card for purchase in Tinkoff Investments'
+            'ru' => 'Возможность перехода в карточку компании для покупки в Тинькофф Инвестиции с Sahih Invest.
+            "Интеграция с платформой Тинькофф Инвестиции позволяет вам с легкостью перейти прямо в карточку интересующей вас компании. После анализа акций по нашим стандартам, вы можете быстро и без проблем инвестировать в выбранные акции, используя удобный интерфейс Тинькофф. Оптимизируйте свой инвестиционный процесс с Sahih Invest."',
+            'kz'=>'Тинькофф Инвестициялар платформасымен интеграция жасау арқылы сізге қызықтырған компанияның картасына тікелей өтуге болады. Біздің стандарттарымыз бойынша акцияларды талдағаннан кейін, сіз Тинькофф интерфейсін пайдаланып таңдалған акцияларға тез және проблемасыз инвестция жасауға болады. Сіздің инвестициялық процессіңізді Sahih Invest арқылы оптимизациялаңыз',
+            'en'=>"Integration with the Tinkoff Investments platform allows you to easily navigate directly to the profile of the company you're interested in. After analyzing stocks according to our standards, you can swiftly and seamlessly invest in selected stocks using the user-friendly Tinkoff interface. Optimize your investment process with Sahih Invest."
         ],
         'p3'=> [
-            'ru' => 'Возможность анализа компании по&nbsp;запросу',
-            'kz' => 'Компанияны сұраныс бойынша талдау мүмкіндігі',
-            'en' => 'Possibility to analyze company by request +'
+            'ru' => 'Возможность анализа компании по запросу с Sahih Invest.',
+            'kz' => 'Sahih Invest арқылы компанияны сұрау бойынша талдау мүмкіндігі.',
+            'en' => 'Opportunity to analyze a company upon request with Sahih Invest'
         ],
         'halal'=> [
             'ru' => 'Одобрено <a target="_blank" class="lnk" href="https://dumrt.ru/ru/">Духовным<br>Управлением Мусульман <abbr title="Республика Татарстан">РТ</abbr></a>',
-            'kz'=>'<a target="_blank" class="lnk" href="https://dumrt.ru/ru/">Татарстан Республикасының Мұсылмандар Діни басқармасымен<a> мақұлданды',
+            'kz'=>'<a target="_blank" class="lnk" href="https://dumrt.ru/ru/">Татарстан Республикасының Мұсылмандар Діни басқармасымен</a> мақұлданды',
             'en'=>'Approved by the Spiritual Board of <a target="_blank" class="lnk" href="https://dumrt.ru/ru/">Muslims of the Republic of Tatarstan</a>'
         ],
         'tink'=> [
@@ -199,7 +197,7 @@ $text = [
             'en' => ''
         ],
         "l1"=>[
-           'ru' => ' AS IS Вошли в число AIFC Fintech Membership,получили статус Стартап в ОЭЗ «Иннополис»
+           'ru' => ' AS IS Вошли в число AIFC Fintech Membership, получили статус Стартап в ОЭЗ «Иннополис»
                         TO BE Резиденты МФЦА (<a class="lnk" target="_blank" href="https://publicreg.myafsa.com/details/190640900213/">Лицензия AIFC
                             AFSA-A-LA-2019-0029</a>)',
             'kz' => '',
@@ -218,59 +216,70 @@ $text = [
                 'en'=>'We check the permissibility of investing under Islam'
             ],
             't'=> [
-                'ru'=>'Вошли в&nbsp;число AIFC Fintech <abbr title="Платформа, нацеленная на&nbsp;поддержку роста и&nbsp;развития центрально-азиатских стартапов и&nbsp;корпораций, заинтересованных в&nbsp;развитии финтех-экосистемы.">Membership</abbr>,<br>получили статус Стартап в&nbsp;<abbr title="Особая экономическая зона">ОЭЗ</abbr> «Иннополис»',
-                'kz'=>'AIFC Fintech Membership қатарына енді, «Иннополис» ЕЭА-да Стартап статусына ие болдық ',
-                'en'=>'Joined the AIFC Fintech Membership, received the status of a Startup in the SEA "Innopolis'
+                'ru'=>'Лицензированный Резидент МФЦА, Стартап <abbr title="Особая экономическая зона">ОЭЗ</abbr> «Иннополис»',
+                'kz'=>'МФЦА ліцензияланған резиденті ОЭЗ «Иннополис» стартапы',
+                'en'=>'Licensed Resident of AIFC Startup of SEZ "Innopolis'
+            ],
+
+            'n1'=> [
+                'ru'=> 'Более 750',
+                'kz'=> '750 астам',
+                'en'=> 'Over 750'
             ],
             'c1'=> [
-                'ru'=> 'компаний прошли проверку',
-                'kz'=>'компания тексерістен өтті',
-                'en'=>'verified companies'
+                'ru' => 'компаний проверены на соответствие исламским стандартам',
+                'kz' => 'компания тексерістен өтті',
+                'en' => 'verified companies'
+            ],
+            'n2'=> [
+                'ru'=> 'Более 400',
+                'kz'=> '400-ден астам ',
+                'en'=> 'More than 400'
             ],
             'c2'=> [
-                'ru'=> 'пользователей ежедневно',
-                'kz'=>'Күн сайын пайдаланушылар саны',
-                'en'=>'users daily'
+                'ru'=> 'активных пользователей выбирают нас ежедневно',
+                'kz'=>'белсенді пайдаланушы күн сайын бізді таңдайды',
+                'en'=>'active users choose us daily'
             ],
             'c3h'=> [
-                'ru'=> 'Ежеквартально',
+                'ru'=> 'Sahih Invest ',
                 'kz'=>'3 ай сайын',
-                'en'=>'Company status updates'
+                'en'=>'Sahih Invest regularly updates company statuses:'
             ],
             'c3'=> [
-                'ru'=> 'обновляем статус компаний',
+                'ru'=> 'регулярно обновляет статус компаний: Ежеквартальные проверки для актуальной информации',
                 'kz'=>'компаниялардың статусын жаңартамыз ',
-                'en'=>'on a quarterly basis'
+                'en'=>'Quarterly checks for up-to-date information'
             ],
             'ul' =>[
-                'ru'=> 'Проверяем дозволенность инвестирования с точки зрения ислама',
-                'kz'=>'Инвестициялауды Шариғат нормаларына сәйкестігін тексереміз',
-                'en'=>'We check the permissibility of investing under Islam'
+                'ru'=> 'Sahih Invest анализирует дозволенность инвестирования с учетом принципов ислама: Тщательная проверка по шариатским стандартам',
+                'kz'=>'Sahih Invest ислам қағидалары бойынша инвестиция жасаудың рұқсаттылығын талдайды: Шариғат стандарттары бойынша детальді тексеру',
+                'en'=>'Sahih Invest analyzes the permissibility of investing according to Islamic principles: Rigorous verification according to Shariah standards'
             ],
             'li1' =>[
-                'ru'=> 'Методология проверки разработана совместно с Российским Исламским Институтом.',
-                'kz'=>'Тексеру әдістемесі Ресей Ислам Институтімен бірлесе отыра құрастырылған',
-                'en'=>'The verification methodology was developed jointly with the Russian Islamic Institute'
+                'ru' => 'Sahih Invest применяет методологию проверки, разработанную в партнерстве с Российским Исламским Институтом: Гарантия точности и соблюдения исламских стандартов',
+                'kz' => 'Sahih Invest Ресей Ислам Институтымен серіктестікте дайындалған тексеру методологиясын қолданады: Дәлдігі мен ислам стандарттарына ереуілділік кепілдігі',
+                'en' => "Sahih Invest employs a verification methodology developed in partnership with the Russian Islamic Institute: Guarantee of accuracy and adherence to Islamic standards"
             ],
             'li2' =>[
-                'ru'=> 'Ежеквартально анализируем финансовую отчетность компаний по&nbsp;<abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr> и&nbsp;<abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка">DFM</abbr>.',
-                'kz'=>'3 ай сайын AAOIFI және DMF бойынша компаниялардың қаржы есептемесін талдаймыз',
-                'en'=>'Analyze the financial report of companies on AAOIFI and DFM on a quarterly basis'
+                'ru' => 'Ежеквартально проводим глубокий анализ финансовой отчетности компаний согласно стандартам <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr> и&nbsp; <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка">DFM</abbr>',
+                'kz' => 'Тоқсан сайын біз компаниялардың қаржылық есептілігін AAOIFI және DFM стандарттары бойынша терең талдаймыз',
+                'en' => "We conduct a deep analysis of companies' financial statements quarterly according to AAOIFI and DFM standards"
             ],
             'li3' =>[
-                'ru'=> 'В&nbsp;состав команды входят: аналитики со&nbsp;степенями кандидатов наук, прошедшие обучение по&nbsp;программе ACCA ДипИФР и&nbsp;сертифицированный шариатский эксперт <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr>.',
-                'kz'=>'Топ мүшелерінің қатарына ACCA және ДипИФР бағдарламалары бойынша оқудан өткен, кандидат дәрежесі бар аналитиктер мен AAOIFI сертификатталған Шариғат сарапшысы кіреді',
-                'en'=>'The team includes: analysts with Ph.D. degrees from the ACCA DipIFR program and an AAOIFI certified Shariah expert.'
+                'ru'=> 'Команда Sahih Invest объединяет высококвалифицированных аналитиков с кандидатскими степенями, специалистов, прошедших обучение по программе ACCA ДипИФР, и шариатских экспертов, сертифицированных <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr>',
+                'kz'=>'Sahih Invest командасы қандидат дәрежесіне ие болған жоғары білікті аналитиктерді, ACCA ДипИФР бағдарламасы бойынша оқыту алған мамандарды және AAOIFI сертификатталған шариат эксперттерін біріктіреді',
+                'en'=>'The Sahih Invest team brings together highly qualified analysts with doctoral degrees, specialists trained under the ACCA DipIFR program, and Shariah experts certified by AAOIFI.'
             ],
             'li4' =>[
-                'ru'=> 'Проводится аудит деятельности внешним шариатским экспертом от&nbsp;Духовного управления мусульман Республики Татарстан.',
-                'kz'=>'Татарстан Республикасының Мұсылмандар Діни Басқармасының Шариғат сарапшысы аудит жүргізеді',
-                'en'=>'An external Sharia expert from the Spiritual Board of Muslims'
+                'ru' => 'Sahih Invest обеспечивает надежность своих услуг благодаря аудиту деятельности, проводимому независимым шариатским экспертом от Духовного управления мусульман Республики Татарстан',
+                'kz' => 'Sahih Invest өз қызметтерінің сенімділігін Татарстан Республикасының мұсылмандарының Дини басқармасының тәуелсіз шариат эксперті жүзеге асырған аудит арқылы кепілдейді',
+                'en' => 'Sahih Invest ensures the reliability of its services through an audit conducted by an independent Shariah expert from the Spiritual Administration of Muslims of the Republic of Tatarstan.'
             ],
             'pod' => [
-                'ru'=> 'Поддержать проект',
-                'kz'=>'Жобаны қолдау',
-                'en'=>'Support the project'
+                'ru' => 'Желаете внести вклад в развитие исламских финансовых продуктов? Поддержите наш проект!',
+                'kz' => 'Ислам қаржылық өнімдерін дамытуға үлес қосқыңыз келеді ме? Біздің жобамызды қолдаңыз!',
+                'en' => 'Want to contribute to the development of Islamic financial products? Support our project'
             ],
             'vid' => [
                 'ru'=> 'Видео-обзор',
@@ -354,24 +363,24 @@ $text = [
                 'en'=>'on IOS and Android'
             ],
             'c1'=>[
-                'ru'=> 'Пробная версия',
-                'kz'=>'Сынамалық нұсқа',
-                'en'=>'Trial version'
+                'ru'=> 'Sahih Invest прямо сейчас: бесплатная версия предоставляет анализ до 70 компаний.',
+                'kz'=>'Sahih Invest қазір ғана: сынақ нұсқасы 70 компанияның анализін ұсынады.',
+                'en'=>'Sahih Invest right now: the trial version offers analysis for up to 70 companies. '
             ],
             'c2'=>[
-                'ru'=> 'Pro-версия',
-                'kz'=>'Pro-нұсқа',
-                'en'=>'Pro version '
+                'ru'=> 'Освойте преимущества Sahih Invest с Pro-версией: ',
+                'kz'=>'Sahih Invest пайдаларын Pro-нұсқасымен үйреніңіз',
+                'en'=>'Explore the benefits of Sahih Invest with the Pro version'
             ],
             'do40'=>[
-                'ru'=> 'до 40',
-                'kz'=>'40 дейін',
-                'en'=>'up to 40'
+                'ru'=> 'Первый шаг к эффективному инвестированию',
+                'kz'=>'Эффективті инвестицияға алғашқы қадам',
+                'en'=>'The first step towards effective investing'
             ],
             'bolee600'=>[
-                'ru'=> 'более 600',
-                'kz'=>'600 астам',
-                'en'=>'more than 600'
+                'ru'=> 'доступ к анализу более 750 компаний',
+                'kz'=>'750-ден астам компанияның анализіне қол жеткізу',
+                'en'=>'access to the analysis of over 750 companies'
             ],
             'l1'=>[
                 'ru'=> 'Доступ к проверенным компаниям',
@@ -394,9 +403,9 @@ $text = [
                 'en'=>'Notification of a change in the security status in accordance with the norms of Islam'
             ],
             'l5'=>[
-                'ru'=> 'Широкая география проверки компаний, которые торгуются на фондовом рынке (РФ, США, Индонезия, Китай, Казахстан и другие)',
-                'kz'=>'Қор нарығында сауда жасайтын компанияларды әлем бойынша тексеру (РФ, АҚШ, Индонезия, Қытай, Қазақстан және басқалар)',
-                'en'=>'Worldwide verification of companies that are traded on the stock market (Russia, USA, Indonesia, China, Kazakhstan and others)'
+                'ru'=> 'Sahih Invest анализирует компании с глобальным охватом: от России и Казахстана до США, Индонезии и Китая. Погрузитесь в широкую географию фондового рынка с нами!',
+                'kz'=>'Sahih Invest глобалдық қамтылымы бар компанияларды талдайды: Ресей мен Қазақстаннан АҚШ, Индонезия және Қытайға дейін. Бізбен бірге фонд көрсеткіштер саласының кең географиясына мүлдеміңіз!',
+                'en'=>'Sahih Invest analyzes companies with a global reach: from Russia and Kazakhstan to the USA, Indonesia, and China. Dive into the broad geography of the stock market with us!'
             ],
             'otm'=>[
                 'ru'=> 'Отменить подписку',
@@ -421,14 +430,14 @@ $text = [
                 'en'=>'Gift from Partner'
             ],
             't'=>[
-                'ru'=> '1&nbsp;месяц Sahih Invest и&nbsp;Тинькофф Инвестиции&nbsp;— <span>бесплатно</span>',
-                'kz'=>'“Sahih Invest” пен “Тинькофф Инвестициялар”-ында алғашқы ай тегін',
-                'en'=>'1 month free trial of Sahih Invest and Tinkoff Investments'
+                'ru'=> "Получите эксклюзивное предложение: 1 месяц использования Sahih Invest и Тинькофф Инвестиции абсолютно бесплатно! Идеальное начало вашего инвестиционного пути",  
+                'kz'=>'Эксклюзивті ұсыныс алыңыз: Sahih Invest және Тинькофф Инвестицияларды пайдалану 1 ай толық тегін! Сіздің инвестициялық жолыңыздың тамаша бастауы',
+                'en'=>'Get an exclusive offer: 1 month of using Sahih Invest and Tinkoff Investments absolutely for free! The perfect start to your investment journey'
             ],
             'l1'=>[
-                'ru'=> 'Откройте <abbr title="Обслуживание счета&nbsp;— 0 ₽ на&nbsp;тарифе «Инвестор» (комиссия от&nbsp;0,025% за&nbsp;любые сделки, ввод и&nbsp;вывод денег, услуги депозитария&nbsp;— бесплатно.">счет в&nbsp;Тинькофф</abbr><br>Инвестиции (5&nbsp;мин)',
-                'kz'=>'“Тинькофф Инвестициялар” - да шот ашыңыз (5 минут)',
-                'en'=>'Open an account in Tinkoff Investments'
+                'ru'=> 'Начните инвестировать: откройте <abbr title="Обслуживание счета&nbsp;— 0 ₽ на&nbsp;тарифе «Инвестор» (комиссия от&nbsp;0,025% за&nbsp;любые сделки, ввод и&nbsp;вывод денег, услуги депозитария&nbsp;— бесплатно."> счет в&nbsp;Тинькофф</abbr> Инвестиции всего за 5 минут!',
+                'kz'=>'Инвестицияға бастаңыз: Тинькофф Инвестицияларда есепті тек 5 минут ішінде ашыңыз!',
+                'en'=>'Start investing: open an account with Tinkoff Investments in just 5 minutes!'
             ],
             't1'=>[
                 'ru'=> 'Обслуживание счета&nbsp;— 0 ₽ на&nbsp;тарифе «Инвестор» (комиссия от&nbsp;0,025% за&nbsp;любые сделки, ввод и&nbsp;вывод денег, услуги депозитария&nbsp;— бесплатно.',
@@ -441,9 +450,9 @@ $text = [
                 'en'=>'Top up your account within 30 days and buy shares for at least 1000 ₽ '
             ],
             'l3'=>[
-                'ru'=> 'Пришлите подтверждение выполненных условий к&nbsp;нам в&nbsp;<a href="https://tlgg.ru/@sahihinvest" target="_blank" class="link">телеграм</a> и&nbsp;получите промокод на&nbsp;бесплатную подписку PRO и&nbsp;бесплатное обслуживание Тинькофф Инвестиции на&nbsp;30&nbsp;дней',
-                'kz'=>'Біздің телеграмға орындалған шарттардың растамасын жіберіңіз және Pro тегін жазылымына промокод және “Тинькофф Инвестициялар”- да 30 күндік тегін қызмет  алыңыз',
-                'en'=>'Send confirmation of the fulfilled conditions to our telegram and get a promo code for a free PRO subscription and free Tinkoff Investment service for 30 days'
+                'ru'=> 'Пришлите подтверждение выполненных условий к нам в <a href="https://tlgg.ru/@sahihinvest" target="_blank" class="link">телеграм</a>  и мы активируем  бесплатную подписку PRO и бесплатное обслуживание Тинькофф Инвестиции на 30 дней',
+                'kz'=> 'Бізге телеграмда орындалған шарттардың растығын жіберіңіз, және біз PRO жазылымын тегін белсендіріп, Тинькофф Инвестицияларды 30 күнге тегін қызмет көрсетуімізді іске қосамыз',
+                'en'=> 'Send us a confirmation of the fulfilled conditions in Telegram, and we will activate a free PRO subscription and free Tinkoff Investments service for 30 days'
             ],
             'btn'=>[
                 'ru'=> 'Открыть счет и&nbsp;получить бонус',
@@ -454,19 +463,19 @@ $text = [
         ],
         'api-info' => [
             'h1'=>[
-                'ru'=> 'Sahih API&nbsp;— для&nbsp;банков, брокеров, управляющих компаний',
-                'kz'=>'Sahih API банктер, брокерлер, және басқарушы компанияларға арналған',
-                'en'=>'Sahih API — for banks, brokers and management companies'
+                'ru'=> 'Sahih API: инструмент для интеграции с банками, брокерскими и управляющими компаниями. Доступ к инвестирования по нормам ислама',
+                'kz'=>'Sahih API: банктер, брокердік және басқару компанияларымен интеграциялау үшін құрал. Ислам дініне сәйкес инвестицияға қол жеткізу',
+                'en'=>'Sahih API: A tool for integration with banks, brokerage, and management companies. Access to investing in accordance with Islamic norms'
             ], 
             't1'=>[
-                'ru'=> 'Расширьте линейки инвестиционных продуктов, <br>соответствующим нормам ислама.',
+                'ru'=> 'Диверсифицируйте вашу инвестиционную стратегию, добавив продукты, соответствующие исламским финансовым нормам',
                 'kz'=>'Ислам қағидалары мен нормаларына (Шариғат) сай инвестициялық өнімдердің санын көбейтіңіз',
                 'en'=>'Expand the range of investment products that comply with the norms of Islam'
             ], 
             't2'=>[
-                'ru'=> 'Sahih API&nbsp;— фундамент для&nbsp;создания и&nbsp;управления этичными <br>инвестиционными продуктами. API позволяет узнать,<br> соответствует&nbsp;ли компания нормам.',
-                'kz'=>'Sahih API - этикалық инвестициялық өнімдерді құру мен басқарудың негізі. <br>API компанияның нормаларға сәйкес келетіндігін анықтауға мүмкіндік береді.',
-                'en'=>'Sahih API is the foundation for creating and managing ethical investment products.<br>The API allows you to find out if the company complies with the norms.'
+                'ru'=> 'Sahih API — ваш ключ к этичным инвестициям. Создавайте и управляйте инвестиционными продуктами, опираясь на наш API для проверки соответствия компаний исламским стандартам. Будьте уверены в выборе благонадежных активов',
+                'kz'=> "Sahih API — сіздің кілтіңіз этикалық инвестицияларға. Біздің API'ны пайдаланып, компаниялардың ислам стандарттарына сәйкес келуін тексеру арқылы инвестициялық өнімдерді құру және басқару жасаңыз. Тандап алған активтердің қауіпсіздігіне көз жасамаңыз",
+                'en'=> "Sahih API is your key to ethical investments. Create and manage investment products using our API to verify the compliance of companies with Islamic standards. Be confident in your choice of reliable assets"
             ], 
             'h41'=>[
                 'ru'=> 'Что&nbsp;можно с&nbsp;этим делать?',
@@ -544,9 +553,9 @@ $text = [
                 'en'=>'Project team'
             ],
             'text'=>[
-                'ru'=>'Собрали опытных руководителей, шариатских экспертов, аналитиков',
-                'kz'=>'Тәжірибелі мамандар, Шариғат сарапшылары мен аналитиктер',
-                'en'=>'We gathered experienced managers, Sharia experts, analysts'
+                'ru'=>'В команде Sahih Invest объединились профессионалы: опытные руководители, авторитетные шариатские эксперты и квалифицированные аналитики. Вместе мы работаем над эффективными и этичными инвестиционными решениями',
+                'kz'=>'Sahih Invest командасында профессионалдар бірікті: тәжірибелі басшылар, авторитетті шариат эксперттері және білікті аналитиктер. Біз бірге эффективті және этикалық инвестициялық шешімдер жасау бойынша жұмыс істейміз',
+                'en'=>'At Sahih Invest, professionals have come together: experienced leaders, authoritative Sharia experts, and qualified analysts. Together, we work on effective and ethical investment solutions'
             ],
             'n1'=>[
                 'ru'=>'Артур Нурмухаметов',
@@ -721,9 +730,9 @@ $text = [
                 'en'=>'What methodology do you apply to select the companies?'
             ],
             'fo3'=>[
-                'ru'=>'Наша методология разработана совместно с&nbsp;Российским Исламским институтом. Нами были использованы результаты многолетних исследований мусульманских богословов мирового уровня и&nbsp;международных исламских организаций и&nbsp;центров.',
-                'kz'=>'Біздің әдістемеміз Ресей Ислам институтымен бірлесіп жасалған. Біз бұнда әлемдік деңгейдегі мұсылман дінтанушылары мен Халықаралық Ислам ұйымдары мен орталықтарының көпжылдық зерттеулерінің нәтижелерін пайдаландық.',
-                'en'=>'Our methodology was developed jointly with the Russian Islamic Institute. We have used the results of many years of research by world-class Muslim theologians and international Islamic organizations and centers.'
+                'ru'=>'Мы разработали нашу методологию в партнерстве с Российским Исламским институтом, основываясь на глубоких исследованиях ведущих мусульманских богословов мирового класса и данных международных исламских организаций и центров. Этот подход обеспечивает высокую степень надежности и соответствие исламским стандартам',
+                'kz'=>'Біз өз методологиямызды Әлемдік деңгейдегі басым мұсылман діни тұлғаларының көмегімен және халықаралық ислам ұйымдарының және орталығының мәліметтеріне сүйеніп, Ресей Ислам институтымен өзара өндірілген. Бұл підап ислам стандарттарына сәйкес келу және жоғары деңгейдегі сенімділікті қамтамасыз етеді',
+                'en'=>'We developed our methodology in partnership with the Russian Islamic Institute, drawing on deep research from leading Muslim theologians of global stature and data from international Islamic organizations and centers. This approach ensures a high degree of reliability and compliance with Islamic standards'
             ],
             'ft4'=>[
                 'ru'=>'Анализируете&nbsp;ли вы <br>фонды, ETF?',
@@ -812,18 +821,9 @@ $text = [
                 'en'=>'Why do other applications have different analysis indicators?'
             ],
             'fo8'=>[
-                'ru'=>'Каждый отчет проверяем вручную, анализируя каждую статью и&nbsp;изучая расшифровки которые приведены в&nbsp;отчете. Наша методология разрабатывалась совместно с&nbsp;Российским Исламским Институтом на&nbsp;базе международных стандартов <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr>, <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка">DFM</abbr>. В&nbsp;2021&nbsp;года нашу методологию утвердили на&nbsp;Совете Улемов Духовного управления мусульман Республики Татарстан.<br><br>
-                    Использование готовых данных агрегаторов покажет округленные цифры, когда речь идёт о&nbsp;нас&nbsp;— мы сверяемся в&nbsp;точности как&nbsp;есть в&nbsp;официальной отчетности. Если исчисления в&nbsp;млн. руб./долл. искажения могут быть существенные.',
-                'kz'=>'Неліктен талдау көрсеткіштері өзге қосымшаларда басқа?
-                    Біз есептемені жеке-жеке тексереміз. Ол үшін есепте көрсетілген әр мақаланы талдап зерттейміз. <br>
-                    Біздің әдістемеміз Ресей Ислам институтымен бірлесіп AAOIFI, DFM халықаралық стандарттары негізінде әзірленген. <br>
-                    2021 жылы әдістемеміз Татарстан Республикасы Мұсылмандары Діни басқармасының ғұламалар кеңесінде бекітілді.<br>
-                    Дайын деректерді пайдаланғанда жуықталған шама көрсетіледі, ал біз дәл ресми есептемеде көрсетілген сандармен жұмыс жасаймыз.<br>
-                    Егер есептеулер миллион рубль / доллар болса, сандардағы айырмашылық үлкен болуы мүмкін.
-                ',
-                'en'=>'We check each report manually, analyzing each article and studying the transcripts that are given in the report. Our methodology was developed jointly with the Russian Islamic Institute on the basis of AAOIFI, DFM international standards. In 2021, our methodology was approved by the Council of Ulema of the Spiritual Administration of Muslims of the Republic of Tatarstan.<br>
-                    Using readily available data of the aggregator will show rounded figures, for this reason we check exactly as it is in the official reports. The distortions may be significant, if it is calculated in millions of rubles/USD
-                '
+                'ru'=>'Каждый отчет проходит нашу тщательную ручную проверку. Мы анализируем каждую статью и углубляемся в расшифровки, приведенные в документе. снованы на международных стандартах <abbr title="Организация бухгалтерского учета и&nbsp;аудита исламских финансовых учреждений.">AAOIFI</abbr> и <abbr title="Совет по&nbsp;фетвам и&nbsp;Шариатскому Надзору Дубайского финансового рынка">DFM</abbr> и разработаны в тесном сотрудничестве с Российским Исламским Институтом. Этот подход получил официальное утверждение на Совете Улемов Духовного управления мусульман Республики Татарстан в 2021 году',
+                'kz'=>'Әр отчет біздің қанақа тиісті қолмен тексеруімізді өтеді. Біз әр мақаланы талдау және документте көрсетілген түсіндірулерге тереңдейміз. Біздің әдістері AAOIFI және DFM халықаралық стандарттарына негізделген және Ресей Ислам институтымен жақын жұмыс істеп әзірленген. Бұл підап 2021 жылы Татарстан Республикасының мұсылман діни басқаруы Улемалар кеңесінде ресми бекіту алды',
+                'en'=>'Each report undergoes our meticulous manual review. We analyze each article and delve into the explanations provided in the document. Our methods are based on the international standards of AAOIFI and DFM and were developed in close collaboration with the Russian Islamic Institute. This approach was officially approved by the Council of Ulemas of the Spiritual Administration of Muslims of the Republic of Tatarstan in 2021'
             ],
         ],
         'contacts'=>[
