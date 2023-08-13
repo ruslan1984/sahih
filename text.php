@@ -150,53 +150,53 @@ $text = [
     'its' => [
         'h1' => [
             'ru' => 'Sahihinvest и ITS: Вместе к Исламскому Индексу',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'Sahihinvest and ITS: Together Towards the Islamic Index',
+            'en' => 'Sahihinvest және ITS: Ислам Индексіне бірге'
         ],
         'p' => [
             'ru' => 'В партнерстве с ITS, мы гордимся представить первый исламский индекс в Казахстане. Придерживаясь принципов шариатского инвестирования, мы обеспечиваем соответствие индекса исламским стандартам.',
-            'kz' => '',
-            'en' => ''
+            'kz' => "In partnership with ITS, we are proud to present the first Islamic index in Kazakhstan. Adhering to the principles of Shariah investing, we ensure the index's compliance with Islamic standards",
+            'en' => 'ITS партнері болып, біз Қазақстанда бірінші Ислам индексін танытудан қуаныштымыз. Шариаттық инвестциялаудың принциптеріне ере, біз индекстің Ислам стандарттарына сәйкес келуін қамтамасыз етуді қамтамасыз етеміз'
         ],
         'about_t' => [
             'ru' => 'О ITS',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'About ITS',
+            'en' => 'ITS туралы'
         ],
         'about' => [
             'ru' => 'ITS - международный хаб ликвидности, обеспечивающий инвесторам доступ к наилучшим ценам на глобальном финансовом рынке через уникальную технологию smart order routing и принцип best execution.',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'ITS is an international liquidity hub, providing investors with access to the best prices in the global financial market through unique smart order routing technology and the principle of best execution',
+            'en' => ' ITS - халықаралық су жолдарын ұйымдастыру орталығы, инвесторларға ғлобалдық қаржы нарығында ең жақсы бағаларға рұқсат береді, бұны бірегей smart order routing технологиясы және best execution принципі арқылы жасайды'
         ],
         'audit_t' => [
             'ru' => 'Шариатский Аудит',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'Shariah Audit',
+            'en' => 'Шариаттық Аудит'
         ],
         'audit' => [
             'ru' => 'Наша команда экспертов проводит тщательный шариатский аудит и контроль, чтобы удостовериться, что каждый элемент индекса соответствует исламским принципам.',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'Our team of experts conducts a thorough Shariah audit and control to ascertain that every component of the index complies with Islamic principles',
+            'en' => 'Біздің сарапшылар тобы индекстің әр элементін Ислам принциптеріне сәйкес келетінін тексеру үшін толық шариаттық аудит және бақылау жүргізеді'
         ],
         'session_t' => [
             'ru' => 'Торговая Сессия ITS',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'ITS Trading Session',
+            'en' => 'ITS Сауда Сессиясы'
         ],
         'session' => [
             'ru' => 'С 11:00 до 03:00 следующего дня по астанинскому времени, ITS предоставляет возможность торговать на протяжении 16 часов в сутки, пять дней в неделю, охватывая рабочее время ведущих биржевых площадок Азии, Европы и Америки.',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'From 11:00 to 03:00 the next day Astana time, ITS offers a trading opportunity for 16 hours a day, five days a week, covering the working hours of leading stock exchanges in Asia, Europe, and America',
+            'en' => 'Астана уақыты бойынша таң 11:00-ден келесі күн 03:00-ге дейін ITS күндері 16 сағат, аптасына 5 күн сауда жасау мүмкіндігін ұсынады, Азия, Еуропа және Американың бас биржаларының жұмыс уақытын қамтамасыз етеді'
         ],
         'contact_t' => [
             'ru' => 'Контакты',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'Contact',
+            'en' => 'Байланыс'
         ],
         'contact' => [
             'ru' => 'Если у вас есть вопросы или предложения, обратитесь к пресс-службе ITS по адресу: <a href="mailto:pr@itsx.kz">pr@itsx.kz</a>',
-            'kz' => '',
-            'en' => ''
+            'kz' => 'If you have any questions or suggestions, please contact the ITS press service at: pr@itsx.kz',
+            'en' => 'Егер сізде сұрақтар не ұсыныстар болса, ITS пресс-қызметіне muraqat jasay: pr@itsx.kz'
         ],
         "l1"=>[
            'ru' => ' AS IS Вошли в число AIFC Fintech Membership, получили статус Стартап в ОЭЗ «Иннополис»
