@@ -2,15 +2,15 @@
 
 $text = [
     'header'=>[
-        'desc'=>[
-            'ru'=>"Ведущий аналитический инструмент для идентификации халяльных акций. Инвестируйте в проверенные с точки зрения ислама акции с Sahih Invest.",
-            'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру ',
-            'en'=>'Shariah compliance screening for stocks'
-        ],
         'title'=>[
             'ru'=>"Sahih Invest: Исламский Скрининг и Халяльные Акции для Инвесторов",
-            'kz'=>'Ислам нормалары мен қағидаларына сай акцияларды тексеру',
-            'en'=>'Stock screener according to Islamic norms'
+            'kz'=>'Sahih Invest: Исламдық Скрининг және Халяль Акциялар Инвесторлар үшін',
+            'en'=>'Sahih Invest: Islamic Screening and Halal Stocks for Investors'
+        ],
+        'desc'=>[
+            'ru'=>"Ведущий аналитический инструмент для идентификации халяльных акций. Инвестируйте в проверенные с точки зрения ислама акции с Sahih Invest.",
+            'kz'=>'Халяль акцияларды анықтау үшін басшы аналитикалық құрал. Sahih Invest пен ислам көзқарасы бойынша тексерілген акцияларға инвестция жасаңыз',
+            'en'=>'eading analytical tool for identifying halal stocks. Invest in Islamically verified stocks with Sahih Invest'
         ],
         'logo'=>[
             't1'=> [
@@ -64,9 +64,9 @@ $text = [
             'en'=>'Download Mobile App'
         ],
        'h1'=>[ 
-            'ru'=>'Создайте этичный инвестиционный портфель с Sahih Invest',
-            'kz'=>'Sahih Invest арқылы этикалық инвестициялық портфель жасаңыз',
-            'en'=>'Build an Ethical Investment Portfolio with Sahih Invest'
+            'ru'=>'Выбор Халяльных Акций с Sahih Invest',
+            'kz'=>'Sahih Invest арқылы Халяль Акцияларды Таңдау',
+            'en'=>'Choosing Halal Stocks with Sahih Invest'
        ],
        'p1'=> [
             'ru' => '<b>Ручной</b> анализ компаний по&nbsp;методологиям 
