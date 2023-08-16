@@ -115,6 +115,10 @@
 }
 
 @media (max-width: 991px) {
+  .coursesPage .card {
+    max-width: 100%;
+    width: 100%;
+  }
   .courseBlock {
     flex-direction: column;
   }
