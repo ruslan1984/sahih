@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<?php include_once $dir."/text.php"; 
+<?php include_once $dir."/text.php"; ?>
 
-include_once $dir."/sections/head.php"; 
-
-?>
+<head>
+    <?php include_once $dir."/sections/head.php"; ?>
+</head>
 
 <body>
     <?php 

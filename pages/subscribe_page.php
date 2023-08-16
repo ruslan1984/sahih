@@ -1,8 +1,9 @@
 <body>
 
-    <?php 
-    include $dir."/sections/head.php";
-    include $dir."/sections/header.php"; ?>
+    <head>
+        <?php include $dir."/sections/head.php";?>
+    </head>
+    <?php include $dir."/sections/header.php"; ?>
 
     <style>
     body,
