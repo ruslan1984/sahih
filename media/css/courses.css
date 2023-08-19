@@ -1,11 +1,27 @@
 .coursesPage {
   padding-top: 100px;
+  padding-bottom: 100px;
   background: #f2f3f5;
 }
 .coursesPage .coursesBlock {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.coursesPage .module {
+  padding: 15px 25px;
+  /* border: 1px solid #ddd9d9; */
+  border-radius: 5px;
+  background: #f7f5f5;
+  margin-bottom: 5px;
+}
+.coursesPage .modCount {
+  color: #5f5d5d;
+}
+.coursesPage .moduleFooter {
+  padding-top: 10px;
+  text-align: right;
 }
 .coursesPage .card {
   padding: 20px;
@@ -18,11 +34,11 @@
   cursor: pointer;
   transition: 0.3s;
   color: black;
-  max-width: 365px;
+  width: 100%;
 }
-.coursesPage .card:hover {
+/* .coursesPage .card:hover {
   transform: scale(1.02);
-}
+} */
 .coursesPage .card .h4 {
   font-size: 20px;
 }
@@ -55,7 +71,7 @@
 }
 
 .coursesPage .author {
-  font-size: 12px;
+  font-size: 16px;
   color: #626466;
 }
 
@@ -66,7 +82,7 @@
   gap: 5px;
   margin: 40px auto;
 }
-
+/* 
 .paginate .page {
   padding: 10px;
   width: 50px;
@@ -86,7 +102,7 @@
 .paginate .page.cur {
   background: linear-gradient(92.54deg, #61bf5e 1.85%, #67bbb1 96.95%);
   color: white;
-}
+} */
 
 .courseBlock {
   display: flex;
@@ -109,9 +125,8 @@
 .courseBlock .content {
   margin-bottom: 30px;
 }
-
-.courseBlock .video {
-  max-width: 500px;
+.video {
+  max-width: 100%;
 }
 
 @media (max-width: 991px) {

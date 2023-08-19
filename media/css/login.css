@@ -1,0 +1,28 @@
+.loginPage {
+  padding: 100px 0;
+  min-height: 90%;
+}
+.loginPage .h1 {
+  text-align: center;
+  margin: 40px auto;
+}
+.loginPage .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.loginPage .input {
+  border: 1px solid #67bbb1;
+  border-radius: 5px;
+  width: 100%;
+}
+.loginPage .error {
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+.loginPage .error.show {
+  display: block;
+}

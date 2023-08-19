@@ -13,7 +13,7 @@
         ]
     ];
     $context = stream_context_create($opts);
-    $api = 'https://arm-test.sahihinvest.ru/api/courses/preview/all';
+    $api = $host_api.'/api/courses/preview/all';
     $cour = file_get_contents($api, false, $context);  
     $courses = json_decode($cour, true);
 
@@ -47,8 +47,8 @@
                 </video>
             </div>
         </div>
-        <?php include $dir."/sections/footer.php";?>
     </div>
+    <?php include $dir."/sections/footer.php";?>
 </body>
 <script>
 // (async ()=>{
