@@ -6,8 +6,9 @@
 </head>
 <?php
     $courses=[];
-    if(array_key_exists( 'token',$_COOKIE )) {
-        $token =  $_COOKIE['token'];
+    $token = "eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbiI6InJ1c2xhbjIzMTk4NEB5YW5kZXgucnUiLCJuYW1lIjoicnVzbGFuIiwiZXhwIjoyMDA3ODEyNzg3fQ.K9IqjhiNe9e8L7tENbCXQZdoMPbjnKkDColBmiGPjrk";
+    // if(array_key_exists( 'token',$_COOKIE )) {
+    //     $token =  $_COOKIE['token'];
         try {
             $opts = [
                 "http" => [
@@ -23,7 +24,7 @@
         } catch(Exception $e) {
 
         }
-    }
+    // }
 ?>
 
 <body>
