@@ -47,7 +47,8 @@
 
                         <div class="moduleFooter">
                             <a class="btn btn--main"
-                                href="/course/<?php echo $item['guid']?>/module/<?php echo $module['guid']?>">Подробнее</a>
+                                href="/course/<?php echo $item['guid']?>/module/<?php echo $module['guid']?>">Подробнее
+                                о курсе</a>
                         </div>
                     </div>
                     <?php endforeach;?>
