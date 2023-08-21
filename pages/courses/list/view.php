@@ -51,6 +51,7 @@
                                 о курсе</a>
                         </div>
                     </div>
+                    <?break;?>
                     <?php endforeach;?>
                 </div>
             </div>

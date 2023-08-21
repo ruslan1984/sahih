@@ -63,6 +63,15 @@
             videoModal.classList.remove('open');
             video.pause();
         }));
+        video.addEventListener('progress', function(e) {
+            // let loadedPercentage = this.buffered.end(0) / this.duration;
+            console.log("duration", this.duration);
+            console.log("currentTime", this.currentTime);
+            console.log("e", e);
+            console.dir(this);
+            // console.log(e.timeStamp);
+        });
+
 
     }))
 })()

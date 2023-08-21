@@ -41,7 +41,7 @@
 (() => {
     const form = document.querySelector('.form');
     const error = document.querySelector('.error');
-    const url = "<?php echo $host_api?>/api/sign-up";
+    const url = "<?php echo $host_api?>/api/users/sign-up";
     form.addEventListener('click', () => {
         if (error.classList.contains("show")) {
             error.classList.remove("show");
@@ -62,30 +62,22 @@
 
         const response = await fetch(url, {
             method: 'post',
-            body: {
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
                 "login": email,
                 "name": username,
                 "password": password,
                 "email": email,
                 "country": "RU"
-            },
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
-            }
+            }),
         });
         if (response.status === 200) {
-            const {
-                accessToken
-            } = await response.json();
-            const now = new Date();
-            const time = now.getTime();
-            const expireTime = time + 1000 * 36000;
-            now.setTime(expireTime);
-            document.cookie = `token=${accessToken}; path=/; expires=${now.toUTCString()}`;
-            document.location.href = "/courses/";
-
+            document.location.href = `/confirmation?email=${email}`;
             return;
         }
+        error.innerText = data.message;
         error.classList.add("show");
     });
 })()

@@ -10,6 +10,7 @@
     $patternModuleList = '/^\/course\/(\w|-)*\/module\/(\w|-)*$/';
     $patternLogin = '/^\/login$/';
     $patternRegister = '/^\/register$/';
+    $patternConfirmation = '/^\/confirmation\?email=(\w|-|_|@|.){4,}$/';
 
     $host_api = 'https://arm.sahihinvest.ru';
     
@@ -23,6 +24,8 @@
         include_once "./pages/auth/login.php"; 
     }else if(preg_match($patternRegister, $curUrl)){
         include_once "./pages/auth/register.php"; 
+    }else if(preg_match($patternConfirmation, $curUrl)){
+        include_once "./pages/auth/confirmation.php"; 
     } else {
         include_once "./page.php"; 
     }
