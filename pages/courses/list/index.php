@@ -6,7 +6,6 @@
 </head>
 <?php
     $courses=[];
-    // $token = "eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbiI6InJ1c2xhbjIzMTk4NEB5YW5kZXgucnUiLCJuYW1lIjoicnVzbGFuIiwiZXhwIjoyMDA3ODEyNzg3fQ.K9IqjhiNe9e8L7tENbCXQZdoMPbjnKkDColBmiGPjrk";
     if(array_key_exists( 'token',$_COOKIE )) {
         $token =  $_COOKIE['token'];
         try {
@@ -20,12 +19,23 @@
             $context = stream_context_create($opts);
             $api = "$host_api/api/courses/preview/all";
             $cour = file_get_contents($api, false, $context);  
+            if(trim($http_response_header[0])==="HTTP/1.1 403" ){
+                header("Location: /login");
+                header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+                die();
+            }
+            
             $courses = json_decode($cour, true);
+            
         } catch(Exception $e) {
             header("Location: /login");
+            header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+            die();
         }
     }else{
         header("Location: /login");
+        header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+        die();
     }
 ?>
 
