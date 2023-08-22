@@ -30,8 +30,10 @@
             }, ARRAY_FILTER_USE_BOTH);
 
         } catch(Exception $e) {
-
+            header("Location: /login");
         }
+    }else{
+        header("Location: /login");
     }
 ?>
 

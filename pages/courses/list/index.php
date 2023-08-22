@@ -22,8 +22,10 @@
             $cour = file_get_contents($api, false, $context);  
             $courses = json_decode($cour, true);
         } catch(Exception $e) {
-
+            header("Location: /login");
         }
+    }else{
+        header("Location: /login");
     }
 ?>
 
