@@ -31,65 +31,40 @@
     <?php 
         include $dir."/sections/header.php"; 
         include __DIR__."/view.php"; 
-        
-        ?>
-
-    <?php include $dir."/sections/footer.php";?>
+        include $dir."/sections/footer.php";
+        include $dir."/sections/scripts.php";
+    ?>
 </body>
 <script>
-// (async ()=>{
-//     const Authorization="Bearer eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbiI6InJ1c2xhbjIzMTk4NEB5YW5kZXgucnUiLCJuYW1lIjoi0KDRg9GB0LvQsNC9IiwiZXhwIjoyMDA3Mjc5MjA4fQ.evmBWvjAWRQ-Ue2apgw0qtow51aYKbVTPi9U9kxUuVk";
-//     const address= "https://arm-test.sahihinvest.ru";
-//     const url=address+"/api/courses/all";
-//     // const url ="https://garab.ru/api/grammar";
-//     const response = await fetch(url,{
-//         method: "GET",
-//         headers: {
-//             Authorization
-//         },
-//         // withCredentials: true
-//         // credentials: 'omit'
-//     });
-//     const courses = await response.json();
-//     console.log(courses);
-// })();
+(() => {
+    const courses = <?php echo $cour ?>;
+
+    /* 
+        Наполнение курсов 
+    */
+    let openCourses = JSON.parse(localStorage.getItem('openCourses')) || {};
+
+    courses.map((course) => {
+
+        if (!openCourses[course.guid]) {
+            openCourses[course.guid] = {};
+        }
+        course.moduleViewList.map((modul) => {
+            if (!openCourses[course.guid][modul.guid]) {
+                openCourses[course.guid][modul.guid] = {};
+            }
+            modul.lessonViewList.map((lesson, index) => {
+                if (!openCourses[course.guid][modul.guid][lesson.guid]) {
+                    openCourses[course.guid][modul.guid][lesson.guid] = index === 0 ?
+                        "open" : "close"
+                }
+            });
+        });
+    });
+
+    localStorage.setItem("openCourses", JSON.stringify(openCourses));
+
+})();
 </script>
 
 </html>
-
-<?php
-// $courses=[
-    //     0=>[
-    //         'guid'=>'1111-sdsada-2222-dwdw',
-    //         'title'=>"Основы исламских финансов",
-    //         'author' => "Курс читает: Ахмад Абу Яхья, Директор   РЦИЭФ при РИИ"
-    //     ],
-    //     1=>[
-    //         'guid'=>'1111-sdsada-2222-dwdw',
-    //         'title'=>"Основы исламских финансов",
-    //         'author' => "Курс читает: Ахмад Абу Яхья, Директор   РЦИЭФ при РИИ"
-    //     ],
-    //     2=>[
-    //         'guid'=>'1111-sdsada-2222-dwdw',
-    //         'title'=>"Основы исламских финансов",
-    //         'author' => "Курс читает: Ахмад Абу Яхья, Директор   РЦИЭФ при РИИ",
-    //         "price" => "6000 ₽"
-    //     ],
-    //     3=>[
-    //         'guid'=>'1111-sdsada-2222-dwdw',
-    //         'title'=>"Основы исламских финансов",
-    //         'author' => "Курс читает: Ахмад Абу Яхья, Директор   РЦИЭФ при РИИ"
-    //     ],
-    //     4=>[
-    //         'guid'=>'1111-sdsada-2222-dwdw',
-    //         'title'=>"Основы исламских финансов",
-    //         'author' => "Курс читает: Ахмад Абу Яхья, Директор   РЦИЭФ при РИИ",
-    //         "price" => "6000 ₽"
-    //     ],
-    //     5=>[
-    //         'guid'=>'1111-sdsada-2222-dwdw',
-    //         'title'=>"Основы исламских финансов",
-    //         'author' => "Курс читает: Ахмад Абу Яхья, Директор   РЦИЭФ при РИИ"
-    //     ],
-    // ];
-    ?>

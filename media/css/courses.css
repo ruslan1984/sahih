@@ -20,10 +20,32 @@
   border-radius: 5px;
   background: #f7f5f5;
   margin-bottom: 10px;
+  /* color: #dcdcdc; */
   /* display: flex; */
   /* justify-content: space-between;
   flex-wrap: wrap; */
 }
+/* .coursesPage .lesson.open {
+  color: black;
+} */
+.coursesPage .lesson .forOpen {
+  display: block;
+  font-size: 15px;
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+.coursesPage .lesson .videoBlock {
+  display: none;
+}
+.coursesPage .lesson.open .forOpen {
+  display: none;
+}
+.coursesPage .lesson.open .videoBlock {
+  display: block;
+}
+
 .coursesPage .modCount {
   color: #5f5d5d;
 }
@@ -81,6 +103,9 @@
 .coursesPage .author {
   font-size: 16px;
   color: #626466;
+}
+.coursesPage .desc {
+  margin-bottom: 20px;
 }
 
 .videoModal {

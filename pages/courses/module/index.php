@@ -7,7 +7,6 @@
 <?php
     $curUrl = $_SERVER['REQUEST_URI'];
     $urlArr = explode("/", $curUrl);
-
     $guidCourse= $urlArr[2];
     $guidModule= $urlArr[4];
     $modules = [];
@@ -26,9 +25,9 @@
             $api = "$host_api/api/courses/module/$guidModule";
             $cour = file_get_contents($api, false, $context);  
             $module = json_decode($cour, true);
-            // array_filter($arr, function($k) {
-            //     return $k == 'b';
-            // }, ARRAY_FILTER_USE_KEY);
+            $module['lessonViewList'] = array_filter($module['lessonViewList'], function($k) {
+                return $k["type"] === 'VIDEO';
+            }, ARRAY_FILTER_USE_BOTH);
 
         } catch(Exception $e) {
 
@@ -40,10 +39,10 @@
     <?php 
         include $dir."/sections/header.php"; 
         include __DIR__."/view.php"; 
-        include $dir."/sections/footer.php";?>
+        include $dir."/sections/footer.php";
+        include $dir."/sections/scripts.php";
+    ?>
 </body>
-<script>
 
-</script>
 
 </html>

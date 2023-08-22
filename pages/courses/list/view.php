@@ -9,6 +9,10 @@
                 <h4 class="h4">
                     <?php echo $item['title']?>
                 </h4>
+                <div>
+                    <video class="video" controls controlsList="nodownload" ;
+                        src=<?php echo $item['videoPreview']?>></video>
+                </div>
                 <div class="imgBlock">
                     <!-- <img width="80px" src="/pages/courses/list/image.png" /> -->
                     <!-- <div> -->
@@ -41,7 +45,7 @@
                         <div class="modCount">
                             Уроков: <?php echo $module['lessonCount']?>
                         </div>
-                        <div>
+                        <div class="desc">
                             <?php echo $module['description'] ?>
                         </div>
 
@@ -51,7 +55,6 @@
                                 о курсе</a>
                         </div>
                     </div>
-                    <?break;?>
                     <?php endforeach;?>
                 </div>
             </div>
