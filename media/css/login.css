@@ -12,6 +12,7 @@
   gap: 10px;
   max-width: 500px;
   margin: 0 auto;
+  padding: 5px;
 }
 .loginPage .input {
   border: 1px solid #67bbb1;
