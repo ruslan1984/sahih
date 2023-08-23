@@ -25,8 +25,10 @@
             $api = "$host_api/api/courses/module/$guidModule";
             $cour = file_get_contents($api, false, $context);
             if(trim($http_response_header[0])==="HTTP/1.1 403" ){
+                header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+            header("Cache-Control: post-check=0, pre-check=0", false);
+            header("Pragma: no-cache");
                 header("Location: /login");
-                header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0');
                 die();
             }
             $module = json_decode($cour, true);
@@ -35,14 +37,18 @@
             }, ARRAY_FILTER_USE_BOTH);
 
         } catch(Exception $e) {
+            header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+            header("Cache-Control: post-check=0, pre-check=0", false);
+            header("Pragma: no-cache");
             header("Location: /login");
-            header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0');
-            die();
+            exit;
         }
     }else{
+        header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+        header("Cache-Control: post-check=0, pre-check=0", false);
+        header("Pragma: no-cache");
         header("Location: /login");
-        header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0');
-        die();
+        exit;
     }
 ?>
 
