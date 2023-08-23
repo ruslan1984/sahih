@@ -20,22 +20,22 @@
             $api = "$host_api/api/courses/preview/all";
             $cour = file_get_contents($api, false, $context);  
             if(trim($http_response_header[0])==="HTTP/1.1 403" ){
-                header("Location: /login");
                 header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0',false, 307);
-                die();
+                header("Location: /login");
+                exit;
             }
             
             $courses = json_decode($cour, true);
             
         } catch(Exception $e) {
-            header("Location: /login");
             header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0',false, 307);
-            die();
+            header("Location: /login");
+            exit;
         }
     }else{
-        header("Location: /login");
         header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0',false, 307);
-        die();
+        header("Location: /login");
+        exit;
     }
 ?>
 
