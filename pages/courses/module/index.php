@@ -26,7 +26,7 @@
             $cour = file_get_contents($api, false, $context);
             if(trim($http_response_header[0])==="HTTP/1.1 403" ){
                 header("Location: /login");
-                header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+                header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0');
                 die();
             }
             $module = json_decode($cour, true);
@@ -36,12 +36,12 @@
 
         } catch(Exception $e) {
             header("Location: /login");
-            header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+            header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0');
             die();
         }
     }else{
         header("Location: /login");
-        header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+        header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0');
         die();
     }
 ?>
