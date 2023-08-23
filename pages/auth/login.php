@@ -27,13 +27,13 @@
     </div>
     </div>
     <?php include $dir."/sections/footer.php";?>
+    <?php include __DIR__."/md5.php";?>
 </body>
 
 <script>
 (() => {
     const form = document.querySelector('.form');
     const error = document.querySelector('.error');
-    // const url = "https://arm-test.sahihinvest.ru/api/login";
     const url = "<?php echo $host_api?>/api/login";
 
     form.addEventListener('click', () => {
@@ -48,7 +48,7 @@
         const password = form[1].value;
         const response = await fetch(url, {
             method: 'post',
-            body: `username=${username}&password=${password}`,
+            body: `username=${username}&password=${MD5(password)}`,
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             }
