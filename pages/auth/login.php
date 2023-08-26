@@ -3,6 +3,8 @@
 <head>
     <?php include_once $dir."/sections/head.php";?>
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/login.css" />
+    <meta name="google-signin-client_id"
+        content="713052553041-7g97tip4a82027el00e89qntlgqn2lck.apps.googleusercontent.com">
 </head>
 
 <body>
@@ -22,16 +24,31 @@
             </label>
             <button class="btn btn--main">Войти</button>
             <div class="error"></div>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
             <a href="/register">Регистрация</a>
         </form>
+
+
     </div>
-    </div>
+
+
     <?php include $dir."/sections/footer.php";?>
     <?php include __DIR__."/md5.php";?>
 </body>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <script>
 (() => {
+
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    }
+
+
     const form = document.querySelector('.form');
     const error = document.querySelector('.error');
     const url = "<?php echo $host_api?>/api/login";
@@ -53,7 +70,6 @@
                 "Content-Type": "application/x-www-form-urlencoded"
             }
         });
-
         const data = await response.json();
         console.log(data);
         if (response.status === 200) {
