@@ -4,7 +4,7 @@
     <?php include_once $dir."/sections/head.php";?>
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/login.css" />
     <meta name="google-signin-client_id"
-        content="713052553041-7g97tip4a82027el00e89qntlgqn2lck.apps.googleusercontent.com">
+        content="136771247513-7jki6c1ggjgvtai4lo9uteqmo7cqf49u.apps.googleusercontent.com">
 </head>
 
 <body>
