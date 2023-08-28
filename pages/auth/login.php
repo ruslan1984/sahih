@@ -3,8 +3,8 @@
 <head>
     <?php include_once $dir."/sections/head.php";?>
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/login.css" />
-    <meta name="google-signin-client_id"
-        content="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com">
+    <!-- <meta name="google-signin-client_id"
+        content="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com"> -->
 </head>
 
 <body>
@@ -24,7 +24,11 @@
             </label>
             <button class="btn btn--main">Войти</button>
             <div class="error"></div>
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            <div class="g_id_signin" data-type="standard"></div>
+            <div id="g_id_onload"
+                data-client_id="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com"
+                data-callback="handleCredentialResponse">
+            </div>
             <a href="/register">Регистрация</a>
         </form>
 
@@ -35,8 +39,7 @@
     <?php include $dir."/sections/footer.php";?>
     <?php include __DIR__."/md5.php";?>
 </body>
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
 (() => {
 
@@ -48,6 +51,7 @@
         console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
         console.log(profile);
         console.log(googleUser);
+        alert(JSON.stringify(googleUser));
     }
 
 
