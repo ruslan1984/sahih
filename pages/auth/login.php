@@ -4,7 +4,7 @@
     <?php include_once $dir."/sections/head.php";?>
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/login.css" />
     <meta name="google-signin-client_id"
-        content="136771247513-7jki6c1ggjgvtai4lo9uteqmo7cqf49u.apps.googleusercontent.com">
+        content="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com">
 </head>
 
 <body>
@@ -46,6 +46,8 @@
         console.log('Name: ' + profile.getName());
         console.log('Image URL: ' + profile.getImageUrl());
         console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        console.log(profile);
+        console.log(googleUser);
     }
 
 
