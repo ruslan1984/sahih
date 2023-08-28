@@ -25,10 +25,10 @@
             <button class="btn btn--main">Войти</button>
             <div class="error"></div>
             <div class="g_id_signin" data-type="standard"></div>
-            <!-- <div id="g_id_onload"
+            <div id="g_id_onload"
                 data-client_id="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com"
                 data-callback="handleCredentialResponse">
-            </div> -->
+            </div>
             <a href="/register">Регистрация</a>
         </form>
     </div>
@@ -41,6 +41,7 @@
 <script>
 (() => {
     window.onload = function() {
+        alert(1)
         google.accounts.id.initialize({
             client_id: '136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com',
             callback: handleCredentialResponse
