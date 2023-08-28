@@ -37,7 +37,7 @@
     <?php include $dir."/sections/scripts.php";?>
     <?php include __DIR__."/md5.php";?>
 </body>
-<!-- <script src="https://accounts.google.com/gsi/client" async defer></script> -->
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
 (() => {
 
