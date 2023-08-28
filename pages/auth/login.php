@@ -40,24 +40,16 @@
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
 (() => {
-    window.onload = function() {
-        alert(1)
-        google.accounts.id.initialize({
-            client_id: '136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com',
-            callback: handleCredentialResponse
-        });
-        google.accounts.id.prompt();
-    };
+
 
     window.handleCredentialResponse = (googleUser) => {
-        // var profile = googleUser.getBasicProfile();
-        // console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-        // console.log('Name: ' + profile.getName());
-        // console.log('Image URL: ' + profile.getImageUrl());
-        // console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-        // console.log(profile);
-        // console.log(googleUser);
-        alert(JSON.stringify(googleUser));
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        console.log(profile);
+        console.log(googleUser);
     }
 
 
