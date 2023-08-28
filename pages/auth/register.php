@@ -35,14 +35,12 @@
     </div>
     </div>
     <?php include $dir."/sections/footer.php";?>
+    <?php include $dir."/sections/scripts.php";?>
     <?php include __DIR__."/md5.php";?>
 </body>
 
 <script>
 (() => {
-
-
-
 
     const form = document.querySelector('.form');
     const error = document.querySelector('.error');

@@ -23,6 +23,7 @@
     </div>
     </div>
     <?php include $dir."/sections/footer.php";?>
+    <?php include $dir."/sections/scripts.php";?>
 </body>
 
 <script>

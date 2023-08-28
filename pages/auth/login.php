@@ -31,26 +31,24 @@
             </div>
             <a href="/register">Регистрация</a>
         </form>
-
-
     </div>
 
-
     <?php include $dir."/sections/footer.php";?>
+    <?php include $dir."/sections/scripts.php";?>
     <?php include __DIR__."/md5.php";?>
 </body>
-<script src="https://accounts.google.com/gsi/client" async defer></script>
+<!-- <script src="https://accounts.google.com/gsi/client" async defer></script> -->
 <script>
 (() => {
 
     function onSignIn(googleUser) {
-        var profile = googleUser.getBasicProfile();
-        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-        console.log('Name: ' + profile.getName());
-        console.log('Image URL: ' + profile.getImageUrl());
-        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-        console.log(profile);
-        console.log(googleUser);
+        // var profile = googleUser.getBasicProfile();
+        // console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        // console.log('Name: ' + profile.getName());
+        // console.log('Image URL: ' + profile.getImageUrl());
+        // console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        // console.log(profile);
+        // console.log(googleUser);
         alert(JSON.stringify(googleUser));
     }
 
