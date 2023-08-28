@@ -1,4 +1,10 @@
-<header class="nav-fix">
+<?php
+$host="";
+if($curUrl!=="/"){
+    $host=$domain."/";
+}
+
+?><header class="nav-fix">
     <div class="container">
         <nav class="navbar navbar-expand-lg no-gutters  ">
             <a href='<?php  if($link) {echo $link;} else {echo "/";} ?>' class="logo">
@@ -12,33 +18,38 @@
                 <div class="d-lg-none text-right">
                     <?php include $dir."/sections/elements/language_btn.php"; ?>
                 </div>
-                <button class="mb-1 navbar-toggler burg_btn burgBtn"  type="button" data-mdb-toggle="collapse"
+                <button class="mb-1 navbar-toggler burg_btn burgBtn" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
                     data-toggle="collapse" data-target=".navbar-collapse-1" aria-expanded="false"
-                    aria-label="Toggle navigation"
-                    >
+                    aria-label="Toggle navigation">
                     <div class="burg"><span></span><span></span><span></span></div>
                 </button>
             </div>
             <div class="navbar-collapse-1 navbar-collapse collapse navbar-collapse-menu justify-content-end">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#information2"><?php echo $text['header']['nav']['sk'][$ln] ?></a>
+                        <a class="nav-link"
+                            href="<?php echo $host?>#information2"><?php echo $text['header']['nav']['sk'][$ln] ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#product"><?php echo $text['header']['nav']['pr'][$ln] ?></a>
+                        <a class="nav-link"
+                            href="<?php echo $host?>#product"><?php echo $text['header']['nav']['pr'][$ln] ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reviews"><?php echo $text['header']['nav']['ot'][$ln] ?></a>
+                        <a class="nav-link"
+                            href="<?php echo $host?>#reviews"><?php echo $text['header']['nav']['ot'][$ln] ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#partner-gift"><?php echo $text['header']['nav']['bn'][$ln] ?></a>
+                        <a class="nav-link"
+                            href="<?php echo $host?>#partner-gift"><?php echo $text['header']['nav']['bn'][$ln] ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team"><?php echo $text['header']['nav']['kom'][$ln] ?></a>
+                        <a class="nav-link"
+                            href="<?php echo $host?>#team"><?php echo $text['header']['nav']['kom'][$ln] ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacts"><?php echo $text['header']['nav']['kont'][$ln] ?></a>
+                        <a class="nav-link"
+                            href="<?php echo $host?>#contacts"><?php echo $text['header']['nav']['kont'][$ln] ?></a>
                     </li>
                 </ul>
             </div>
