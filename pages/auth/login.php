@@ -48,6 +48,7 @@
 
 
     <?php include $dir."/sections/footer.php";?>
+
     <script type="text/javascript"
         src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -56,15 +57,15 @@
     <script src="<?php echo $domain?>/media/js/jquery-libs.js"></script>
     <script src="<?php echo $domain?>/media/js/sc.js?1.13"></script>
     <?php include __DIR__."/md5.php";?>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </body>
-<script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
 (() => {
     AppleID.auth.init({
         clientId: 'com.sahih.invest',
         scope: 'name email',
-        // redirectURI: 'http://sahihinvest.local/login',
-        redirectURI: 'null',
+        redirectURI: 'https://sahihinvest.com',
+        // redirectURI: 'null',
         // state: 'DE',
         // nonce: '[NONCE]',
         usePopup: true
