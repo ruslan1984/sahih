@@ -55,6 +55,7 @@
 
     window.handleCredentialResponse = async (googleUser) => {
         const url = "<?php echo $host_api?>/api/google-login";
+        console.log(url);
         const response = await fetch(url, {
             method: 'post',
             body: JSON.parse({
@@ -64,11 +65,12 @@
             headers: {
                 "Content-Type": "application/json"
             }
-
         });
         const {
             accessToken
         } = await response.json();
+        console.log(accessToken);
+
         await setToken(accessToken);
         if (!accessToken) {
             error.innerText = "Ошибка";
