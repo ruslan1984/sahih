@@ -41,12 +41,42 @@
 <script>
 (() => {
 
-
-    window.handleCredentialResponse = (googleUser) => {
-
-        console.log(googleUser.credential);
+    const setToken = (accessToken) => {
+        if (!accessToken) return;
+        const now = new Date();
+        const time = now.getTime();
+        const expireTime = time + 1000 * 36000;
+        now.setTime(expireTime);
+        document.cookie = `token=${accessToken}; path=/; expires=${now.toUTCString()}`;
+        // document.location.href = "/courses/";
+        return;
     }
 
+    window.handleCredentialResponse = async (googleUser) => {
+        const url = "<?php echo $host_api?>/api/google-login";
+        const response = await fetch(url, {
+            method: 'post',
+            body: {
+
+                "token": googleUser.credential,
+                "country": "RU"
+            },
+            headers: {
+                "Content-Type": "application/json"
+            }
+
+        });
+        const {
+            accessToken
+        } = await response.json();
+        await setToken(accessToken);
+        if (!accessToken) {
+            error.innerText = "Ошибка";
+            error.classList.add("show");
+            return;
+        }
+        document.location.href = "/courses/";
+    };
 
     const form = document.querySelector('.form');
     const error = document.querySelector('.error');
@@ -70,24 +100,32 @@
             }
         });
         const data = await response.json();
-        console.log(data);
+
         if (response.status === 200) {
             const {
                 accessToken
             } = data;
-            const now = new Date();
-            const time = now.getTime();
-            const expireTime = time + 1000 * 36000;
-            now.setTime(expireTime);
-            document.cookie = `token=${accessToken}; path=/; expires=${now.toUTCString()}`;
+            if (!accessToken) {
+                error.innerText = "Ошибка";
+                error.classList.add("show");
+                return;
+            }
+            await setToken(accessToken);
             document.location.href = "/courses/";
+            // const now = new Date();
+            // const time = now.getTime();
+            // const expireTime = time + 1000 * 36000;
+            // now.setTime(expireTime);
+            // document.cookie = `token=${accessToken}; path=/; expires=${now.toUTCString()}`;
+
             return;
         }
 
         error.innerText = data.message;
         error.classList.add("show");
     });
-})()
+
+})();
 </script>
 
 </html>
