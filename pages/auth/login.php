@@ -55,10 +55,11 @@
 
     window.handleCredentialResponse = async (googleUser) => {
         const url = "<?php echo $host_api?>/api/google-login";
-        console.log(url);
+        console.log("url", url);
+
         const response = await fetch(url, {
             method: 'post',
-            body: JSON.parse({
+            body: JSON.stringify({
                 "token": googleUser.credential,
                 "country": "RU"
             }),
