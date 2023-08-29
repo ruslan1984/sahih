@@ -11,7 +11,7 @@
 
     <div class="container loginPage">
         <h1 class="h1">Регистрация</h1>
-        <form class="form" method="post" action="/">
+        <form class="authForm" method="post" action="/">
             <label for="username">
                 Имя
                 <input name="username" id="username" class="input" type="text" required />
@@ -42,7 +42,7 @@
 <script>
 (() => {
 
-    const form = document.querySelector('.form');
+    const form = document.querySelector('.authForm');
     const error = document.querySelector('.error');
     const url = "<?php echo $host_api?>/api/users/sign-up";
     form.addEventListener('click', () => {

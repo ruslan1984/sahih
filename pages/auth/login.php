@@ -3,8 +3,6 @@
 <head>
     <?php include_once $dir."/sections/head.php";?>
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/login.css" />
-    <!-- <meta name="google-signin-client_id"
-        content="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com"> -->
 </head>
 
 <body>
@@ -13,7 +11,7 @@
 
     <div class="container loginPage">
         <h1 class="h1">Авторизация</h1>
-        <form class="form" method="post" action="/">
+        <form class="authForm" method="post" action="/">
             <label for="login">
                 Логин
                 <input name="username" id="login" class="input" type="text" required />
@@ -48,7 +46,6 @@
         const expireTime = time + 1000 * 36000;
         now.setTime(expireTime);
         document.cookie = `token=${accessToken}; path=/; expires=${now.toUTCString()}`;
-        // document.location.href = "/courses/";
         return;
     }
 
@@ -77,7 +74,7 @@
         document.location.href = "/courses/";
     };
 
-    const form = document.querySelector('.form');
+    const form = document.querySelector('.authForm');
     const error = document.querySelector('.error');
     const url = "<?php echo $host_api?>/api/login";
 
