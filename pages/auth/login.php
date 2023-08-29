@@ -11,7 +11,7 @@
 
     <div class="container loginPage">
         <h1 class="h1">Авторизация</h1>
-        <form class="authForm" method="post" action="/">
+        <form class="authForm form" method="post" action="/">
             <label for="login">
                 Логин
                 <input name="username" id="login" class="input" type="text" required />

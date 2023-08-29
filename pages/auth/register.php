@@ -11,7 +11,7 @@
 
     <div class="container loginPage">
         <h1 class="h1">Регистрация</h1>
-        <form class="authForm" method="post" action="/">
+        <form class="authForm form" method="post" action="/">
             <label for="username">
                 Имя
                 <input name="username" id="username" class="input" type="text" required />
