@@ -26,7 +26,7 @@
             <div class="error"></div>
             <div class="g_id_signin" data-type="standard"></div>
             <div id="g_id_onload"
-                data-client_id="136771247513-h63el1lgpqib5loffag7k7rkla5f2t6d.apps.googleusercontent.com"
+                data-client_id="987784905231-ov7kll4eu9l11lcdd2ca79fd0b0ik36b.apps.googleusercontent.com"
                 data-callback="handleCredentialResponse">
             </div>
             <a href="/register">Регистрация</a>
