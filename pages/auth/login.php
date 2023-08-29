@@ -2,6 +2,12 @@
 
 <head>
     <?php include_once $dir."/sections/head.php";?>
+    <!-- <meta name="appleid-signin-client-id" content="com.sahih.invest">
+    <meta name="appleid-signin-scope" content="name email">
+    <meta name="appleid-signin-redirect-uri" content="null">
+    <meta name="appleid-signin-state" content="[STATE]">
+    <meta name="appleid-signin-nonce" content="[NONCE]">
+    <meta name="appleid-signin-use-popup" content="true"> -->
     <link rel="stylesheet" href="<?php echo $domain?>/media/css/login.css" />
 </head>
 
@@ -27,11 +33,23 @@
                 data-client_id="987784905231-ov7kll4eu9l11lcdd2ca79fd0b0ik36b.apps.googleusercontent.com"
                 data-callback="handleCredentialResponse">
             </div>
-            <a href="/register">Регистрация</a>
+            <div id="appleid-signin" data-color="black" data-border="true" data-type="sign in"></div>
+            <div>
+                <a href="/register">Регистрация</a>
+            </div>
         </form>
     </div>
 
+
+
+
+
+
+
+
     <?php include $dir."/sections/footer.php";?>
+    <script type="text/javascript"
+        src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -42,6 +60,15 @@
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
 (() => {
+    AppleID.auth.init({
+        clientId: 'com.sahih.invest',
+        scope: 'name email',
+        // redirectURI: 'http://sahihinvest.local/login',
+        redirectURI: 'null',
+        // state: 'DE',
+        // nonce: '[NONCE]',
+        usePopup: true
+    });
 
     const setToken = (accessToken) => {
         if (!accessToken) return;
