@@ -56,11 +56,10 @@
         const url = "<?php echo $host_api?>/api/google-login";
         const response = await fetch(url, {
             method: 'post',
-            body: {
-
+            body: JSON.parse({
                 "token": googleUser.credential,
                 "country": "RU"
-            },
+            }),
             headers: {
                 "Content-Type": "application/json"
             }
