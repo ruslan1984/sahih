@@ -878,7 +878,8 @@ $text = [
                 'en'=>'By clicking on the «Ask a question» button, you agree to <a target="_blank" href="/terms.pdf">the privacy policy</a>'
             ],
             'map'=>[
-                'ru'=>'https://yandex.ru/map-widget/v1/?um=constructor%3A339a1218879d7eccd736df47e5740cd074eb4f87cbd47991f644dc32d41b5e3d&amp;source=constructor&amp;scroll=false',
+                // 'ru'=>'https://yandex.ru/map-widget/v1/?um=constructor%3A339a1218879d7eccd736df47e5740cd074eb4f87cbd47991f644dc32d41b5e3d&amp;source=constructor&amp;scroll=false',
+                'ru'=>'https://yandex.ru/map-widget/v1/?um=constructor%3Ac070b1e3e8e2b54e494c9e1d18dffff553dc3ec5972c17f3d8a4c5a9d56190e7&source=constructorLink&amp;scroll=false',
                 'kz'=>'https://yandex.ru/map-widget/v1/?um=constructor%3Ac070b1e3e8e2b54e494c9e1d18dffff553dc3ec5972c17f3d8a4c5a9d56190e7&source=constructorLink&amp;scroll=false',
                 'en'=>'https://yandex.ru/map-widget/v1/?um=constructor%3Ac070b1e3e8e2b54e494c9e1d18dffff553dc3ec5972c17f3d8a4c5a9d56190e7&source=constructorLink&amp;scroll=false'
             ],
