@@ -46,7 +46,7 @@
                     </span>
                 </a>
             </li>
-            <!-- <li class="partnersItem">
+            <li class="partnersItem">
                 <a href="https://sezinnopolis.ru/residents/ooo-sakhikh-invest/" target="_blank">
                     <div class="imgBlock">
                         <img class="img" src="/media/img/inno.png" alt="Университет Иннополис">
@@ -54,7 +54,7 @@
                     <span class="title"><?php echo $text['partners']['p']['p6'][$ln]?>
                     </span>
                 </a>
-            </li> -->
+            </li>
             <li class="partnersItem">
                 <a href="https://itpark.tech/news/startap-biznes-inkubatora-it-parka-sahih-invest-pomozhet-zapustit-pervyy-islamskiy-indeks-s-ispolzov/?city=kazan"
                     target="_blank">

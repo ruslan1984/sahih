@@ -840,9 +840,12 @@ $text = [
                 'en'=>''
             ],
             'addr'=>[
-                'ru'=>'<b>Иннополис</b>, Университетская 7, офис 503<br><b>Республика Казахстан</b>, г. Астана, Международный Финансовый Центр Астана (<a target="_blank" class="lnk" href="https://aifc.kz/ru">МФЦА</a>)',
-                'kz'=>'<b>Қазақстан Республикасы</b>, Астана қаласы, «Астана» Халықаралық қаржы орталығы (АХҚО)<br><b>Иннополис</b>, Университетская көшесі 7, 503 - кеңсе',
-                'en'=>'<b>Innopolis</b>,  Universitetskaya St, 7, office 503<br><b>Astana, Republic of Kazakhstan</b>, The Astana International Financial Centre (AIFC)'
+                'ru'=>'<b>Республика Казахстан</b>, г. Астана, Международный Финансовый Центр Астана (<a target="_blank" class="lnk" href="https://aifc.kz/ru">МФЦА</a>)',
+                'kz'=>'<b>Қазақстан Республикасы</b>, Астана қаласы, «Астана» Халықаралық қаржы орталығы (АХҚО)',
+                'en'=>'<b>Astana, Republic of Kazakhstan</b>, The Astana International Financial Centre (AIFC)'
+                // 'ru'=>'<b>Иннополис</b>, Университетская 7, офис 503<br><b>Республика Казахстан</b>, г. Астана, Международный Финансовый Центр Астана (<a target="_blank" class="lnk" href="https://aifc.kz/ru">МФЦА</a>)',
+                // 'kz'=>'<b>Қазақстан Республикасы</b>, Астана қаласы, «Астана» Халықаралық қаржы орталығы (АХҚО)<br><b>Иннополис</b>, Университетская көшесі 7, 503 - кеңсе',
+                // 'en'=>'<b>Innopolis</b>,  Universitetskaya St, 7, office 503<br><b>Astana, Republic of Kazakhstan</b>, The Astana International Financial Centre (AIFC)'
             ],
             'ft'=>[
                 'ru'=>'Остались вопросы?',
