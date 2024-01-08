@@ -830,9 +830,9 @@ $text = [
         ],
         'contacts'=>[
             'h2'=>[
-                'ru'=>'Контакты ООО “Сахих Инвест”',
-                'kz'=>'ЖШС “Сахих Инвест” байланыс мәліметтері',
-                'en'=>'LLP “Sahih Invest” Contacts'
+                'ru'=>'Контакты ООО “Sahih Systems Ltd”',
+                'kz'=>'ЖШС “Sahih Systems Ltd” байланыс мәліметтері',
+                'en'=>'LLP “Sahih Systems Ltd” Contacts'
             ],
             'n'=>[
                 'ru'=>'',
