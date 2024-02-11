@@ -67,4 +67,88 @@ if($curUrl!=="/"){
             </div>
         </nav>
     </div>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+            async>
+        {
+            "symbols": [{
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500"
+                },
+                {
+                    "proName": "FOREXCOM:NSXUSD",
+                    "title": "US 100"
+                },
+                {
+                    "description": "USD/RUB",
+                    "proName": "MOEX:USDRUB_TOM"
+                },
+                {
+                    "description": "CNY/RUB",
+                    "proName": "MOEX:CNYRUB_TOM"
+                },
+                {
+                    "description": "EUR/RUB",
+                    "proName": "MOEX:EURRUB_TOM"
+                },
+                {
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR/USD"
+                },
+                {
+                    "description": "Газпром",
+                    "proName": "MOEX:GAZP"
+                },
+                {
+                    "description": "Tesla",
+                    "proName": "NASDAQ:TSLA"
+                },
+                {
+                    "description": "Делимобиль",
+                    "proName": "MOEX:DELI"
+                },
+                {
+                    "description": "Мечел",
+                    "proName": "MOEX:MTLR"
+                },
+                {
+                    "description": "Татнефть",
+                    "proName": "MOEX:TATN"
+                },
+                {
+                    "description": "Магнит",
+                    "proName": "MOEX:MGNT"
+                },
+                {
+                    "description": "НЛМК",
+                    "proName": "MOEX:NLMK"
+                },
+                {
+                    "description": "Apple",
+                    "proName": "NASDAQ:AAPL"
+                },
+                {
+                    "description": "USD/RUB",
+                    "proName": "MOEX:USDRUB_TOM"
+                },
+                {
+                    "description": "CNY/RUB",
+                    "proName": "MOEX:CNYRUB_TOM"
+                },
+                {
+                    "description": "EUR/RUB",
+                    "proName": "MOEX:EURRUB_TOM"
+                }
+            ],
+            "showSymbolLogo": true,
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "colorTheme": "dark",
+            "locale": "ru"
+        }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
 </header>
