@@ -333,13 +333,22 @@ section::last-child {
 }
 
 .t-investPage {
-  padding: 30px 0;
+  padding: 130px 0 30px;
+  .imgBlock {
+    justify-content: center;
+    display: flex;
+    padding: 50px 10px;
+  }
   .img {
     height: 150px;
     margin: 10px;
   }
 }
-
+@media (max-width: 768px) {
+  .t-investPage {
+    padding: 200px 5px 30px;
+  }
+}
 .link {
   color: #329932;
   text-decoration: underline;

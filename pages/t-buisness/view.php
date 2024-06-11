@@ -48,6 +48,8 @@
             Пуш-уведомления по разделу “избранных”, если есть смена статуса дозволенности</p>
         </li>
     </ul>
-    <img class="img" src="/media/img/t-bank.png" alt="">
-    <img class="img" src="/media/img/logo1.svg" alt="">
+    <div class="imgBlock">
+        <img class="img" src="/media/img/t-bank.png" alt="">
+        <img class="img" src="/media/img/logo1.svg" alt="">
+    </div>
 </div>
