@@ -9,7 +9,7 @@
 <link prefetch rel="preconnect" href="https://fonts.googleapis.com?v1.1">
 <link prefetch rel="preconnect" href="https://fonts.gstatic.com?v1.1" crossorigin>
 <link prefetch href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link prefetch href="<?php echo $domain?>/media/css/style.css?v1.1" type="text/css" rel="stylesheet">
+<link prefetch href="<?php echo $domain?>/media/css/style.css?v1.2" type="text/css" rel="stylesheet">
 <link prefetch rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css?v1.2">
 <link prefetch rel="stylesheet" href="<?php echo $domain?>/media/css/custom.css?v1.2">
 <link prefetch rel="stylesheet" href="<?php echo $domain?>/media/css/responsive.css?v1.2">
