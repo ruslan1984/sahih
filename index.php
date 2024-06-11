@@ -11,7 +11,7 @@
     $patternLogin = '/^\/login$/';
     $patternRegister = '/^\/register$/';
     $patternConfirmation = '/^\/confirmation\?email=(\w|-|_|@|.){4,}$/';
-
+    $tBuisness = '/^\/t-buisness$/';
     $host_api = 'https://arm.sahihinvest.ru';
     
     if(preg_match($patternCourses, $curUrl)){
@@ -26,6 +26,8 @@
         include_once "./pages/auth/register.php"; 
     }else if(preg_match($patternConfirmation, $curUrl)){
         include_once "./pages/auth/confirmation.php"; 
+    } else if(preg_match($tBuisness, $curUrl)){
+        include_once "./pages/t-buisness/index.php"; 
     } else {
         include_once "./page.php"; 
     }
