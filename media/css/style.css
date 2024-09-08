@@ -408,5 +408,8 @@ section::last-child {
     p {
       text-indent: 10px;
     }
+    a {
+      width: 100%;
+    }
   }
 }
