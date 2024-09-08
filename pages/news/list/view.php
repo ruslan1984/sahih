@@ -3,6 +3,7 @@
     <?php foreach ($newsList as $key=> $item): ?>
     <div class="newsListBlock">
         <h4><?php echo $item['title']?></h4>
+        <div class="date"><?php echo $item['date']?></div>
         <div class="newsListTextBlock">
             <img class="isImg" src=<?php echo $item['img']?> alt="">
             <div>

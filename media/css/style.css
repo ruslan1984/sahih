@@ -413,3 +413,9 @@ section::last-child {
     }
   }
 }
+
+.newsCard .date,
+.newsListBlock .date {
+  color: #888;
+  font-size: 12px;
+}
