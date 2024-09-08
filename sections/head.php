@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo $title ?? $text['header']['desc'][$ln]?>">
 <meta charset="utf-8">
+<meta name="google-site-verification" content="vc2B3USU1YpD_eqvSWPgPVP2dAN42k5iqMNikjt8Drk">
 <link rel="shortcut icon" href="<?php echo $domain?>/favicon.ico" type="image/svg+xml" />
 <link href="https://plus.google.com/109784895098888983084" rel="author" />
 <link prefetch href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
