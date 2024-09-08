@@ -332,6 +332,14 @@ section::last-child {
   padding-right: 1rem;
 }
 
+.page {
+  padding: 150px 5px 30px;
+  min-height: 600px;
+  .isImg {
+    max-width: 100%;
+  }
+}
+
 .t-investPage {
   padding: 150px 0 30px;
   .imgBlock {
@@ -352,4 +360,48 @@ section::last-child {
 .link {
   color: #329932;
   text-decoration: underline;
+}
+
+.newsListBlock {
+  color: black;
+  cursor: pointer;
+  display: block;
+  padding: 20px;
+  h4 {
+    color: black;
+  }
+  .isImg {
+    width: 200px;
+    align-self: flex-start;
+  }
+  .newsListTextBlock {
+    display: flex;
+    gap: 20px;
+    color: black;
+  }
+
+  .text {
+    display: block;
+  }
+  &:hover {
+    color: black;
+    background: #eee;
+    h4 {
+      color: black;
+    }
+  }
+  @media (max-width: 1024px) {
+    .newsListTextBlock {
+      flex-direction: column;
+    }
+  }
+}
+
+.newsCard {
+  .isImg {
+    margin-bottom: 30px;
+  }
+  p {
+    text-indent: 30px;
+  }
 }

@@ -12,6 +12,8 @@
     $patternRegister = '/^\/register$/';
     $patternConfirmation = '/^\/confirmation\?email=(\w|-|_|@|.){4,}$/';
     $tBuisness = '/^\/t-buisness$/';
+    $newsList = '/^\/news$/';
+    $newsCard = '/^\/news\/(\w|-)*$/';
     $host_api = 'https://arm.sahihinvest.ru';
     
     if(preg_match($patternCourses, $curUrl)){
@@ -28,6 +30,10 @@
         include_once "./pages/auth/confirmation.php"; 
     } else if(preg_match($tBuisness, $curUrl)){
         include_once "./pages/t-buisness/index.php"; 
+    } else if(preg_match($newsList, $curUrl)){
+        include_once "./pages/news/list/index.php"; 
+    } else if(preg_match($newsCard, $curUrl)){
+        include_once "./pages/news/card/index.php"; 
     } else {
         include_once "./page.php"; 
     }
