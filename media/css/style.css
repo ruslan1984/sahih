@@ -364,7 +364,6 @@ section::last-child {
 
 .newsListBlock {
   color: black;
-  cursor: pointer;
   display: block;
   padding: 20px;
   h4 {
@@ -383,16 +382,16 @@ section::last-child {
   .text {
     display: block;
   }
-  &:hover {
-    color: black;
-    background: #eee;
-    h4 {
-      color: black;
-    }
+  .newsBtn {
+    display: flex;
+    justify-content: flex-end;
   }
   @media (max-width: 1024px) {
     .newsListTextBlock {
       flex-direction: column;
+    }
+    .newsBtn a {
+      width: 100%;
     }
   }
 }
@@ -403,5 +402,11 @@ section::last-child {
   }
   p {
     text-indent: 30px;
+    text-align: justify;
+  }
+  @media (max-width: 1024px) {
+    p {
+      text-indent: 10px;
+    }
   }
 }
