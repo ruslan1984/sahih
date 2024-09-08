@@ -33,16 +33,20 @@ if($curUrl!=="/"){
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
+                            href="<?php echo $host?>news"><?php echo $text['header']['nav']['news'][$ln] ?></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
                             href="<?php echo $host?>#product"><?php echo $text['header']['nav']['pr'][$ln] ?></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
                             href="<?php echo $host?>#reviews"><?php echo $text['header']['nav']['ot'][$ln] ?></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link"
-                            href="<?php echo $host?>#partner-gift"><?php echo $text['header']['nav']['bn'][$ln] ?></a>
-                    </li>
+                            href="<?php //echo $host?>#partner-gift"><?php // echo $text['header']['nav']['bn'][$ln] ?></a>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link"
                             href="<?php echo $host?>#team"><?php echo $text['header']['nav']['kom'][$ln] ?></a>
