@@ -9,22 +9,22 @@
 
 <body>
     <?php 
-$useragent=$_SERVER['HTTP_USER_AGENT'];
+// $useragent=$_SERVER['HTTP_USER_AGENT'];
 
-$iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
-$iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
-$Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
-$webOS   = stripos($_SERVER['HTTP_USER_AGENT'],"webOS");
+// $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+// $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+// $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+// $Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
+// $webOS   = stripos($_SERVER['HTTP_USER_AGENT'],"webOS");
 
 
-if( $iPod || $iPhone ){
-    header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
-}else if($iPad){
-    header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
-}else if($Android){
-    header('Location: https://play.google.com/store/apps/details?id=com.sahih.invest&hl=en&gl=US');
-}
+// if( $iPod || $iPhone ){
+//     header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
+// }else if($iPad){
+//     header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
+// }else if($Android){
+//     header('Location: https://play.google.com/store/apps/details?id=com.sahih.invest&hl=en&gl=US');
+// }
 
 // else if($webOS){
 //     header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
