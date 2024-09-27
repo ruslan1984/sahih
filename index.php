@@ -5,6 +5,8 @@
     $link = '';
 
     $curUrl = $_SERVER['REQUEST_URI'];
+    $query = $_SERVER['QUERY_STRING'];
+
     $patternCourses = '/^\/courses\/$/';
     $patternCoursesCard = '/^\/courses\/(\w|-)*$/';
     $patternModuleList = '/^\/course\/(\w|-)*\/module\/(\w|-)*$/';
@@ -16,7 +18,9 @@
     $newsCard = '/^\/news\/(\w|-)*$/';
     $host_api = 'https://arm.sahihinvest.ru';
     
-    if(preg_match($patternCourses, $curUrl)){
+    if(str_contains($query, 'referrer=tbank')){
+        include_once "./pages/to_mobile/index.php"; 
+    } else if(preg_match($patternCourses, $curUrl)){
         include_once "./pages/courses/list/index.php"; 
     }else if(preg_match($patternModuleList, $curUrl)){
         include_once "./pages/courses/module/index.php"; 
@@ -37,5 +41,8 @@
     } else {
         include_once "./page.php"; 
     }
+
+
+    
 
 ?>

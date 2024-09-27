@@ -419,3 +419,8 @@ section::last-child {
   color: #888;
   font-size: 12px;
 }
+
+.redirectTBPage {
+  font-size: 1.2rem;
+  color: #8f0000;
+}
