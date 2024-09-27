@@ -1,10 +1,10 @@
 <?php include_once $dir."/text.php"; 
-    $title = "Новости Сахих инвест";
+    $title = "Sahih Invest Подарок";
     ?>
 
 <head>
     <?php include_once $dir."/sections/head.php";?>
-    <link rel="stylesheet" href="<?php echo $domain?>/media/css/courses.css" />
+
 </head>
 
 <body>
@@ -24,12 +24,10 @@ if( $iPod || $iPhone ){
     header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
 }else if($Android){
     header('Location: https://play.google.com/store/apps/details?id=com.sahih.invest&hl=en&gl=US');
-}else if($webOS){
-    header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
 }
-
-
-
+// else if($webOS){
+//     header('Location: https://apps.apple.com/ru/app/sahih-invest/id1533653991');
+// }
 
 
             include $dir."/sections/header.php"; 
