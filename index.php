@@ -18,10 +18,11 @@
     $newsCard = '/^\/news\/(\w|-)*$/';
     $host_api = 'https://arm.sahihinvest.ru';
     
-    // if(str_contains($query, 'referrer=tbank')){
-    //     include_once "./pages/to_mobile/index.php"; 
-    // } else 
-    if(preg_match($patternCourses, $curUrl)){
+    if(str_contains($query, 'referrer=tbank')){
+
+        echo '123';
+       // include_once "./pages/to_mobile/index.php"; 
+    } else  if(preg_match($patternCourses, $curUrl)){
         include_once "./pages/courses/list/index.php"; 
     }else if(preg_match($patternModuleList, $curUrl)){
         include_once "./pages/courses/module/index.php"; 
