@@ -443,8 +443,8 @@ $text = [
                 'en'=>'Get an exclusive offer: 1 month of using Sahih Invest and Tinkoff Investments absolutely for free! The perfect start to your investment journey'
             ],
             'l1'=>[
-                'ru'=> 'Начните инвестировать: откройте <abbr title="Обслуживание счета&nbsp;— 0 ₽ на&nbsp;тарифе «Инвестор» (комиссия от&nbsp;0,025% за&nbsp;любые сделки, ввод и&nbsp;вывод денег, услуги депозитария&nbsp;— бесплатно."> счет в&nbsp;Тинькофф</abbr> Инвестиции всего за 5 минут!',
-                'kz'=>'Инвестицияға бастаңыз: Тинькофф Инвестицияларда есепті тек 5 минут ішінде ашыңыз!',
+                'ru'=> 'Начните инвестировать: откройте <abbr title="Обслуживание счета&nbsp;— 0 ₽ на&nbsp;тарифе «Инвестор» (комиссия от&nbsp;0,025% за&nbsp;любые сделки, ввод и&nbsp;вывод денег, услуги депозитария&nbsp;— бесплатно."> счет в&nbsp;Т-Банк</abbr> Инвестиции всего за 5 минут!',
+                'kz'=>'Инвестицияға бастаңыз: Т-Банк Инвестицияларда есепті тек 5 минут ішінде ашыңыз!',
                 'en'=>'Start investing: open an account with Tinkoff Investments in just 5 minutes!'
             ],
             't1'=>[

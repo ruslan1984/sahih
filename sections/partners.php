@@ -32,7 +32,7 @@
             <li class="partnersItem">
                 <a href="https://www.tinkoff.ru/invest/" target="_blank">
                     <div class="imgBlock">
-                        <img class="img" src="/media/img/main/tf.svg" alt="Тинькофф">
+                        <img class="img" src="/media/img/main/tf.svg" alt="Т-Банк">
                     </div>
                     <div class="title"><?php echo $text['partners']['p']['p4'][$ln]?></div>
                 </a>
