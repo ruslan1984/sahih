@@ -83,7 +83,7 @@ $text = [
             'en'=>'Manual analysis of companies using AAOIFI and DFM methodologies'
         ],
         'p2'=> [
-            'ru' => 'Возможность перехода в карточку компании для покупки в Тинькофф Инвестиции',
+            'ru' => 'Возможность перехода в карточку компании для покупки в Т-Инвестиции',
             'kz'=>'“Тинькофф Инвестициялар”-да акцияларды сатып алу үшін компания карточкасына өту мүмкіндігі',
             'en'=>'The possibility of switching to the company card for purchase in Tinkoff Investments'
         ],
@@ -98,7 +98,7 @@ $text = [
             'en'=>'Approved by the Spiritual Board of <a target="_blank" class="lnk" href="https://dumrt.ru/ru/">Muslims of the Republic of Tatarstan</a>'
         ],
         'tink'=> [
-            'ru' => 'В&nbsp;партнерстве&nbsp;с<br><a target="_blank" class="lnk" href="https://www.tinkoff.ru/invest/">Тинькофф Инвестиции</a><br>',
+            'ru' => 'В&nbsp;партнерстве&nbsp;с<br><a target="_blank" class="lnk" href="https://www.tinkoff.ru/invest/">Т-Инвестиции</a><br>',
             'kz'=>'<a class="lnk" href="https://www.tinkoff.ru/invest/">“Тинькофф Инвестициялар”</a> -  ымен бірлесе отыра',
             'en'=>'In partnership with <a target="_blank" class="lnk" href="https://www.tinkoff.ru/invest/">Tinkoff Investments</a>'
         ],
@@ -131,7 +131,7 @@ $text = [
                 'en' => 'RCIEF'
             ],
             'p4'=>[
-                'ru' => 'Тинькофф Инвестиции',
+                'ru' => 'Т-Инвестиции',
                 'kz' => 'Тинькофф Инвестициялар',
                 'en' => 'Tinkoff Investments'
             ],
@@ -438,7 +438,7 @@ $text = [
                 'en'=>'Gift from Partner'
             ],
             't'=>[
-                'ru'=> "Получите эксклюзивное предложение: 1 месяц использования Sahih Invest и Тинькофф Инвестиции абсолютно бесплатно! Идеальное начало вашего инвестиционного пути",  
+                'ru'=> "Получите эксклюзивное предложение: 1 месяц использования Sahih Invest и Т-Инвестиции абсолютно бесплатно! Идеальное начало вашего инвестиционного пути",  
                 'kz'=>'Эксклюзивті ұсыныс алыңыз: Sahih Invest және Тинькофф Инвестицияларды пайдалану 1 ай толық тегін! Сіздің инвестициялық жолыңыздың тамаша бастауы',
                 'en'=>'Get an exclusive offer: 1 month of using Sahih Invest and Tinkoff Investments absolutely for free! The perfect start to your investment journey'
             ],
@@ -458,7 +458,7 @@ $text = [
                 'en'=>'Top up your account within 30 days and buy shares for at least 1000 ₽ '
             ],
             'l3'=>[
-                'ru'=> 'Пришлите подтверждение выполненных условий к нам в <a href="https://tlgg.ru/@sahihinvest" target="_blank" class="link">телеграм</a>  и мы активируем  бесплатную подписку PRO и бесплатное обслуживание Тинькофф Инвестиции на 30 дней',
+                'ru'=> 'Пришлите подтверждение выполненных условий к нам в <a href="https://tlgg.ru/@sahihinvest" target="_blank" class="link">телеграм</a>  и мы активируем  бесплатную подписку PRO и бесплатное обслуживание Т-Инвестиции на 30 дней',
                 'kz'=> 'Бізге телеграмда орындалған шарттардың растығын жіберіңіз, және біз PRO жазылымын тегін белсендіріп, Тинькофф Инвестицияларды 30 күнге тегін қызмет көрсетуімізді іске қосамыз',
                 'en'=> 'Send us a confirmation of the fulfilled conditions in Telegram, and we will activate a free PRO subscription and free Tinkoff Investments service for 30 days'
             ],
@@ -728,7 +728,7 @@ $text = [
                 'en'=>'Is it possible to purchase shares in the app?'
             ],
             'fo2'=>[
-                'ru'=>'Покупка акций в&nbsp;приложении доступна через Тинькофф Инвестиции. Для&nbsp;этого нужно перейти в&nbsp;карточку компании и&nbsp;нажать на&nbsp;баннер «Тинькофф инвестиции». Если у&nbsp;вас нет счета, вам будет предложено его открытие. Открывая брокерский счет вы получаете бонус от&nbsp;Тинькофф – месяц без&nbsp;комиссий, а&nbsp;от нас – 1&nbsp;месяц пользования PRO-версией за&nbsp;0&nbsp;рублей.',
+                'ru'=>'Покупка акций в&nbsp;приложении доступна через Т-Инвестиции. Для&nbsp;этого нужно перейти в&nbsp;карточку компании и&nbsp;нажать на&nbsp;баннер «Т-Инвестиции». Если у&nbsp;вас нет счета, вам будет предложено его открытие. Открывая брокерский счет вы получаете бонус от&nbsp;Тинькофф – месяц без&nbsp;комиссий, а&nbsp;от нас – 1&nbsp;месяц пользования PRO-версией за&nbsp;0&nbsp;рублей.',
                 'kz'=>'Қосымшадағы акцияларды сатып алу “Тинькофф Инвестициялар” арқылы қол жетімді. Ол үшін компания картасына өтіп, “Тинькофф инвестициялары” белгісіне басу керек. Егер сізде шот болмаса, қосымшада аша аласыз. Брокерлік шотты аша отырып, комиссиясыз 1 ай бойы сіз “Тинькофф”– тен бонус аласыз -, ал бізден - PRO нұсқаны алғашқы ай тегін пайдалану мүмкіндігі беріледі',
                 'en'=>"The purchase of shares in the app is available through Tinkoff Investments. You have to go to the company card and click on the 'Tinkoff Investments' banner. If you don't have an account, you will be asked to open one. By opening a brokerage account, you receive a bonus from Tinkoff – a month without commissions, and 1 month of using the PRO version for 0 rubles from our company."
             ],
