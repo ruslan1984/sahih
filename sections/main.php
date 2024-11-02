@@ -46,7 +46,7 @@
                             <p><?php echo $text['main']['halal'][$ln] ?></p>
                         </div>
                        <!--  <div class="info-block">
-                            <img src="/media/img/main/tf.svg" alt="Тинькофф">
+                            <img src="/media/img/main/tf.svg" alt="Т-Банк">
                             <p><?php echo $text['main']['tink'][$ln] ?></p>
                         </div>
                         <div class="info-block">
