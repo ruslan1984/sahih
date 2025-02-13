@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
@@ -18,8 +18,8 @@
                     <div class="card-pos"><?php echo $text['team']['d4'][$ln]?></div>
                     <div class="card-info"><?php echo $text['team']['o4'][$ln]?></div>
                 </div>
-            </div>
-            <div class="col-md-3 mb-3">
+            </div> -->
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
@@ -31,7 +31,7 @@
                     <div class="card-info"><?php echo $text['team']['o2'][$ln]?></div>
                 </div>
             </div>
-            <div class="col-md-3 mb-3">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 mb-3">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
