@@ -35,7 +35,7 @@
                 <div class="card">
                     <div class="card-photo">
                         <span class="imageBlock">
-                            <img src="/media/img/team/rh1.jpg" alt="<?php echo $text['team']['n6'][$ln]?>">
+                            <img src="/media/img/team/ah.webp" alt="<?php echo $text['team']['n6'][$ln]?>">
                         </span>
                     </div>
                     <div class="card-name"><?php echo $text['team']['n6'][$ln]?></div>
