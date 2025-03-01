@@ -647,9 +647,9 @@ $text = [
 
 
             'n6'=>[
-                'ru'=>'Ахмад Абу Яхья',
-                'kz'=>'Ахмад Әбу Яхья',
-                'en'=>'Ahmad Abu Yahya'
+                'ru'=>'Руслан Халиуллин',
+                'kz'=>'Руслан Халиуллин',
+                'en'=>'Ruslan Khaliullin'
             ],
             'd6'=>[
                 'ru'=>'Шариатский эксперт',
@@ -657,9 +657,9 @@ $text = [
                 'en'=>'Sharia expert'
             ],
             'o6'=>[
-                'ru'=>'Преподаватель в ТОО "Центр анализа и развития межконфессиональных отношений" (ЦАРМО) при Управлении по делам религии Павлодарской области (Казахстан), Директор Российского Центра Исламской Экономики и Финансов (<a target="_blank" class="lnk" href="https://rcief.ru/">РЦИЭФ</a>) при Российском исламском институте (РИИ)',
-                'kz'=>'Павлодар облысы Дін істері департаментінің «Конфесияаралық қарым-қатынастарды талдау және дамыту орталығы» оқытушысы (КҚҚТДО), Ресей Ислам институты жөніндегі Ресей Ислам экономикасы және қаржы орталығының директоры',
-                'en'=>'Lecturer at the "Center for Analysis and Development of Interfaith Relations" of the Department of Religious Affairs of the Pavlodar Region (Kazakhstan), Director of the Russian Center for Islamic Economics and Finance (RCIEF) at the Russian Islamic Institute'
+                'ru'=>'Эксперт Российского Центра Исламской Экономики и Финансов при Российском исламском институте (г. Казань).Шариатский эксперт и основатель нескольких проектов/компаний в рамках исламского финансирования.',
+                'kz'=>'Қазан қаласындағы Ресей Ислам институты жанындағы Ресей Ислам экономикасы және қаржы орталығының сарапшысы. Шариғат мәселелері бойынша сарапшы және исламдық қаржыландыру саласындағы бірнеше жобалар мен компаниялардың тең құрылтайшысы.',
+                'en'=>'Expert at  Russian Center for Islamic Economics and Finance (RCIEF) at the Russian Islamic Institute Sharia Expert and co-founder of several projects in Islamic Finance field'
             ],
         ],
         'events'=>[
