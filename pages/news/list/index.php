@@ -10,6 +10,7 @@ $title = "Новости Сахих инвест";
 <body>
     <?php 
         include $dir."/sections/header.php"; 
+        
         include $dir."/pages/news/list.php"; 
         include __DIR__."/view.php"; 
         

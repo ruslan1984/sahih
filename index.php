@@ -4,6 +4,21 @@
     $ln = 'ru';
     $link = '';
 
+    $urlLn = substr($_SERVER['REQUEST_URI'],0,4);
+    if($urlLn==='/ru/'){
+        $ln='ru';
+        $title = "Новости Сахих инвест";
+    }
+    if($urlLn==='/kz/'){
+        $ln='kz';
+        $title = "Новости Сахих инвест";
+    }
+    if($urlLn==='/en/'){
+        $ln='en';
+        $title = "Sahih Invest News ";
+    }
+    
+
     $curUrl = $_SERVER['REQUEST_URI'];
     $patternCourses = '/^\/courses\/$/';
     $patternCoursesCard = '/^\/courses\/(\w|-)*$/';
@@ -12,8 +27,8 @@
     $patternRegister = '/^\/register$/';
     $patternConfirmation = '/^\/confirmation\?email=(\w|-|_|@|.){4,}$/';
     $tBuisness = '/^\/t-buisness$/';
-    $newsList = '/^\/news$/';
-    $newsCard = '/^\/news\/(\w|-)*$/';
+    $newsList = '/^(\/en|ru|kz)\/news$/';
+    $newsCard = '/^(\/en|ru|kz)\/news\/(\w|-)*$/';
     $host_api = 'https://arm.sahihinvest.ru';
     
     if(preg_match($patternCourses, $curUrl)){
